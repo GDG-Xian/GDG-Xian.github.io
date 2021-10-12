@@ -1,0 +1,38 @@
+.page-content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.mdl-card-post {
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.mdl-card-post .mdl-card__title {
+  color: #ffffff;
+  height: 150px;
+  background-position: center;
+  background-size: cover; 
+}
+
+.mdl-card-post > .mdl-card__menu {
+  color: #ffffff;
+}
+
+#sidebar .mdl-card {
+  margin-bottom: 30px;
+  width: auto;
+}
+
+#sidebar .mdl-card__title {
+  background-color: #f1f1f1;
+}
+
+.mdl-card-wechat img {
+  max-width: 100%;
+}
+
+/*.mdl-card-weibo .mdl-card__supporting-text {
+  width: 100%;
+  padding: 0;
+}*/

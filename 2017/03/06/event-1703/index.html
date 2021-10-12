@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>GDG西安三月活动：Chrome扩展消息通信及内容管理系统的演化</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href="http://feeds.feedburner.com/" rel="alternate" title="GDG西安三月活动：Chrome扩展消息通信及内容管理系统的演化" type="application/atom+xml">
+
+  <link href="//fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
+	<link rel="stylesheet" href="/css/application.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92601-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140303024-1');
+</script>
+
+</head>
+<body>
+	<nav class="light-blue lighten-2">
+  <a href="#" data-activates="slide-out" class="button-collapse">
+    <i class="material-icons">menu</i>
+  </a>
+
+  <div class="nav-wrapper container">
+    <a href="/" class="brand-logo">
+      <img src="/images/gdg_xian_logo.png" />
+    </a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a class="waves-effect" href="/">首页</a></li>
+<li><a class="waves-effect" href="/archive">归档</a></li>
+<li><a class="waves-effect" href="/about/">关于</a></li>
+<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
+<li><a class="waves-effect" href="/refs/">资料</a></li>
+    </ul>
+  </div>
+
+  <ul id="slide-out" class="side-nav">
+    <li><a class="waves-effect" href="/">首页</a></li>
+<li><a class="waves-effect" href="/archive">归档</a></li>
+<li><a class="waves-effect" href="/about/">关于</a></li>
+<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
+<li><a class="waves-effect" href="/refs/">资料</a></li>
+  </ul>
+</nav>
+
+
+	<div class="container">
+		<div class="card blue lighten-4" style="margin-bottom: 2em;">
+			<div class="card-content">
+				<p>GDG 西安社区欢迎热衷技术的各位来我们的活动展示自己，分享知识和经验，我们对话题的要求是：涉及的技术或者工具需要时开源或者开放的。</p>
+				<ul>
+					<li>- 与 Google 开发技术相关的话题，我们会优先安排</li>
+					<li>- GDG 西安的活动一般安排在周六下午 1:30 - 5:00 之间</li>
+					<li>- 疫情期间，以线上活动为主（Bilibili 直播）</li>
+				</ul>
+			</div>
+			<div class="card-action">
+				<a href="https://jinshuju.net/f/EDndFr" class="blue-text darken-4" style="font-size: 1.5em;">我要报名成为讲师</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="main" class="container">
+		
+
+
+
+
+
+
+<article class="article">
+  <header>
+    <h3 class="article-title">
+      
+        GDG西安三月活动：Chrome扩展消息通信及内容管理系统的演化
+      
+    </h3>
+
+    
+    <div class="article-meta">
+      由 <a href="http://ghoulmind.com/" target="_blank">Mario Qiu</a> 发布于 2017年03月06日
+    </div>
+    
+  </header>
+
+  <div class="article-content">
+    <p>Chrome 浏览器丰富的扩展是它让大家着迷的一个非常重要的原因，
+甚至其它的一些浏览器也<a href="http://www.pingwest.com/firefox-will-soon-be-able-to-run-chrome-extensions/">纷纷开始兼容 Chrome 的扩展</a>，
+如果去年年底活动的《<a href="http://gdgxian.org/2016/12/17/meetup-201612/">开始写一个 Chrome 扩展的 N 种姿势</a>》有勾起你自己开发
+Chrome 扩展的兴趣，今天 <a href="https://twitter.com/greatghoul">greatghoul</a>
+带你进一步学习 Chrome 扩展开发的知识。</p>
+
+<p>很多人都听过 WordPress 很多人都听过，但对于其它的内容管理系统却知之甚少，甚至有的人可能还以为内容管理系统普遍都非常简单，没有什么难度。今天全本全栈工程师张思楚会给大家普及一下内容管理系统的知识，以及它们所解决的问题。</p>
+
+<h2 id="活动内容">活动内容</h2>
+
+<h3 id="话题一chrome-扩展开发之消息通信入门">话题一：Chrome 扩展开发之消息通信（入门）</h3>
+<p><span class="small text-info">greatghoul，自由职业者，Chrome 扩展爱好者</span></p>
+
+<p>开发 Chrome 扩展，尤其是与页面嵌入脚本相关的扩展，少不了要在扩展的各个页面（背景页面、嵌入脚本等）之间互通消息，从而实现一些数据传递和交互效果。本话题会带领大家了解 Chrome 扩展页面间通信的常见用法。</p>
+
+<h3 id="话题二构建一个满足你需要的cms">话题二：构建一个满足你需要的CMS</h3>
+<p><span class="small text-info">张思楚 全栈工程师</span></p>
+
+<p>CMS “Content Management System”, 内容管理系统。 在做企业级应用的时候，一般多多少少会涉及一些。对于内容管理，业界还没有一个统一的定义，不同的机构有不同的理解。</p>
+
+<p>内容管理系统想解决一下这些问题：</p>
+
+<ol>
+  <li>页面制作无序，网站风格不统一，大量信息堆积，发布显得异常沉重。</li>
+  <li>内容繁杂，手工管理效率低下，手工链接视音频信息经常无法实现。</li>
+  <li>应用难度较高，许多工作需要技术人员配合才能完成，角色分工不明确。</li>
+  <li>改版工作量大，系统扩展能力差，集成其它应用时更是降低了灵活性。</li>
+</ol>
+
+<p>本次分享，将介绍，内容管理系统的演化历程。比较市面上常见CMS系统，如：WordPress, Umbraco, Orchard, SharePoint, Adobe AEM, Sitecore。从而帮你了解CMS系统，开启CMS的学习和开发之路。</p>
+
+<h2 id="时间--地点">时间 &amp; 地点</h2>
+
+<dl class="event">
+  <dt>活动时间</dt>
+  <dd>
+    <p>2017年3月18日 周六 下午 1:30 至 4:30</p>
+  </dd>
+  <dt>活动地点</dt>
+  <dd>
+    <p>西安市二环南路西段69号西安创新设计中心3楼307室</p>
+    <figure>
+      <a href="http://f.amap.com/6aN5P_01126Fz" target="_blank" style="margin-bottom: 5px;">
+        <img class="responsive-img" src="http://greatghoul.b0.upaiyun.com/1612/5kH3rclCxk25.png" alt="地图" />
+      </a>
+      <figcaption>
+        本次活动的场地由
+        <a href="http://nibaedu.com/" target="_blank">
+          泥巴创客空间
+        </a>
+        提供
+      </figcaption>
+    </figure>
+  </dd>
+</dl>
+
+<h2 id="报名参加">报名参加</h2>
+
+<p>活动不收取任何报名费用，请点击下面的链接或者扫描二维码报名参加。</p>
+
+<div class="text-center">
+  <img src="http://greatghoul.b0.upaiyun.com/1703/9QjllOSRhmll.png" alt="报表表" width="128" />
+
+  <p>
+    <a href="https://jinshuju.net/f/Kfv8qF" class="btn btn-success">我要报名</a>  
+  </p>
+</div>
+
+<h2 id="相关资源">相关资源</h2>
+
+<ul>
+  <li><a href="https://www.jianguoyun.com/p/DTLWG2MQ3_SZBhjSpyg">本期活动话题的幻灯片下载</a></li>
+</ul>
+
+  </div>
+</article>
+
+
+
+	</div>
+
+	<footer class="page-footer blue">
+  <div class="container">
+    <div class="row">
+      <div class="col m4">
+        <h5 class="white-text">GDG Xi'an</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://www.meetup.com/GDG-Xian">GDG Xi'an on MeetUP</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://groups.google.com/forum/#!forum/xian-gdg">GDG Xi'an on Google Groups</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/gdg.xian/">GDG Xi'an on Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/GDG-Xian/">GDG Xi'an on Github</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://weibo.com/xagdg">GDG Xi'an on Weibo</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC6NPMZHiCk8gropjMe_YpWQ">GDG Xi'an on Youtube</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://space.bilibili.com/407583712">GDG Xi'an on Bilibili</a></li>
+      </ul>
+    </div>
+    <div class="col m4">
+      <h5 class="white-text">GDG Resources</h5>
+      <ul>
+        <li><a href="https://developers.google.com/events/devfest/" class="grey-text text-lighten-3">GDG DevFest</a></li>
+        <li><a href="http://developers.google.com/" class="grey-text text-lighten-3">Google Developers Group</a></li>
+      </ul>
+    </div>
+    <div class="col m4">
+      <h5 class="white-text">Community Resources</h5>
+      <ul>
+        <li><a href="https://developers.google.com/products/" class="grey-text text-lighten-3">Google Developer Product API</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+	<script src="//cdnjs.loli.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="//cdnjs.loli.net/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="/js/application.js"></script>
+
+</body>
+</html>

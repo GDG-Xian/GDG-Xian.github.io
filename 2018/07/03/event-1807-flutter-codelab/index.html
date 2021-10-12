@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>使用 Flutter 编写跨平台的移动应用 | GDG 西安</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href="http://feeds.feedburner.com/" rel="alternate" title="使用 Flutter 编写跨平台的移动应用 | GDG 西安" type="application/atom+xml">
+
+  <link href="//fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
+	<link rel="stylesheet" href="/css/application.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92601-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140303024-1');
+</script>
+
+</head>
+<body>
+	<nav class="light-blue lighten-2">
+  <a href="#" data-activates="slide-out" class="button-collapse">
+    <i class="material-icons">menu</i>
+  </a>
+
+  <div class="nav-wrapper container">
+    <a href="/" class="brand-logo">
+      <img src="/images/gdg_xian_logo.png" />
+    </a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a class="waves-effect" href="/">首页</a></li>
+<li><a class="waves-effect" href="/archive">归档</a></li>
+<li><a class="waves-effect" href="/about/">关于</a></li>
+<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
+<li><a class="waves-effect" href="/refs/">资料</a></li>
+    </ul>
+  </div>
+
+  <ul id="slide-out" class="side-nav">
+    <li><a class="waves-effect" href="/">首页</a></li>
+<li><a class="waves-effect" href="/archive">归档</a></li>
+<li><a class="waves-effect" href="/about/">关于</a></li>
+<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
+<li><a class="waves-effect" href="/refs/">资料</a></li>
+  </ul>
+</nav>
+
+
+	<div class="container">
+		<div class="card blue lighten-4" style="margin-bottom: 2em;">
+			<div class="card-content">
+				<p>GDG 西安社区欢迎热衷技术的各位来我们的活动展示自己，分享知识和经验，我们对话题的要求是：涉及的技术或者工具需要时开源或者开放的。</p>
+				<ul>
+					<li>- 与 Google 开发技术相关的话题，我们会优先安排</li>
+					<li>- GDG 西安的活动一般安排在周六下午 1:30 - 5:00 之间</li>
+					<li>- 疫情期间，以线上活动为主（Bilibili 直播）</li>
+				</ul>
+			</div>
+			<div class="card-action">
+				<a href="https://jinshuju.net/f/EDndFr" class="blue-text darken-4" style="font-size: 1.5em;">我要报名成为讲师</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="main" class="container">
+		
+
+
+
+
+
+
+<article class="article">
+  <header>
+    <h3 class="article-title">
+      
+        使用 Flutter 编写跨平台的移动应用 | GDG 西安
+      
+    </h3>
+
+    
+    <div class="article-meta">
+      由 <a href="http://ghoulmind.com/" target="_blank">Mario Qiu</a> 发布于 2018年07月03日
+    </div>
+    
+  </header>
+
+  <div class="article-content">
+    <p><img src="https://i.loli.net/2018/07/03/5b3b7c26f217c.jpg" alt="封面图" /></p>
+
+<p>今年春天，我们<a href="http://gdgxian.org/2018/03/04/event-201803/">进行过一次 Flutter 的 Codelab</a>，那时 Flutter 才刚刚进入 beta 版本，最近，Flutter <a href="https://medium.com/flutter-io/flutter-release-preview-1-943a9b6ee65a?linkId=53249457">发布了 Preview 1</a>，离 1.0 又迈进了一大步。我们是时候进行第二次 Flutter Codelab 啦！</p>
+
+<p>喜欢移动应用开发，对移动应用开发感兴趣的你，记得报名，并带着笔记本电脑来和我们一起愉快的编程。</p>
+
+<h3 id="活动内容">活动内容</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>时间</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13:30 - 13:40</td>
+      <td>自我介绍</td>
+    </tr>
+    <tr>
+      <td>13:40 - 14:00</td>
+      <td>Flutter 简介及真实案例分享</td>
+    </tr>
+    <tr>
+      <td>14:10 - 16:30</td>
+      <td>使用 Flutter 编写一个可交互的列表 Demo</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>本次 Codelab 使用的教程是：Write Your First Flutter App。最终效果如下图所示。</p>
+
+<p><img src="https://i.loli.net/2018/07/03/5b3b7721b5249.jpg" alt="最终效果图" /></p>
+
+<p>这个 Codelab 分为两节，完成第一节是底线，第二节是挑战，对活动感兴趣的话，可以提前预习一下。</p>
+
+<p>Google Codelab 线上地址</p>
+
+<ul>
+  <li><a href="https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html?index=..%2F..%2Findex">Write Your First Flutter App, part 1</a></li>
+  <li><a href="https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html?index=..%2F..%2Findex">Write Your First Flutter App. part 2</a></li>
+</ul>
+
+<p>PDF 版本下载地址</p>
+
+<ul>
+  <li><a href="https://www.jianguoyun.com/p/DUuCQfMQ3_SZBhidsmA">Write Your First Flutter App, part 1</a></li>
+  <li><a href="https://www.jianguoyun.com/p/DVp_hf8Q3_SZBhifsmA">Write Your First Flutter App. part 2</a></li>
+</ul>
+
+<p>现场编程的时间有限，请尽量提前准备好开发工具和环境</p>
+
+<ul>
+  <li>笔记本电脑和电源适配器（我们会提供插座）</li>
+  <li><a href="https://flutter.io/get-started/install/">安装 Android Studio 及其 Dart, Flutter 插件</a></li>
+  <li>我们会提供纯净水和一次性水杯，如果你喜欢用自己的水杯，记得带上</li>
+</ul>
+
+<h3 id="活动日期">活动日期</h3>
+
+<p>2018年7月14日 星期六 13:30 至 16:30</p>
+
+<h3 id="活动地点">活动地点</h3>
+
+<p>西安市南二环69号，西安创新设计中心307室（<a href="http://f.amap.com/22CR6_06A56rX">泥巴创客空间</a>）</p>
+
+<p><img src="https://i.loli.net/2018/07/03/5b3b73c6160eb.jpg" alt="西安创新设计中心" /></p>
+
+<h3 id="报名方式">报名方式</h3>
+
+<ul>
+  <li><a href="https://www.meetup.com/GDG-Xian/events/252398935/">Meetup 入口</a></li>
+  <li><a href="https://jinshuju.net/f/AxaDGT">金数据入口</a></li>
+</ul>
+
+<h3 id="参考资料">参考资料</h3>
+
+<ul>
+  <li><a href="https://flutter.io/">Flutter 官网</a></li>
+  <li><a href="https://flutterchina.club/">Flutter 中文网</a></li>
+  <li><a href="http://www.dart.org/">Dart 官网</a></li>
+  <li><a href="https://github.com/Solido/awesome-flutter">Awesome Flutter</a></li>
+</ul>
+
+<h3 id="特别说明">特别说明</h3>
+
+<ul>
+  <li>GDG 西安的活动，均为免费活动，提交报名表即表示报名成功。</li>
+  <li>如果你还没有加入 GDG 西安微信群，可以联系群主微信 greatghoul 请求加入，注名 GDG 西安。</li>
+</ul>
+
+<h3 id="合作机构">合作机构</h3>
+
+<p><img src="http://www.nibaspace.com/index/static/images/logo.png" alt="泥巴创客空间" /></p>
+
+  </div>
+</article>
+
+
+
+	</div>
+
+	<footer class="page-footer blue">
+  <div class="container">
+    <div class="row">
+      <div class="col m4">
+        <h5 class="white-text">GDG Xi'an</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://www.meetup.com/GDG-Xian">GDG Xi'an on MeetUP</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://groups.google.com/forum/#!forum/xian-gdg">GDG Xi'an on Google Groups</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/gdg.xian/">GDG Xi'an on Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/GDG-Xian/">GDG Xi'an on Github</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://weibo.com/xagdg">GDG Xi'an on Weibo</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC6NPMZHiCk8gropjMe_YpWQ">GDG Xi'an on Youtube</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://space.bilibili.com/407583712">GDG Xi'an on Bilibili</a></li>
+      </ul>
+    </div>
+    <div class="col m4">
+      <h5 class="white-text">GDG Resources</h5>
+      <ul>
+        <li><a href="https://developers.google.com/events/devfest/" class="grey-text text-lighten-3">GDG DevFest</a></li>
+        <li><a href="http://developers.google.com/" class="grey-text text-lighten-3">Google Developers Group</a></li>
+      </ul>
+    </div>
+    <div class="col m4">
+      <h5 class="white-text">Community Resources</h5>
+      <ul>
+        <li><a href="https://developers.google.com/products/" class="grey-text text-lighten-3">Google Developer Product API</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+	<script src="//cdnjs.loli.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="//cdnjs.loli.net/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="/js/application.js"></script>
+
+</body>
+</html>
