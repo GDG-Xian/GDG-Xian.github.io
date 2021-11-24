@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://gdgxian.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://gdgxian.org/" rel="alternate" type="text/html" /><updated>2021-10-12T07:45:10+00:00</updated><id>http://gdgxian.org/feed.xml</id><title type="html">GDG Xi’an</title><subtitle>GDG Xi'an 是西安一家专注于 Google 技术和开源技术的社区, 欢迎各类朋友加入到 GDG Xi'an 的集体中来。</subtitle><entry><title type="html">GDG西安10月活动：领域驱动设计和 Android 异步编程</title><link href="http://gdgxian.org/2021/10/11/meetup/" rel="alternate" type="text/html" title="GDG西安10月活动：领域驱动设计和 Android 异步编程" /><published>2021-10-11T00:00:00+00:00</published><updated>2021-10-11T00:00:00+00:00</updated><id>http://gdgxian.org/2021/10/11/meetup</id><content type="html" xml:base="http://gdgxian.org/2021/10/11/meetup/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719152-92af1e84-e0cf-440a-9e3a-9e8949772803.jpg&quot; alt=&quot;GDG-Bevy-ChapterThumbnail&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://gdgxian.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://gdgxian.org/" rel="alternate" type="text/html" /><updated>2021-11-24T14:51:26+00:00</updated><id>http://gdgxian.org/feed.xml</id><title type="html">GDG Xi’an</title><subtitle>GDG Xi'an 是西安一家专注于 Google 技术和开源技术的社区, 欢迎各类朋友加入到 GDG Xi'an 的集体中来。</subtitle><entry><title type="html">GDG西安 DevFest 2021</title><link href="http://gdgxian.org/2021/11/24/devfest-2021/" rel="alternate" type="text/html" title="GDG西安 DevFest 2021" /><published>2021-11-24T00:00:00+00:00</published><updated>2021-11-24T00:00:00+00:00</updated><id>http://gdgxian.org/2021/11/24/devfest-2021</id><content type="html" xml:base="http://gdgxian.org/2021/11/24/devfest-2021/">&lt;p&gt;&lt;img src=&quot;/images/2021/11/info_image.png&quot; alt=&quot;info_image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;活动介绍&quot;&gt;活动介绍&lt;/h1&gt;
+&lt;p&gt;DevFest（Developers Festival，开发者节）活动是全球 GDG（谷歌开发者社区）每年一次的年度开发者盛会。GDG Xi’an 社区今年的 DevFest 重点涵盖 Kotlin, Android, 支付等技术主题，我们还有幸邀请到一位谷歌开发者专家 (GDE) 做技术分享。期待热爱开发的你报名参与。&lt;/p&gt;
+
+&lt;h1 id=&quot;活动内容&quot;&gt;活动内容&lt;/h1&gt;
+&lt;h2 id=&quot;android-如何写出让同事无法维护的代码&quot;&gt;Android: 如何写出让同事无法维护的代码&lt;/h2&gt;
+
+&lt;p&gt;&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;/images/2021/11/李云鹏.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;引题：破窗理论&lt;/p&gt;
+
+&lt;p&gt;回忆你最不想看到的编程风格&lt;/p&gt;
+
+&lt;p&gt;高效、便捷的代码治理&lt;/p&gt;
+
+&lt;p&gt;What’s New in Android Studio”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;分享嘉宾：李云鹏:&lt;/strong&gt; 谷歌开发者专家（Android），沐暄网创始人，国内首部移动架构书籍《移动开发架构设计实战》作者，QCon大会、GDG、MobTech 等嘉宾讲师；拥有 10 余年互联网经验，先后任职于世界 500 强企业核心技术实验室，网易与阿里巴巴等互联网公司，擅长架构设计、项目重构与插件开发相关工作；2009 年创立沐暄网，2010 年入围“全球最具影响力的中文论坛 100 强”站长。作为第一发明人，申请了 20 余项专利和著作权。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;支付的那些-常规操作&quot;&gt;支付的那些 “常规操作”&lt;/h2&gt;
+
+&lt;p&gt;&lt;img align=&quot;left&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;/images/2021/11/王亦晨.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;支付是所有FinTech绕不开的话题。支付有哪些常见渠道，如何支付，支付网关一般都有哪些基本特质，支付欺诈是怎么工作的，集成支付网关的注意事项，支付中的常见问题与解决方案，作为一个多年与澳洲各种支付网关打交道的软件工程师并有幸参与过部分支付网关的实现，我会分享关于支付相关的“常规操作”，并尝试从开发的角度层层剖析支付的那些事。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;分享嘉宾：王亦晨:&lt;/strong&gt; Thougtworks高级咨询师，曾在国内外多家对冲基金担任高级软件工程师，对FinTech有多年工作经验。现致力于某支付平台的设计与开发。对系统架构设计，解决方案设计，微服务设计有多年经验。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;掀起你的盖头来---kotlin-协程框架初探&quot;&gt;掀起你的盖头来 - Kotlin 协程框架初探&lt;/h2&gt;
+
+&lt;p&gt;&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;/images/2021/11/晨洋.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;·kotlin 协程概念&lt;/p&gt;
+
+&lt;p&gt;·设计一个简单的 kotlin 协程框架&lt;/p&gt;
+
+&lt;p&gt;·kotlin 协程官方框架简介&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;分享嘉宾：陈洋，ThoughtWorks 高级咨询师， 长年专注于 Android 应用开发、效能提升和技能培训，同时也长期参与计算机类外文书籍的翻译工作。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;活动时间&quot;&gt;活动时间&lt;/h1&gt;
+
+&lt;p&gt;12 月 18 日（周六）13:30-17:30&lt;/p&gt;
+
+&lt;h1 id=&quot;活动地点&quot;&gt;活动地点&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://maps.apple.com/?address=%E4%B8%AD%E5%9B%BD%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%9B%81%E5%A1%94%E5%8C%BA%E9%AB%98%E6%96%B0%E5%85%AD%E8%B7%AF34%E5%8F%B7&amp;amp;auid=1117162486512356&amp;amp;ll=34.228033,108.876962&amp;amp;lsp=57879&amp;amp;q=%E8%A5%BF%E5%AE%89%E8%91%A1%E8%90%84%E5%9F%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&quot;&gt;西安市雁塔区高新六路34号 西安葡萄城信息技术有限公司&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2021/11/葡萄城_地图.png&quot; alt=&quot;地图_葡萄城&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;活动报名&quot;&gt;活动报名&lt;/h1&gt;
+
+&lt;p&gt;活动报名链接: &lt;a href=&quot;https://www.bagevent.com/event/7826606&quot;&gt;百格活动&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可&lt;/p&gt;
+
+&lt;p&gt;无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习&lt;/p&gt;
+
+&lt;p&gt;活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greatghoul&lt;/code&gt; 并备注 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDG&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;疫情虽然舒缓了很多，但是安全第一，大家参加活动时还是&lt;strong&gt;请佩戴好口罩&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;除了精彩的技术话题，我们还准备了精美的礼品。
+&lt;img src=&quot;/images/2021/11/礼品.png&quot; alt=&quot;礼品&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;日程安排&quot;&gt;日程安排&lt;/h1&gt;
+
+&lt;pre&gt;
+13:10 - 13:40 签到入场
+13:40 - 13:50 开场介绍
+13:50 - 14:50 Android：如何写出让同事无法维护的代码
+14:50 - 15:00 茶歇
+15:00 - 16:00 支付的那些“常规操作”
+16:00 - 16:10 茶歇
+16:10 - 17:00 掀起你的盖头来 - Kotlin 协程框架初探
+17:00 - 17:30 自由交流
+17:30 活动结束
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;场地提供&quot;&gt;场地提供&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2021/11/葡萄城_logo.png&quot; alt=&quot;葡萄城 logo&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;葡萄城信息技术有限公司&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">活动介绍 DevFest（Developers Festival，开发者节）活动是全球 GDG（谷歌开发者社区）每年一次的年度开发者盛会。GDG Xi’an 社区今年的 DevFest 重点涵盖 Kotlin, Android, 支付等技术主题，我们还有幸邀请到一位谷歌开发者专家 (GDE) 做技术分享。期待热爱开发的你报名参与。 活动内容 Android: 如何写出让同事无法维护的代码 引题：破窗理论 回忆你最不想看到的编程风格 高效、便捷的代码治理 What’s New in Android Studio” 分享嘉宾：李云鹏: 谷歌开发者专家（Android），沐暄网创始人，国内首部移动架构书籍《移动开发架构设计实战》作者，QCon大会、GDG、MobTech 等嘉宾讲师；拥有 10 余年互联网经验，先后任职于世界 500 强企业核心技术实验室，网易与阿里巴巴等互联网公司，擅长架构设计、项目重构与插件开发相关工作；2009 年创立沐暄网，2010 年入围“全球最具影响力的中文论坛 100 强”站长。作为第一发明人，申请了 20 余项专利和著作权。 支付的那些 “常规操作” 支付是所有FinTech绕不开的话题。支付有哪些常见渠道，如何支付，支付网关一般都有哪些基本特质，支付欺诈是怎么工作的，集成支付网关的注意事项，支付中的常见问题与解决方案，作为一个多年与澳洲各种支付网关打交道的软件工程师并有幸参与过部分支付网关的实现，我会分享关于支付相关的“常规操作”，并尝试从开发的角度层层剖析支付的那些事。 分享嘉宾：王亦晨: Thougtworks高级咨询师，曾在国内外多家对冲基金担任高级软件工程师，对FinTech有多年工作经验。现致力于某支付平台的设计与开发。对系统架构设计，解决方案设计，微服务设计有多年经验。 掀起你的盖头来 - Kotlin 协程框架初探 ·kotlin 协程概念 ·设计一个简单的 kotlin 协程框架 ·kotlin 协程官方框架简介 分享嘉宾：陈洋，ThoughtWorks 高级咨询师， 长年专注于 Android 应用开发、效能提升和技能培训，同时也长期参与计算机类外文书籍的翻译工作。 活动时间 12 月 18 日（周六）13:30-17:30 活动地点 西安市雁塔区高新六路34号 西安葡萄城信息技术有限公司 活动报名 活动报名链接: 百格活动 GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可 无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习 活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 greatghoul 并备注 GDG 疫情虽然舒缓了很多，但是安全第一，大家参加活动时还是请佩戴好口罩 除了精彩的技术话题，我们还准备了精美的礼品。 日程安排 13:10 - 13:40 签到入场 13:40 - 13:50 开场介绍 13:50 - 14:50 Android：如何写出让同事无法维护的代码 14:50 - 15:00 茶歇 15:00 - 16:00 支付的那些“常规操作” 16:00 - 16:10 茶歇 16:10 - 17:00 掀起你的盖头来 - Kotlin 协程框架初探 17:00 - 17:30 自由交流 17:30 活动结束 场地提供 葡萄城信息技术有限公司</summary></entry><entry><title type="html">GDG西安10月活动：领域驱动设计和 Android 异步编程</title><link href="http://gdgxian.org/2021/10/11/meetup/" rel="alternate" type="text/html" title="GDG西安10月活动：领域驱动设计和 Android 异步编程" /><published>2021-10-11T00:00:00+00:00</published><updated>2021-10-11T00:00:00+00:00</updated><id>http://gdgxian.org/2021/10/11/meetup</id><content type="html" xml:base="http://gdgxian.org/2021/10/11/meetup/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719152-92af1e84-e0cf-440a-9e3a-9e8949772803.jpg&quot; alt=&quot;GDG-Bevy-ChapterThumbnail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;GDG Xi’an 将于 10 月 23 日举办线下技术聚会，我们给大家准备了领域驱动设计和 Android 的两个技术话题，希望大家喜欢。&lt;/p&gt;
 
@@ -480,50 +567,4 @@
 
 &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/10/5d2544cbbef1273194.jpg&quot; width=&quot;200&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/10/5d2544d5a380298571.jpg&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">本期活动我们的关注点是 WEB 开发，包含后端 GraphQL API 设计开发和前端 Typography 的精彩内容，炎炎七月，让我们在 WEB 开发上更进一步。 活动内容 话题一：GraphQL Ruby 实现入门和实践 GraphQL 查询语法，API 接口和类型系统简介，Ruby 实现 GraphQL 介绍，如何增删改查、认证、授权。同时介绍一些项目实践，如何解决 N+1、错误处理、监控、记录日志等。 高辉，有数派后端负责人，多年 Rails 工程师，近期专注于 GraphQL API 开发。 话题二：Typography Matters “Web design is 95% typography.” 每天我们接受大量的信息，绝大多数都是以文字的形式来呈现。作为最为贴近用户的前端，如何呈现出易读且优美的文字，对用户体验来说至关重要。本期话题将会从字体的基础知识开始，和大家一起讨论，为什么不同的 typefaces 会对网页的风格产生不同的影响。作为前端，除了 font-family、line-height、letter-spacing 以及 font-kerning 外，我们还能玩儿出什么别的花样。前端是否有足够的工具能让我们把字体排印的水准拔到更高的层次。 桑超，ThoughtWorks 前端开发工程师。因为热爱音乐而走向了技术，因为字体设计而选择了前端。相信技术本身是无聊的，有意思的是我们能用技术做的事情。 活动时间 2019年7月21日 星期日 13:30 - 16:30 活动地点 西安市南二环西段69号 西安创新设计中心309室 地图链接 活动报名 本活动为免费活动，填写报名表后，请牢记活动时间和地点，准时参加。如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。 https://www.bagevent.com/event/5421802 相关链接 https://graphql.org/ https://rubyonrails.org/ 合作机构</summary></entry><entry><title type="html">GDG 西安六月活动 Google I/O 回顾，前端性能优化，科技与艺术，GDG Global Summit 2019 分享</title><link href="http://gdgxian.org/2019/06/11/google-io-review/" rel="alternate" type="text/html" title="GDG 西安六月活动 Google I/O 回顾，前端性能优化，科技与艺术，GDG Global Summit 2019 分享" /><published>2019-06-11T00:00:00+00:00</published><updated>2019-06-11T00:00:00+00:00</updated><id>http://gdgxian.org/2019/06/11/google-io-review</id><content type="html" xml:base="http://gdgxian.org/2019/06/11/google-io-review/">&lt;p&gt;之前因为安全等等的因素，我们在微信群组进行了 Google I/O 2019 的直播。这次让我们来回顾 Google I/O 都发布了哪些新的技术和特性。除了这次去 Google I/O 的组织者之外，我们还找来了其他的参与者来为我们分享这次 Google I/O 的故事。&lt;/p&gt;
-
-&lt;h2 id=&quot;活动内容&quot;&gt;活动内容&lt;/h2&gt;
-&lt;h3 id=&quot;前端性能优化---原理工具和方法&quot;&gt;前端性能优化 - 原理，工具和方法&lt;/h3&gt;
-&lt;p&gt;近几年前端技术发展迅速，新技术不断涌现。面对愈发复杂的用户交互，前端性能优化在面临更大挑战的同时，工具和优化方式也日新月异。
-在今年的 Google I/O 大会上，有很多话题与性能优化相关。本期话题将从原理入手，探索使用现代化的工具和方法，尝试实现可持续的性能优化。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;嘉宾：&lt;/strong&gt; 邓德瑞，ThoughtWorks 高级开发工程师。有多年 Java, C#, Python 等开发经验。三年前接触前端，从此在前端的世界里不可自拔。在团队内致力于推进代码重构与技术演进。19 年赴美参加 Google I/O 大会。&lt;/p&gt;
-
-&lt;h3 id=&quot;科技与艺术&quot;&gt;科技与艺术&lt;/h3&gt;
-&lt;p&gt;艺术与科技在当今社会都在不断融入我们的生活。艺术给予了科技更好的切入点，提供给用户更好的体验。同时，科技也带给艺术全新的发展前景。艺术与科技的融合让我们的生活更好的接近了他们
-今年的 Google I/O 带给我们许多全新的艺术科技结合话题。从基本声音设计，到艺术与机器学习，人工智能的关系。本期话题通过介绍不同领域的科技艺术结合，希望带给大家全新的视角，探索艺术提供给科技的进一步多元化发展。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;嘉宾：&lt;/strong&gt; 李欣蔚，大二计算机及音乐专业学生，就读 Rhodes College。刚开始接触计算机一年，希望在艺术和计算机结合的领域有进一步发展。拿到第二大运输公司两个名额中 Business analyst intern 职位，同时是一名创业公司合伙人。19年受 Women Techmakers 邀请参加 Google I/O 大会。&lt;/p&gt;
-
-&lt;h3 id=&quot;gdg-global-summit-2019-分享&quot;&gt;GDG global summit 2019 分享&lt;/h3&gt;
-&lt;p&gt;作为第一次参加 GDG 峰会的 GDG 志愿者，从个人角度，谈谈 GDG 这个组织和 GDG 峰会的事情，带你了解 GDG，了解会上其他地区和国家 GDG 组织的现状和见到的志愿者们。
-GDG 是由谷歌开发者部门发起的一个开发者社区全球项目，是一个开放、自由的社区，欢迎所有愿意分享，持续学习，热爱创新的开发者、设计师、创业者、大学生等等人员参与。
-另外还有期间参观斯坦福 D.school、硅谷计算机历史博物馆、Maker Faire 的见闻。
-&lt;strong&gt;嘉宾：&lt;/strong&gt; 王愿杰，软件工程师、连续创业者，自由职业人、持续学习者、西安 GDG 组织者。&lt;/p&gt;
-
-&lt;h3 id=&quot;codelab-交流&quot;&gt;CodeLab 交流&lt;/h3&gt;
-&lt;p&gt;如果你对 AMP 感兴趣，可以自己尝试一下  &lt;a href=&quot;https://codelabs.developers.google.com/codelabs/amp-beautiful-interactive-canonical/index.html&quot;&gt;Beautiful, interactive, canonical AMP pages(美观，互动，规范的  AMP 页面)&lt;/a&gt; 这个 CodeLab，活动现场，我们会有一个交流的环节，来展示你的成果，或者答疑解惑。
-阅读更多: &lt;a href=&quot;https://amp.dev/about/websites&quot;&gt;AMP 是什么？&lt;/a&gt;
-我们欢迎并且鼓励您在 CodeLab 的内容之上添加自己的巧思，也欢迎与大家分享。&lt;/p&gt;
-
-&lt;h2 id=&quot;报名方式&quot;&gt;报名方式&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.meetup.com/GDG-Xian/events/262215403/&quot;&gt;Meetup&lt;/a&gt; (&lt;strong&gt;推荐&lt;/strong&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jinshuju.net/f/cBAoE2&quot;&gt;金数据&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本活动为免费活动，请牢记活动时间和地点，准时参加。
-如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。&lt;/p&gt;
-
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
-&lt;p&gt;2019 年 6 月 22 日 星期六 13:30 - 16:30&lt;/p&gt;
-
-&lt;h2 id=&quot;活动地点&quot;&gt;活动地点&lt;/h2&gt;
-&lt;p&gt;中国陕西省西安市长安区工业二路与神舟五路交叉口西南150米 运维国际 3 层( &lt;strong&gt;可乘坐地铁四号线到达 东长安街 站下车&lt;/strong&gt; )
-&lt;a href=&quot;https://maps.apple.com/?address=%E4%B8%AD%E5%9B%BD%E9%99%95%E8%A5%BF%E7%9C%81%E8%A5%BF%E5%AE%89%E5%B8%82%E9%95%BF%E5%AE%89%E5%8C%BA%E5%B7%A5%E4%B8%9A%E4%BA%8C%E8%B7%AF%E4%B8%8E%E7%A5%9E%E8%88%9F%E4%BA%94%E8%B7%AF%E4%BA%A4%E5%8F%89%E5%8F%A3%E8%A5%BF%E5%8D%97150%E7%B1%B3&amp;amp;auid=1118368846085961&amp;amp;ll=34.155513,108.979245&amp;amp;lsp=57879&amp;amp;q=%E4%BA%AC%E4%B8%9C%E4%BA%91%E5%88%9B%E6%96%B0%E7%A9%BA%E9%97%B4%EF%BC%88%E8%A5%BF%E5%AE%89%EF%BC%89&quot;&gt;Apple Maps&lt;/a&gt; &lt;a href=&quot;https://www.amap.com/place/B0FFJZJ51L&quot;&gt;高德地图&lt;/a&gt;
-&lt;img src=&quot;https://i.loli.net/2019/06/08/5cfa988bad93c50677.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;合作机构&quot;&gt;合作机构&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/06/08/5cfa99bbed3a045436.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;京东云创新空间（西安）位于西安市长安区东长安街运维国际3层，于京东航天数字经济示范园内，面积 2000 余平米，开放近 200 个创业工位。&lt;/p&gt;</content><author><name></name></author><summary type="html">之前因为安全等等的因素，我们在微信群组进行了 Google I/O 2019 的直播。这次让我们来回顾 Google I/O 都发布了哪些新的技术和特性。除了这次去 Google I/O 的组织者之外，我们还找来了其他的参与者来为我们分享这次 Google I/O 的故事。 活动内容 前端性能优化 - 原理，工具和方法 近几年前端技术发展迅速，新技术不断涌现。面对愈发复杂的用户交互，前端性能优化在面临更大挑战的同时，工具和优化方式也日新月异。 在今年的 Google I/O 大会上，有很多话题与性能优化相关。本期话题将从原理入手，探索使用现代化的工具和方法，尝试实现可持续的性能优化。 嘉宾： 邓德瑞，ThoughtWorks 高级开发工程师。有多年 Java, C#, Python 等开发经验。三年前接触前端，从此在前端的世界里不可自拔。在团队内致力于推进代码重构与技术演进。19 年赴美参加 Google I/O 大会。 科技与艺术 艺术与科技在当今社会都在不断融入我们的生活。艺术给予了科技更好的切入点，提供给用户更好的体验。同时，科技也带给艺术全新的发展前景。艺术与科技的融合让我们的生活更好的接近了他们 今年的 Google I/O 带给我们许多全新的艺术科技结合话题。从基本声音设计，到艺术与机器学习，人工智能的关系。本期话题通过介绍不同领域的科技艺术结合，希望带给大家全新的视角，探索艺术提供给科技的进一步多元化发展。 嘉宾： 李欣蔚，大二计算机及音乐专业学生，就读 Rhodes College。刚开始接触计算机一年，希望在艺术和计算机结合的领域有进一步发展。拿到第二大运输公司两个名额中 Business analyst intern 职位，同时是一名创业公司合伙人。19年受 Women Techmakers 邀请参加 Google I/O 大会。 GDG global summit 2019 分享 作为第一次参加 GDG 峰会的 GDG 志愿者，从个人角度，谈谈 GDG 这个组织和 GDG 峰会的事情，带你了解 GDG，了解会上其他地区和国家 GDG 组织的现状和见到的志愿者们。 GDG 是由谷歌开发者部门发起的一个开发者社区全球项目，是一个开放、自由的社区，欢迎所有愿意分享，持续学习，热爱创新的开发者、设计师、创业者、大学生等等人员参与。 另外还有期间参观斯坦福 D.school、硅谷计算机历史博物馆、Maker Faire 的见闻。 嘉宾： 王愿杰，软件工程师、连续创业者，自由职业人、持续学习者、西安 GDG 组织者。 CodeLab 交流 如果你对 AMP 感兴趣，可以自己尝试一下 Beautiful, interactive, canonical AMP pages(美观，互动，规范的 AMP 页面) 这个 CodeLab，活动现场，我们会有一个交流的环节，来展示你的成果，或者答疑解惑。 阅读更多: AMP 是什么？ 我们欢迎并且鼓励您在 CodeLab 的内容之上添加自己的巧思，也欢迎与大家分享。 报名方式 Meetup (推荐) 金数据 本活动为免费活动，请牢记活动时间和地点，准时参加。 如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。 活动时间 2019 年 6 月 22 日 星期六 13:30 - 16:30 活动地点 中国陕西省西安市长安区工业二路与神舟五路交叉口西南150米 运维国际 3 层( 可乘坐地铁四号线到达 东长安街 站下车 ) Apple Maps 高德地图 合作机构 京东云创新空间（西安）位于西安市长安区东长安街运维国际3层，于京东航天数字经济示范园内，面积 2000 余平米，开放近 200 个创业工位。</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/10/5d2544d5a380298571.jpg&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">本期活动我们的关注点是 WEB 开发，包含后端 GraphQL API 设计开发和前端 Typography 的精彩内容，炎炎七月，让我们在 WEB 开发上更进一步。 活动内容 话题一：GraphQL Ruby 实现入门和实践 GraphQL 查询语法，API 接口和类型系统简介，Ruby 实现 GraphQL 介绍，如何增删改查、认证、授权。同时介绍一些项目实践，如何解决 N+1、错误处理、监控、记录日志等。 高辉，有数派后端负责人，多年 Rails 工程师，近期专注于 GraphQL API 开发。 话题二：Typography Matters “Web design is 95% typography.” 每天我们接受大量的信息，绝大多数都是以文字的形式来呈现。作为最为贴近用户的前端，如何呈现出易读且优美的文字，对用户体验来说至关重要。本期话题将会从字体的基础知识开始，和大家一起讨论，为什么不同的 typefaces 会对网页的风格产生不同的影响。作为前端，除了 font-family、line-height、letter-spacing 以及 font-kerning 外，我们还能玩儿出什么别的花样。前端是否有足够的工具能让我们把字体排印的水准拔到更高的层次。 桑超，ThoughtWorks 前端开发工程师。因为热爱音乐而走向了技术，因为字体设计而选择了前端。相信技术本身是无聊的，有意思的是我们能用技术做的事情。 活动时间 2019年7月21日 星期日 13:30 - 16:30 活动地点 西安市南二环西段69号 西安创新设计中心309室 地图链接 活动报名 本活动为免费活动，填写报名表后，请牢记活动时间和地点，准时参加。如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。 https://www.bagevent.com/event/5421802 相关链接 https://graphql.org/ https://rubyonrails.org/ 合作机构</summary></entry></feed>
