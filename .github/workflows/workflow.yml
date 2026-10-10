@@ -23,7 +23,7 @@ jobs:
       - name: 💎 setup ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6 # can change this to 2.7 or whatever version you prefer
+          ruby-version: '3.2' # jekyll 4.3.4 requires ruby >= 2.7; keep in sync with Gemfile.lock RUBY VERSION
 
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
