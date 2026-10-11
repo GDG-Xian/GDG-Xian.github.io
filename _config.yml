@@ -11,6 +11,14 @@ excerpt_separator: <!-- more -->
 markdown: kramdown
 permalink: pretty
 
+# 文章 URL 不带日期，使用 /<slug>/ 形式（普通页面仍使用 pretty 规则）
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      permalink: /:title/
+
 # Comments
 disqus_short_name: gdgxian
 
