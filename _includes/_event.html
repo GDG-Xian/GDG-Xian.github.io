@@ -1,25 +1,23 @@
 <dl class="event">
   <dt>活动时间</dt>
-  <dd>
-    <p>{{ include.time }}</p>
-  </dd>
+  <dd>{{ include.time }}</dd>
+
   <dt>活动地点</dt>
   <dd>
     <p>{{ include.address }}</p>
-    <figure>
-      <a href="{{ include.map_url }}"
-         target="_blank"
-         style="margin-bottom: 5px;">
-        <img class="responsive-img" src="{{ include.map_pic }}" alt="地图">
-      </a>
-      <figcaption>
-        本次活动的场地由
-        <a href="{{ include.provider_url }}" target="_blank">
-          {{ include.provider_name }}
+    {% if include.map_pic %}
+      <figure>
+        <a href="{{ include.map_url }}" target="_blank" rel="noopener">
+          <img src="{{ include.map_pic }}" alt="活动场地地图">
         </a>
-        提供
-      </figcaption>
-    </figure>
+        {% if include.provider_name %}
+          <figcaption>
+            本次活动的场地由
+            <a href="{{ include.provider_url }}" target="_blank" rel="noopener">{{ include.provider_name }}</a>
+            提供
+          </figcaption>
+        {% endif %}
+      </figure>
+    {% endif %}
   </dd>
 </dl>
-

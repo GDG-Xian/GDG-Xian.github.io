@@ -1,20 +1,19 @@
 {% assign author = site.data.authors[article.author] %}
 
-
 <article class="article">
-  <header>
-    <h3 class="article-title">
-      {% if article_list %}
-        <a href="{{ article.url }}">{{ article.title }}</a>
-      {% else %}
-        {{ article.title }}
-      {% endif %}
-    </h3>
+  <header class="article-header">
+    {% if article_list %}
+      <h2 class="article-title"><a href="{{ article.url | relative_url }}">{{ article.title }}</a></h2>
+    {% else %}
+      <h1 class="article-title">{{ article.title }}</h1>
+    {% endif %}
 
     {% if article_type == 'post' %}
-    <div class="article-meta">
-      {% if author %}由 <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> {% endif %}发布于 {{ article.date | date: "%Y年%m月%d日" }}
-    </div>
+      <p class="article-meta">
+        <time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%Y年%-m月%-d日" }}</time>
+        {%- if author %} · <a href="{{ author.web }}" target="_blank" rel="noopener">{{ author.name }}</a>{% endif %}
+        {%- for tag in article.tags %}<span class="article-tag">{{ tag }}</span>{% endfor %}
+      </p>
     {% endif %}
   </header>
 
@@ -22,4 +21,3 @@
     {{ article_content }}
   </div>
 </article>
-

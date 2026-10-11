@@ -1,18 +1,21 @@
-<nav class="light-blue lighten-2">
-  <a href="#" data-activates="slide-out" class="button-collapse">
-    <i class="material-icons">menu</i>
-  </a>
-
-  <div class="nav-wrapper container">
-    <a href="/" class="brand-logo">
-      <img src="/images/gdg_xian_logo.png" />
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img class="brand-logo" src="{{ '/images/gdg-mark.png' | relative_url }}" alt="" width="30" height="14">
+      <span>{{ site.title }}</span>
     </a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      {% include header_navs.html %}
-    </ul>
-  </div>
 
-  <ul id="slide-out" class="side-nav">
-    {% include header_navs.html %}
-  </ul>
-</nav>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="展开导航菜单">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="site-nav" aria-label="站点导航">
+      <ul>
+        {% include header_navs.html %}
+      </ul>
+    </nav>
+  </div>
+</header>
