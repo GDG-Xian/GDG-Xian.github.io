@@ -1,8 +1,8 @@
-source 'https://rubygems.org/'
+source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3'
-gem 'kramdown', '>= 2.3.0'
-gem 'kramdown-parser-gfm'
+ruby '>= 3.2.0'
+
+gem 'jekyll', '~> 4.3.4'
 
 group :jekyll_plugins do
   gem 'jekyll-compose'
