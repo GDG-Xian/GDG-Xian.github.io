@@ -7,3 +7,20 @@ layout: default
 {% assign article_type = 'post' %}
 {% assign article_list = false %}
 {% include article.html %}
+
+{% if page.previous or page.next %}
+<nav class="post-nav" aria-label="上下篇导航">
+  <div>
+    {% if page.previous %}
+      <span class="post-nav-label">上一篇</span>
+      <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+    {% endif %}
+  </div>
+  <div>
+    {% if page.next %}
+      <span class="post-nav-label">下一篇</span>
+      <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

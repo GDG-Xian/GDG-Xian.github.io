@@ -1,16 +1,15 @@
-<div class="col s12 center-align">
+<nav class="pagination" aria-label="分页导航">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}"
-       class="btn-floating waves-effect waves-light light-blue lighten-2">
-      <i class="material-icons">chevron_left</i>
-    </a>
+    <a href="{{ paginator.previous_page_path | relative_url }}">← 较新</a>
+  {% else %}
+    <span class="is-disabled">← 较新</span>
   {% endif %}
 
+  <span class="page-info">第 {{ paginator.page }} / {{ paginator.total_pages }} 页</span>
+
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}"
-       class="btn-floating waves-effect waves-light light-blue lighten-2">
-      <i class="material-icons">chevron_right</i>
-    </a>
+    <a href="{{ paginator.next_page_path | relative_url }}">较旧 →</a>
+  {% else %}
+    <span class="is-disabled">较旧 →</span>
   {% endif %}
-</ul>
-</div>
+</nav>

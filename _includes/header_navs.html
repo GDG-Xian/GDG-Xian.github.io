@@ -1,5 +1,4 @@
-<li><a class="waves-effect" href="/">首页</a></li>
-<li><a class="waves-effect" href="/archive">归档</a></li>
-<li><a class="waves-effect" href="/about/">关于</a></li>
-<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
-<li><a class="waves-effect" href="/refs/">资料</a></li>
+{%- assign current_url = page.url | default: '/' -%}
+<li><a href="{{ '/' | relative_url }}"{% if current_url == '/' %} class="active" aria-current="page"{% endif %}>首页</a></li>
+<li><a href="{{ '/archive' | relative_url }}"{% if current_url contains '/archive' %} class="active" aria-current="page"{% endif %}>归档</a></li>
+<li><a href="{{ '/about/' | relative_url }}"{% if current_url contains '/about' %} class="active" aria-current="page"{% endif %}>关于</a></li>
