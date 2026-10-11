@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: posts
     values:
-      permalink: /:title/
+      permalink: /:title
 
 # Comments
 disqus_short_name: gdgxian
