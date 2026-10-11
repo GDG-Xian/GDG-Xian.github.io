@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Kotlin Codelab: 创建交互式 Dice Roller 应用</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href="http://feeds.feedburner.com/" rel="alternate" title="Kotlin Codelab: 创建交互式 Dice Roller 应用" type="application/atom+xml">
+
+  <link href="//fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/materialize/0.97.8/css/materialize.min.css" />
+	<link rel="stylesheet" href="/css/application.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92601-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140303024-1');
+</script>
+
+</head>
+<body>
+	<nav class="light-blue lighten-2">
+  <a href="#" data-activates="slide-out" class="button-collapse">
+    <i class="material-icons">menu</i>
+  </a>
+
+  <div class="nav-wrapper container">
+    <a href="/" class="brand-logo">
+      <img src="/images/gdg_xian_logo.png" />
+    </a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a class="waves-effect" href="/">首页</a></li>
+<li><a class="waves-effect" href="/archive">归档</a></li>
+<li><a class="waves-effect" href="/about/">关于</a></li>
+<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
+<li><a class="waves-effect" href="/refs/">资料</a></li>
+    </ul>
+  </div>
+
+  <ul id="slide-out" class="side-nav">
+    <li><a class="waves-effect" href="/">首页</a></li>
+<li><a class="waves-effect" href="/archive">归档</a></li>
+<li><a class="waves-effect" href="/about/">关于</a></li>
+<li><a class="waves-effect" href="/projects/" title="我们的开源项目">项目</a></li>
+<li><a class="waves-effect" href="/refs/">资料</a></li>
+  </ul>
+</nav>
+
+
+	<div class="container">
+		<div class="card blue lighten-4" style="margin-bottom: 2em;">
+			<div class="card-content">
+				<p>GDG 西安社区欢迎热衷技术的各位来我们的活动展示自己，分享知识和经验，我们对话题的要求是：涉及的技术或者工具需要时开源或者开放的。</p>
+				<ul>
+					<li>- 与 Google 开发技术相关的话题，我们会优先安排</li>
+					<li>- GDG 西安的活动一般安排在周六下午 1:30 - 5:00 之间</li>
+					<li>- 疫情期间，以线上活动为主（Bilibili 直播）</li>
+				</ul>
+			</div>
+			<div class="card-action">
+				<a href="https://jinshuju.net/f/EDndFr" class="blue-text darken-4" style="font-size: 1.5em;">我要报名成为讲师</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="main" class="container">
+		
+
+
+
+
+
+
+<article class="article">
+  <header>
+    <h3 class="article-title">
+      
+        Kotlin Codelab: 创建交互式 Dice Roller 应用
+      
+    </h3>
+
+    
+    <div class="article-meta">
+      发布于 2023年03月14日
+    </div>
+    
+  </header>
+
+  <div class="article-content">
+    <p>春暖花开的季节，很荣幸的宣布我们的 2023 年的第一场技术活动！</p>
+
+<p>作为一个技术社区，我们这次以 Codelab 作为开胃菜激活大家的编码基因，一起探索移动端开发技术 Kotlin，本期的主题，是使用 Kotlin 开发一个 Dice Roller 应用。</p>
+
+<p><a href="https://developer.android.com/codelabs/basic-android-kotlin-compose-build-a-dice-roller-app?hl=zh-cn#0">https://developer.android.com/codelabs/basic-android-kotlin-compose-build-a-dice-roller-app?hl=zh-cn</a></p>
+
+<p>在此 Codelab 中，您将创建一个交互式 Dice Roller 应用，让用户可以通过点按 <code class="language-plaintext highlighter-rouge">Button</code> 可组合项来掷骰子。掷骰子的结果将通过 <code class="language-plaintext highlighter-rouge">Image</code> 可组合项显示在屏幕上。</p>
+
+<p>您可以将 Jetpack Compose 与 Kotlin 搭配使用来构建应用布局，然后编写业务逻辑来处理点按 <code class="language-plaintext highlighter-rouge">Button</code> 可组合项时发生的操作。</p>
+
+<h2 id="所需条件">所需条件</h2>
+<ul>
+  <li>一台安装了 <a href="https://developer.android.com/studio">Android Studio</a> 的计算机。</li>
+</ul>
+
+<h2 id="学习内容">学习内容</h2>
+<ul>
+  <li>如何使用 Compose 向 Android 应用添加 <code class="language-plaintext highlighter-rouge">Button</code> 可组合项。</li>
+  <li>如何使用 Compose 向 Android 应用中的 <code class="language-plaintext highlighter-rouge">Button</code> 可组合项添加行为。</li>
+  <li>如何打开和修改 Android 应用的 <code class="language-plaintext highlighter-rouge">Activity</code> 代码。</li>
+  <li>如何使用 Compose 在 Android 应用中显示 <code class="language-plaintext highlighter-rouge">Image</code> 可组合项。</li>
+</ul>
+
+<h2 id="构建内容">构建内容</h2>
+<p>一款名为 Dice Roller 的交互式 Android 应用，可让用户掷骰子并向他们显示掷骰子的结果。</p>
+
+<p>完成此 Codelab 后，应用将如下所示：</p>
+
+<p><img src="/assets/posts/kotlin-codelab-dice-roller/5cd7e991-1f1e-43f7-875c-7d26606b9baf.png" alt="" /></p>
+
+<p>最后，我们还想提醒大家，如果您在学习过程中遇到任何问题，我们的教练将会随时为您提供帮助和支持，让我们一起享受这个学习和交流的机会吧！</p>
+
+<p><strong>参与活动和完成作品还有机会获得 Kotlin 相关的精美纪念品，赶快报名吧！</strong></p>
+
+<h2 id="活动时间">活动时间</h2>
+<p>2023年3月25日 周六 下午 1:30 - 4:30</p>
+
+<h2 id="活动地点">活动地点</h2>
+<p>丈八四路20号，西安神州数码科技园4栋17楼，泥巴创客空间。（地铁六号线，丈八四路站A口出）</p>
+
+<p><img src="/assets/posts/kotlin-codelab-dice-roller/2628c7d8-b53f-45af-acb2-d37550e3ff78.png" alt="" /></p>
+
+<h2 id="如何报名">如何报名</h2>
+
+<p>扫码关注 “GDG西安” 官方微信公众号，点击服务菜单中的 ”活动报名“，获取活动群二维码。入群既表示报名成功，活动相关的事宜我们会在群里通知。</p>
+
+<p><img src="/assets/posts/kotlin-codelab-dice-roller/288dbf03-7417-4ab3-ae8c-a072e0ad0c78.png" alt="" /></p>
+
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
+
+<p>微信群仅用于活动交流，入群后请勿随意发布广告等无关信息，谢谢合作。</p>
+
+<h2 id="注意事项">注意事项</h2>
+
+<ul>
+  <li>在流感多发季节，请注意做好防护措施，佩戴口罩和进行必要的消毒（现场会提供消毒用品）。</li>
+  <li>在参加此 Codelab 活动前，请务必提前准备好 Android Studio 的安装和相关依赖环境，以确保您能够顺利完成本次活动。</li>
+</ul>
+
+<h2 id="合作机构">合作机构</h2>
+
+<p><img src="/assets/posts/kotlin-codelab-dice-roller/904ded24-2140-4446-8753-15efc2325cb9.png" alt="" /></p>
+
+<p><img src="/assets/posts/kotlin-codelab-dice-roller/1989ea4c-fce7-40da-b7e8-1cab73fac0a1.png" alt="" /></p>
+
+  </div>
+</article>
+
+
+
+	</div>
+
+	<footer class="page-footer blue">
+  <div class="container">
+    <div class="row">
+      <div class="col m4">
+        <h5 class="white-text">GDG Xi'an</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://www.meetup.com/GDG-Xian">GDG Xi'an on MeetUP</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://groups.google.com/forum/#!forum/xian-gdg">GDG Xi'an on Google Groups</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/gdg.xian/">GDG Xi'an on Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/GDG-Xian/">GDG Xi'an on Github</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://weibo.com/xagdg">GDG Xi'an on Weibo</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UC6NPMZHiCk8gropjMe_YpWQ">GDG Xi'an on Youtube</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://space.bilibili.com/407583712">GDG Xi'an on Bilibili</a></li>
+      </ul>
+    </div>
+    <div class="col m4">
+      <h5 class="white-text">GDG Resources</h5>
+      <ul>
+        <li><a href="https://developers.google.com/events/devfest/" class="grey-text text-lighten-3">GDG DevFest</a></li>
+        <li><a href="http://developers.google.com/" class="grey-text text-lighten-3">Google Developers Group</a></li>
+      </ul>
+    </div>
+    <div class="col m4">
+      <h5 class="white-text">Community Resources</h5>
+      <ul>
+        <li><a href="https://developers.google.com/products/" class="grey-text text-lighten-3">Google Developer Product API</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+	<script src="//cdnjs.loli.net/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="//cdnjs.loli.net/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+	<script src="/js/application.js"></script>
+
+</body>
+</html>

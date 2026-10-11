@@ -1,563 +1,1037 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://gdgxian.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://gdgxian.org/" rel="alternate" type="text/html" /><updated>2021-12-16T06:37:08+00:00</updated><id>http://gdgxian.org/feed.xml</id><title type="html">GDG Xi’an</title><subtitle>GDG Xi'an 是西安一家专注于 Google 技术和开源技术的社区, 欢迎各类朋友加入到 GDG Xi'an 的集体中来。</subtitle><entry><title type="html">「改为线上举行」 GDG西安 DevFest 2021</title><link href="http://gdgxian.org/2021/11/24/devfest-2021/" rel="alternate" type="text/html" title="「改为线上举行」 GDG西安 DevFest 2021" /><published>2021-11-24T00:00:00+00:00</published><updated>2021-11-24T00:00:00+00:00</updated><id>http://gdgxian.org/2021/11/24/devfest-2021</id><content type="html" xml:base="http://gdgxian.org/2021/11/24/devfest-2021/">&lt;p&gt;&lt;img src=&quot;/images/2021/11/info_image_online.png&quot; alt=&quot;info_image&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://gdgxian.org/feed.xml" rel="self" type="application/atom+xml" /><link href="http://gdgxian.org/" rel="alternate" type="text/html" /><updated>2026-10-11T03:25:28+00:00</updated><id>http://gdgxian.org/feed.xml</id><title type="html">GDG Xi’an</title><subtitle>GDG Xi&apos;an 是西安一家专注于 Google 技术和开源技术的社区, 欢迎各类朋友加入到 GDG Xi&apos;an 的集体中来。</subtitle><entry><title type="html">DevFest 2026 西安站</title><link href="http://gdgxian.org/devfest-2026" rel="alternate" type="text/html" title="DevFest 2026 西安站" /><published>2026-10-10T00:00:00+00:00</published><updated>2026-10-10T00:00:00+00:00</updated><id>http://gdgxian.org/devfest-2026</id><content type="html" xml:base="http://gdgxian.org/devfest-2026"><![CDATA[<p>GDG DevFest 是由 Google 开发者社区（GDG）在全球范围内主办的年度开发者盛会，内容覆盖 Android、Web、Cloud、AI 等多个技术方向。本次 DevFest 2026 西安站将带来一场关于使用 Gemini 开发量化智能体的实战分享，以及一场基于 Gemini API 的期权分析 Codelab。</p>
 
-&lt;h2 id=&quot;变更&quot;&gt;变更&lt;/h2&gt;
-&lt;p&gt;受当前疫情影响，我们本次活动从「线下参与」调整为「线上直播」的方式进行，时间不变。&lt;/p&gt;
+<h2 id="活动话题">活动话题</h2>
 
-&lt;p&gt;同时也欢迎更多的同学通过B站/Youtube线上直播间参与活动，我们也准备了抽奖环节，由讲师从提问的同学当中抽取几位幸运的提问者，分别送上一份精美的礼品。&lt;/p&gt;
+<h3 id="使用-gemini-开发量化智能体实战">使用 Gemini 开发量化智能体实战</h3>
 
-&lt;h2 id=&quot;活动介绍&quot;&gt;活动介绍&lt;/h2&gt;
-&lt;p&gt;DevFest（Developers Festival，开发者节）活动是全球 GDG（谷歌开发者社区）每年一次的年度开发者盛会。GDG Xi’an 社区今年的 DevFest 重点涵盖 Kotlin, Android, 支付等技术主题，我们还有幸邀请到一位谷歌开发者专家 (GDE) 做技术分享。期待热爱开发的你报名参与。&lt;/p&gt;
+<p>随着大语言模型的发展，AI 正在从简单的问答工具逐渐演变为能够理解需求、调用工具并执行复杂任务的智能体（AI Agent）。本次分享将结合金融量化交易场景，介绍如何利用 Google Gemini 构建 AI Agent，让用户通过自然语言完成量化策略的创建、代码生成、历史回测与策略优化，并分享其在实际开发中的技术挑战与应用实践。</p>
 
-&lt;h2 id=&quot;活动内容&quot;&gt;活动内容&lt;/h2&gt;
-&lt;h3 id=&quot;android-如何写出让同事无法维护的代码&quot;&gt;Android: 如何写出让同事无法维护的代码&lt;/h3&gt;
+<blockquote>
+  <p><strong>分享嘉宾：黄鸿波</strong>，AI领域创业者，深圳市鼎盛方圆科技CEO，谷歌AI方向开发者专家，《TensorFlow进阶指南》作者；历任金山西山居高级算法工程师、格力大数据中心AI专家，具备多年软件开发与技术管理经验。</p>
+</blockquote>
 
-&lt;p&gt;&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;/images/2021/11/李云鹏.png&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/avatars/黄鸿波.webp" width="150" alt="黄鸿波" /></p>
 
-&lt;p&gt;引题：破窗理论&lt;/p&gt;
+<h3 id="codelab使用-gemini-api-分析期权">Codelab：使用 Gemini API 分析期权</h3>
 
-&lt;p&gt;回忆你最不想看到的编程风格&lt;/p&gt;
+<p>运用最新的 Gemini API 模型，在 Colab 上分析期权，介绍完整的分析流程。参与者能够在 Colab 学会如何配置环境，使用 Gemini API，并且理解基本的期权分析方法。</p>
 
-&lt;p&gt;高效、便捷的代码治理&lt;/p&gt;
+<p><strong>Codelab 链接（双语）：</strong> <a href="https://github.com/YuchengWang/OptionAnalyze/blob/main/option_analyze_using_gemini_3.8_flash_zh.ipynb">中文版</a> / <a href="https://github.com/YuchengWang/OptionAnalyze/blob/main/option_analyze_using_gemini_3.8_flash_en.ipynb">English</a></p>
 
-&lt;p&gt;What’s New in Android Studio”&lt;/p&gt;
+<p><strong>注意事项：</strong></p>
 
-&lt;p&gt;&lt;strong&gt;李云鹏: 谷歌开发者专家（Android），沐暄网创始人，国内首部移动架构书籍《移动开发架构设计实战》作者，QCon大会、GDG、MobTech 等嘉宾讲师；拥有 10 余年互联网经验，先后任职于世界 500 强企业核心技术实验室，网易与阿里巴巴等互联网公司，擅长架构设计、项目重构与插件开发相关工作；2009 年创立沐暄网，2010 年入围“全球最具影响力的中文论坛 100 强”站长。作为第一发明人，申请了 20 余项专利和著作权。&lt;/strong&gt;&lt;/p&gt;
+<ul>
+  <li>请务必携带电脑参加，否则无法参加 Codelab，最好准备好充电器，我们会提供插排</li>
+  <li>请务必使用个人 Gmail 账号参加，公司或学校管理的账号将无法使用</li>
+  <li>建议在 Chrome 浏览器中使用无痕模式，以避免账号冲突</li>
+  <li>Codelab 需在 <a href="https://colab.google/">Colab Enterprise</a> 环境下运行，请提前准备好运行环境</li>
+  <li>活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息</li>
+  <li>建议提前准备”国际网络环境”，避免现场人数太多 Wi‑Fi 速度变慢</li>
+</ul>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<blockquote>
+  <p><strong>Codelab 导师：王玉成</strong>，拥有 15 年以上研发经验，技术涵盖操作系统、嵌入式、端侧 AI 与大模型应用。现专注于 Gemini 等大语言模型的工程化实践，推动技术在真实场景落地。</p>
+</blockquote>
 
-&lt;h3 id=&quot;支付的那些-常规操作&quot;&gt;支付的那些 “常规操作”&lt;/h3&gt;
+<p><img src="/assets/avatars/王玉成.png" width="150" alt="王玉成" /></p>
 
-&lt;p&gt;&lt;img align=&quot;left&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;/images/2021/11/王亦晨.png&quot; /&gt;&lt;/p&gt;
+<h2 id="活动时间">活动时间</h2>
 
-&lt;p&gt;支付是所有 FinTech 绕不开的话题。支付有哪些常见渠道，如何支付，支付网关一般都有哪些基本特质，支付欺诈是怎么工作的，集成支付网关的注意事项，支付中的常见问题与解决方案，作为一个多年与澳洲各种支付网关打交道的软件工程师并有幸参与过部分支付网关的实现，我会分享关于支付相关的“常规操作”，并尝试从开发的角度层层剖析支付的那些事。&lt;/p&gt;
+<p>2026年10月24日 周六 13:30 - 18:00</p>
 
-&lt;p&gt;&lt;strong&gt;王亦晨: Thougtworks高级咨询师，曾在国内外多家对冲基金担任高级软件工程师，对FinTech有多年工作经验。现致力于某支付平台的设计与开发。对系统架构设计，解决方案设计，微服务设计有多年经验。&lt;/strong&gt;&lt;/p&gt;
+<h2 id="活动议程">活动议程</h2>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<table>
+  <thead>
+    <tr>
+      <th>时间</th>
+      <th>活动内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13:30 - 14:00</td>
+      <td>活动签到</td>
+    </tr>
+    <tr>
+      <td>14:00 - 15:10</td>
+      <td>使用 Gemini 开发量化智能体实战</td>
+    </tr>
+    <tr>
+      <td>15:10 - 15:30</td>
+      <td>合影、茶歇</td>
+    </tr>
+    <tr>
+      <td>15:30 - 17:30</td>
+      <td>Codelab：使用 Gemini API 分析期权</td>
+    </tr>
+    <tr>
+      <td>17:30 - 18:00</td>
+      <td>自由交流</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h3 id=&quot;掀起你的盖头来---kotlin-协程框架初探&quot;&gt;掀起你的盖头来 - Kotlin 协程框架初探&lt;/h3&gt;
+<h2 id="活动地点">活动地点</h2>
 
-&lt;p&gt;&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;/images/2021/11/晨洋.png&quot; /&gt;&lt;/p&gt;
+<p>陕西省西安市雁塔区科技路48号创业广场c座2层 创途在XIAN
+　　　　 <a href="https://surl.amap.com/cyhfPaxu22e">使用高德地图打开</a></p>
 
-&lt;ul&gt;
-  &lt;li&gt;kotlin 协程概念&lt;/li&gt;
-  &lt;li&gt;设计一个简单的 kotlin 协程框架&lt;/li&gt;
-  &lt;li&gt;kotlin 协程官方框架简介&lt;/li&gt;
-&lt;/ul&gt;
+<p><img src="/assets/venues/创途在XIAN_地图.png" alt="创途在XIAN 地图" />
+<img src="/assets/venues/创途在XIAN_指引.png" alt="创途在XIAN 指引" /></p>
 
-&lt;p&gt;&lt;strong&gt;陈洋: ThoughtWorks 高级咨询师， 长年专注于 Android 应用开发、效能提升和技能培训，同时也长期参与计算机类外文书籍的翻译工作。&lt;/strong&gt;&lt;/p&gt;
+<p><strong>感谢 WEI SPACE人工智能孵化器提供免费场地</strong></p>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;p&gt;12 月 18 日（周六）13:30-17:30&lt;/p&gt;
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
 
-&lt;h2 id=&quot;活动信息&quot;&gt;活动信息&lt;/h2&gt;
-&lt;p&gt;届时可以在以下平台观看。&lt;/p&gt;
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
 
-&lt;p&gt;BiliBili: https://live.bilibili.com/22357137&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_报名.png" alt="" /></p>
 
-&lt;p&gt;Youtube: https://youtu.be/RB2W1E7lEFE&lt;/p&gt;
+<h2 id="主办方">主办方</h2>
 
-&lt;p&gt;GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可&lt;/p&gt;
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
 
-&lt;p&gt;无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习&lt;/p&gt;
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
 
-&lt;p&gt;活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greatghoul&lt;/code&gt; 并备注 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDG&lt;/code&gt;&lt;/p&gt;
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
 
-&lt;p&gt;除了精彩的技术话题，我们还准备了精美的礼品。&lt;/p&gt;
+<p>秉承着分享创新的精神，一切开源的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
+
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
+
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="" /></p>
+
+<h2 id="合作机构">合作机构</h2>
+
+<p>WEI SPACE人工智能孵化器</p>
+
+<p><img src="/assets/brands/WEI_SPACE.png" alt="WEI SPACE" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[GDG DevFest 是由 Google 开发者社区（GDG）在全球范围内主办的年度开发者盛会，内容覆盖 Android、Web、Cloud、AI 等多个技术方向。本次 DevFest 2026 西安站将带来一场关于使用 Gemini 开发量化智能体的实战分享，以及一场基于 Gemini API 的期权分析 Codelab。 活动话题 使用 Gemini 开发量化智能体实战 随着大语言模型的发展，AI 正在从简单的问答工具逐渐演变为能够理解需求、调用工具并执行复杂任务的智能体（AI Agent）。本次分享将结合金融量化交易场景，介绍如何利用 Google Gemini 构建 AI Agent，让用户通过自然语言完成量化策略的创建、代码生成、历史回测与策略优化，并分享其在实际开发中的技术挑战与应用实践。 分享嘉宾：黄鸿波，AI领域创业者，深圳市鼎盛方圆科技CEO，谷歌AI方向开发者专家，《TensorFlow进阶指南》作者；历任金山西山居高级算法工程师、格力大数据中心AI专家，具备多年软件开发与技术管理经验。 Codelab：使用 Gemini API 分析期权 运用最新的 Gemini API 模型，在 Colab 上分析期权，介绍完整的分析流程。参与者能够在 Colab 学会如何配置环境，使用 Gemini API，并且理解基本的期权分析方法。 Codelab 链接（双语）： 中文版 / English 注意事项： 请务必携带电脑参加，否则无法参加 Codelab，最好准备好充电器，我们会提供插排 请务必使用个人 Gmail 账号参加，公司或学校管理的账号将无法使用 建议在 Chrome 浏览器中使用无痕模式，以避免账号冲突 Codelab 需在 Colab Enterprise 环境下运行，请提前准备好运行环境 活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息 建议提前准备”国际网络环境”，避免现场人数太多 Wi‑Fi 速度变慢 Codelab 导师：王玉成，拥有 15 年以上研发经验，技术涵盖操作系统、嵌入式、端侧 AI 与大模型应用。现专注于 Gemini 等大语言模型的工程化实践，推动技术在真实场景落地。 活动时间 2026年10月24日 周六 13:30 - 18:00 活动议程 时间 活动内容 13:30 - 14:00 活动签到 14:00 - 15:10 使用 Gemini 开发量化智能体实战 15:10 - 15:30 合影、茶歇 15:30 - 17:30 Codelab：使用 Gemini API 分析期权 17:30 - 18:00 自由交流 活动地点 陕西省西安市雁塔区科技路48号创业广场c座2层 创途在XIAN 　　　　 使用高德地图打开 感谢 WEI SPACE人工智能孵化器提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开源的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 https://jinshuju.net/f/EDndFr 合作机构 WEI SPACE人工智能孵化器]]></summary></entry><entry><title type="html">Build with AI 2026 西安站</title><link href="http://gdgxian.org/build-with-ai-2026" rel="alternate" type="text/html" title="Build with AI 2026 西安站" /><published>2026-04-15T00:00:00+00:00</published><updated>2026-04-15T00:00:00+00:00</updated><id>http://gdgxian.org/build-with-ai-2026</id><content type="html" xml:base="http://gdgxian.org/build-with-ai-2026"><![CDATA[<p><strong>Build with AI</strong> 是由 Google 开发者社区（GDG）主导的全球性技术活动，旨在通过动手实践帮助开发者理解和掌握最新的生成式 AI 工具、模型能力与应用开发方式。</p>
+
+<p>本次西安场 Build with AI 2026 将于 4 月 18 日举行，活动时间为 13:30 - 17:30。本次活动不设主题分享，整体以 Codelab 实践为主，内容围绕 Google AI Studio、Vertex AI、Gemini API、Google Gen AI SDK 以及 Google Antigravity 展开。</p>
+
+<p>活动将分为入门和中级两个实践级别。参与者将结合自己的兴趣与经验，在每个级别的两个题目中各选择一个完成，分别体验 AI 应用生成、图像生成与编辑、视频内容摘要，以及代理式应用构建等方向。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/2021/11/礼品.png&quot; alt=&quot;礼品&quot; /&gt;&lt;/p&gt;
+<h2 id="活动内容">活动内容</h2>
 
-&lt;h2 id=&quot;日程安排&quot;&gt;日程安排&lt;/h2&gt;
+<h3 id="build-with-ai-codelab-实践">Build with AI Codelab 实践</h3>
 
-&lt;pre&gt;
-13:30 开始直播
-13:40 - 13:50 开场介绍
-13:50 - 14:50 Android：如何写出让同事无法维护的代码
-14:50 - 15:00 直播休息时间
-15:00 - 16:00 支付的那些“常规操作”
-16:00 - 16:10 直播休息时间
-16:10 - 17:10 掀起你的盖头来 - Kotlin 协程框架初探
-&lt;/pre&gt;</content><author><name></name></author><summary type="html">变更 受当前疫情影响，我们本次活动从「线下参与」调整为「线上直播」的方式进行，时间不变。 同时也欢迎更多的同学通过B站/Youtube线上直播间参与活动，我们也准备了抽奖环节，由讲师从提问的同学当中抽取几位幸运的提问者，分别送上一份精美的礼品。 活动介绍 DevFest（Developers Festival，开发者节）活动是全球 GDG（谷歌开发者社区）每年一次的年度开发者盛会。GDG Xi’an 社区今年的 DevFest 重点涵盖 Kotlin, Android, 支付等技术主题，我们还有幸邀请到一位谷歌开发者专家 (GDE) 做技术分享。期待热爱开发的你报名参与。 活动内容 Android: 如何写出让同事无法维护的代码 引题：破窗理论 回忆你最不想看到的编程风格 高效、便捷的代码治理 What’s New in Android Studio” 李云鹏: 谷歌开发者专家（Android），沐暄网创始人，国内首部移动架构书籍《移动开发架构设计实战》作者，QCon大会、GDG、MobTech 等嘉宾讲师；拥有 10 余年互联网经验，先后任职于世界 500 强企业核心技术实验室，网易与阿里巴巴等互联网公司，擅长架构设计、项目重构与插件开发相关工作；2009 年创立沐暄网，2010 年入围“全球最具影响力的中文论坛 100 强”站长。作为第一发明人，申请了 20 余项专利和著作权。 支付的那些 “常规操作” 支付是所有 FinTech 绕不开的话题。支付有哪些常见渠道，如何支付，支付网关一般都有哪些基本特质，支付欺诈是怎么工作的，集成支付网关的注意事项，支付中的常见问题与解决方案，作为一个多年与澳洲各种支付网关打交道的软件工程师并有幸参与过部分支付网关的实现，我会分享关于支付相关的“常规操作”，并尝试从开发的角度层层剖析支付的那些事。 王亦晨: Thougtworks高级咨询师，曾在国内外多家对冲基金担任高级软件工程师，对FinTech有多年工作经验。现致力于某支付平台的设计与开发。对系统架构设计，解决方案设计，微服务设计有多年经验。 掀起你的盖头来 - Kotlin 协程框架初探 kotlin 协程概念 设计一个简单的 kotlin 协程框架 kotlin 协程官方框架简介 陈洋: ThoughtWorks 高级咨询师， 长年专注于 Android 应用开发、效能提升和技能培训，同时也长期参与计算机类外文书籍的翻译工作。 活动时间 12 月 18 日（周六）13:30-17:30 活动信息 届时可以在以下平台观看。 BiliBili: https://live.bilibili.com/22357137 Youtube: https://youtu.be/RB2W1E7lEFE GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可 无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习 活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 greatghoul 并备注 GDG 除了精彩的技术话题，我们还准备了精美的礼品。 日程安排 13:30 开始直播 13:40 - 13:50 开场介绍 13:50 - 14:50 Android：如何写出让同事无法维护的代码 14:50 - 15:00 直播休息时间 15:00 - 16:00 支付的那些“常规操作” 16:00 - 16:10 直播休息时间 16:10 - 17:10 掀起你的盖头来 - Kotlin 协程框架初探</summary></entry><entry><title type="html">GDG西安10月活动：领域驱动设计和 Android 异步编程</title><link href="http://gdgxian.org/2021/10/11/meetup/" rel="alternate" type="text/html" title="GDG西安10月活动：领域驱动设计和 Android 异步编程" /><published>2021-10-11T00:00:00+00:00</published><updated>2021-10-11T00:00:00+00:00</updated><id>http://gdgxian.org/2021/10/11/meetup</id><content type="html" xml:base="http://gdgxian.org/2021/10/11/meetup/">&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719152-92af1e84-e0cf-440a-9e3a-9e8949772803.jpg&quot; alt=&quot;GDG-Bevy-ChapterThumbnail&quot; /&gt;&lt;/p&gt;
+<p>本次活动分为入门和中级两个实践级别，每个级别各提供两个题目。参与者需要完成入门和中级两个级别的练习，并根据自己的兴趣和经验，在每个级别中选择其中一个题目完成。</p>
 
-&lt;p&gt;GDG Xi’an 将于 10 月 23 日举办线下技术聚会，我们给大家准备了领域驱动设计和 Android 的两个技术话题，希望大家喜欢。&lt;/p&gt;
+<h4 id="入门">入门</h4>
 
-&lt;h2 id=&quot;活动话题&quot;&gt;活动话题&lt;/h2&gt;
+<ol>
+  <li>
+    <p><a href="https://codelabs.developers.google.com/vibe-code-with-gemini-in-aistudio?hl=zh-cn#0">在 Google AI Studio 中使用 Gemini 进行氛围编程</a></p>
 
-&lt;h3 id=&quot;ddd-分层架构&quot;&gt;DDD 分层架构&lt;/h3&gt;
+    <p>使用 Google AI Studio 的构建模式生成并迭代一个结合音乐播放器与贪吃蛇游戏的 React Web 应用，体验从提示构建、效果优化，到保存到 GitHub 并部署到 Cloud Run 的完整流程。</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_3_1_flash_image_gen.ipynb">Gemini 3.1 Flash Image (Nano Banana 2 🍌) Generation on Vertex AI</a></p>
 
-&lt;p&gt;DDD 是 Domain-Driven Design 的缩写，是 Eric Evans 于 2003 年提出的一种软件设计方法和理念。
-其主要的思想是，利用确定的业务模型来指导业务与应用的设计和实现。主张开发人员与业务人员持续地沟通和模型的持续迭代式演化，以保证业务模型与代码实现的一致性，从而实现有效管理业务复杂度，优化软件设计的目的。
-在分解复杂的软件系统时，不论是单体还是微服务，分层是我们最常用的手段。在DDD（领域驱动设计）中，层次和包的划分看起来与我们的结构又有一定区别。本话题会从分层架构的本质，DDD分层架构，六边形架构，洋葱架构，整洁架构和微服务时代的分层架构来进行刨析。&lt;/p&gt;
+    <p>通过 Vertex AI 与 Google Gen AI SDK 体验 Gemini 3.1 Flash Image 的 Notebook 实践，学习文生图、模型思考过程展示、人物过滤、基于搜索的 grounding，以及多轮图像编辑等核心能力。</p>
+  </li>
+</ol>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：刘勇智，现 thoughtworks DDD 社区负责人，拥有多年前后端开发经验，负责开发过多个分布式微服务的项目。目前致力于DDD，系统架构设计，微服务和微前端等方面。&lt;/strong&gt;&lt;/p&gt;
+<h4 id="中级">中级</h4>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719011-4eede6f0-918f-4eaa-8c46-2141a4438b46.png&quot; alt=&quot;刘勇智&quot; /&gt;&lt;/p&gt;
+<ol>
+  <li>
+    <p><a href="https://codelabs.developers.google.com/devsite/codelabs/build-youtube-summarizer?hl=zh_cn#1">构建一个依托 Gemini 的 YouTube 摘要器</a></p>
 
-&lt;h3 id=&quot;android开发异步编程演进&quot;&gt;Android开发异步编程演进&lt;/h3&gt;
+    <p>使用 Python Flask、Gemini API 和 Google Gen AI SDK 构建一个 YouTube 摘要 Web 应用，支持输入视频链接、选择模型并生成摘要，最后部署到 Cloud Run。</p>
+  </li>
+  <li>
+    <p><a href="https://codelabs.developers.google.com/building-with-google-antigravity?hl=zh-cn#4">使用 Google Antigravity 构建应用</a></p>
 
-&lt;p&gt;Android发展了这么多年，对于开发者来讲始终绕不开的一个话题就是异步任务的处理，随着Kotlin被官方定位Android开发首选语言后，平台对于异步任务的处理也越来越完善，希望可以借此机会和大家一起总结和回顾Android开发在处理异步任务的迭代演进过程&lt;/p&gt;
+    <p>使用 Google Antigravity 的 Agent Manager 生成并迭代一个番茄钟效率应用，体验代理拆解任务、生成界面、调用浏览器进行测试，以及通过后续提示继续完善样式和图片内容的工作流。</p>
+  </li>
+</ol>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：宇行信，早年专注于移动开发，现从事推荐系统算法研究与团队项目管理工作&lt;/strong&gt;&lt;/p&gt;
+<p>注意事项：</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719029-d5ce50d0-5a71-4a3c-9032-754172ea7c32.png&quot; alt=&quot;刘信&quot; /&gt;&lt;/p&gt;
+<ol>
+  <li>请务必携带电脑参加，最好准备上充电器，我们会提供插排</li>
+  <li>请务必使用个人 Gmail 账号参加，公司或学校管理的账号可能无法正常使用相关服务</li>
+  <li>活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息</li>
+  <li>建议提前准备好国际网络环境，也建议准备手机热点网络，避免现场人数较多时网络受影响</li>
+</ol>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
+<h2 id="活动议程">活动议程</h2>
 
-&lt;p&gt;2021年10月23日 下午 1:30 - 6:30&lt;/p&gt;
+<table>
+  <thead>
+    <tr>
+      <th>时间</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13:30 - 14:00</td>
+      <td>活动签到</td>
+    </tr>
+    <tr>
+      <td>14:00 - 14:20</td>
+      <td>活动开场、流程介绍</td>
+    </tr>
+    <tr>
+      <td>14:20 - 14:30</td>
+      <td>合影、茶歇</td>
+    </tr>
+    <tr>
+      <td>14:30 - 15:30</td>
+      <td>入门 Codelab（两题选一）</td>
+    </tr>
+    <tr>
+      <td>15:30 - 17:10</td>
+      <td>中级 Codelab（两题选一）</td>
+    </tr>
+    <tr>
+      <td>17:10 - 17:30</td>
+      <td>互动问答，交流学习</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h2 id=&quot;活动地点&quot;&gt;活动地点&lt;/h2&gt;
+<h2 id="活动时间与地点">活动时间与地点</h2>
 
-&lt;p&gt;西安市高新区 高新二路9号 西安创业咖啡街区 千人楼 三楼 HAX 路演厅&lt;/p&gt;
+<ul>
+  <li><strong>时间：</strong> 2026年4月18日 星期六 13:30 - 17:30</li>
+  <li><strong>地点：</strong> 陕西省西安市雁塔区科技路48号创业广场c座2层 创途在XIAN<br />
+ 　　　 <a href="https://surl.amap.com/cyhfPaxu22e">使用高德地图打开</a></li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719037-77580c83-2580-4c46-aba9-f967ac913820.png&quot; alt=&quot;Untitled&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/venues/创途在XIAN_地图.png" alt="创途在XIAN 地图" />
+<img src="/assets/venues/创途在XIAN_指引.png" alt="创途在XIAN 指引" /></p>
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/GDG-Xian/Campfire/blob/main/HAX%E8%A5%BF%E5%AE%89%E8%B7%AF%E6%BC%94%E5%8E%85%E8%BF%9B%E5%85%A5%E8%B7%AF%E7%BA%BF%E5%9B%BE.pdf&quot;&gt;进入路线图&lt;/a&gt;&lt;/p&gt;
+<p><strong>感谢 WEI SPACE人工智能孵化器提供免费场地</strong></p>
 
-&lt;h2 id=&quot;活动报名&quot;&gt;活动报名&lt;/h2&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;p&gt;https://www.bagevent.com/event/7826605&lt;/p&gt;
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
 
-&lt;p&gt;GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可&lt;/p&gt;
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
 
-&lt;p&gt;无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_报名.png" alt="" /></p>
 
-&lt;p&gt;活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greatghoul&lt;/code&gt; 并备注 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDG&lt;/code&gt;&lt;/p&gt;
+<p><strong>本次活动以 Codelab 实践为主，参与者需要完成入门和中级两个级别，并在每个级别的两个题目中各选择一个完成，请记得携带笔记本电脑和充电器。</strong></p>
 
-&lt;p&gt;疫情虽然舒缓了很多，但是安全第一，大家参加活动时还是&lt;strong&gt;请佩戴好口罩&lt;/strong&gt;&lt;/p&gt;
+<h2 id="主办方">主办方</h2>
 
-&lt;h2 id=&quot;合作机构&quot;&gt;合作机构&lt;/h2&gt;
+<p>活动由 GDG 西安主办。GDG 西安成立于 2012 年 8 月 4 日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android、Dart、Angular、Cloud Computing 等，开源技术一直是我们的最爱。</p>
 
-&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/208966/136719072-ccedad65-2b10-46f8-bb39-3ecd03bcb636.png&quot; alt=&quot;HAX XIAN&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">GDG Xi’an 将于 10 月 23 日举办线下技术聚会，我们给大家准备了领域驱动设计和 Android 的两个技术话题，希望大家喜欢。 活动话题 DDD 分层架构 DDD 是 Domain-Driven Design 的缩写，是 Eric Evans 于 2003 年提出的一种软件设计方法和理念。 其主要的思想是，利用确定的业务模型来指导业务与应用的设计和实现。主张开发人员与业务人员持续地沟通和模型的持续迭代式演化，以保证业务模型与代码实现的一致性，从而实现有效管理业务复杂度，优化软件设计的目的。 在分解复杂的软件系统时，不论是单体还是微服务，分层是我们最常用的手段。在DDD（领域驱动设计）中，层次和包的划分看起来与我们的结构又有一定区别。本话题会从分层架构的本质，DDD分层架构，六边形架构，洋葱架构，整洁架构和微服务时代的分层架构来进行刨析。 分享嘉宾：刘勇智，现 thoughtworks DDD 社区负责人，拥有多年前后端开发经验，负责开发过多个分布式微服务的项目。目前致力于DDD，系统架构设计，微服务和微前端等方面。 Android开发异步编程演进 Android发展了这么多年，对于开发者来讲始终绕不开的一个话题就是异步任务的处理，随着Kotlin被官方定位Android开发首选语言后，平台对于异步任务的处理也越来越完善，希望可以借此机会和大家一起总结和回顾Android开发在处理异步任务的迭代演进过程 分享嘉宾：宇行信，早年专注于移动开发，现从事推荐系统算法研究与团队项目管理工作 活动时间 2021年10月23日 下午 1:30 - 6:30 活动地点 西安市高新区 高新二路9号 西安创业咖啡街区 千人楼 三楼 HAX 路演厅 进入路线图 活动报名 https://www.bagevent.com/event/7826605 GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可 无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习 活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 greatghoul 并备注 GDG 疫情虽然舒缓了很多，但是安全第一，大家参加活动时还是请佩戴好口罩 合作机构</summary></entry><entry><title type="html">GDG 西安 2021年4月 活动</title><link href="http://gdgxian.org/2021/04/01/jetpack-compose-react-and-rxjs/" rel="alternate" type="text/html" title="GDG 西安 2021年4月 活动" /><published>2021-04-01T00:00:00+00:00</published><updated>2021-04-01T00:00:00+00:00</updated><id>http://gdgxian.org/2021/04/01/jetpack-compose-react-and-rxjs</id><content type="html" xml:base="http://gdgxian.org/2021/04/01/jetpack-compose-react-and-rxjs/">&lt;p&gt;又是一年好时节，GDG 西安也迎来了 2021 年的第一次线下活动，大家好久没有相聚，这次我们也特地准备了 3 个技术话题，让大家可以好好的交流一下。学习技术之外，也彼此沟通有无，谈一谈自己旧的一年的收获，以及新的一年的发展。&lt;/p&gt;
+<p>GDG 西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会。</p>
 
-&lt;p&gt;我们依旧在老时间，周六下午1点半，等着大家，欢迎报名参加。&lt;/p&gt;
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员带来前沿的技术动向和深入的技术内容，也会不定期举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
 
-&lt;h2 id=&quot;活动话题&quot;&gt;活动话题&lt;/h2&gt;
-&lt;h3 id=&quot;通过-4-周开发挑战赛感受-jetpack-compose&quot;&gt;通过 4 周开发挑战赛感受 Jetpack Compose&lt;/h3&gt;
+<p>秉承着分享创新的精神，一切开放的技术：开源软件、开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开。</p>
 
-&lt;p&gt;日前 Google 发布了 Jetpack Compose Beta 版，并启动了 4 周 4 主题的开发挑战赛来进行推广。 那么在我们使用 Jetpack Compose 进行应用开发时，如何与其他常用 Jetpack 组件相结合？它是否会对现有的开发架构带来新的影响？又如何对 Compose 进行测试？希望能够通过本次话题给大家带来一些直观的感受。&lt;/p&gt;
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：&lt;/strong&gt; 陈洋， ThoughtWorks 高级咨询师， 长年专注于 Android 应用开发、效能提升和技能培训，同时也长期参与计算机类外文书籍的翻译工作。&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="" /></p>
 
-&lt;h3 id=&quot;react-性能调优&quot;&gt;React 性能调优&lt;/h3&gt;
+<h2 id="合作伙伴">合作伙伴</h2>
 
-&lt;p&gt;讲解真实的React性能案例，介绍调优工具 FPS extension 和 Chrome Performance 教程，最后分享一些性能优化的思考&lt;/p&gt;
+<p>WEI SPACE人工智能孵化器</p>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：&lt;/strong&gt; 毛超，不愿意离开一线的程序员，黑帕云软件工程师。&lt;/p&gt;
+<p><img src="/assets/brands/WEI_SPACE.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Build with AI 是由 Google 开发者社区（GDG）主导的全球性技术活动，旨在通过动手实践帮助开发者理解和掌握最新的生成式 AI 工具、模型能力与应用开发方式。 本次西安场 Build with AI 2026 将于 4 月 18 日举行，活动时间为 13:30 - 17:30。本次活动不设主题分享，整体以 Codelab 实践为主，内容围绕 Google AI Studio、Vertex AI、Gemini API、Google Gen AI SDK 以及 Google Antigravity 展开。 活动将分为入门和中级两个实践级别。参与者将结合自己的兴趣与经验，在每个级别的两个题目中各选择一个完成，分别体验 AI 应用生成、图像生成与编辑、视频内容摘要，以及代理式应用构建等方向。 活动内容 Build with AI Codelab 实践 本次活动分为入门和中级两个实践级别，每个级别各提供两个题目。参与者需要完成入门和中级两个级别的练习，并根据自己的兴趣和经验，在每个级别中选择其中一个题目完成。 入门 在 Google AI Studio 中使用 Gemini 进行氛围编程 使用 Google AI Studio 的构建模式生成并迭代一个结合音乐播放器与贪吃蛇游戏的 React Web 应用，体验从提示构建、效果优化，到保存到 GitHub 并部署到 Cloud Run 的完整流程。 Gemini 3.1 Flash Image (Nano Banana 2 🍌) Generation on Vertex AI 通过 Vertex AI 与 Google Gen AI SDK 体验 Gemini 3.1 Flash Image 的 Notebook 实践，学习文生图、模型思考过程展示、人物过滤、基于搜索的 grounding，以及多轮图像编辑等核心能力。 中级 构建一个依托 Gemini 的 YouTube 摘要器 使用 Python Flask、Gemini API 和 Google Gen AI SDK 构建一个 YouTube 摘要 Web 应用，支持输入视频链接、选择模型并生成摘要，最后部署到 Cloud Run。 使用 Google Antigravity 构建应用 使用 Google Antigravity 的 Agent Manager 生成并迭代一个番茄钟效率应用，体验代理拆解任务、生成界面、调用浏览器进行测试，以及通过后续提示继续完善样式和图片内容的工作流。 注意事项： 请务必携带电脑参加，最好准备上充电器，我们会提供插排 请务必使用个人 Gmail 账号参加，公司或学校管理的账号可能无法正常使用相关服务 活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息 建议提前准备好国际网络环境，也建议准备手机热点网络，避免现场人数较多时网络受影响 活动议程 时间 内容 13:30 - 14:00 活动签到 14:00 - 14:20 活动开场、流程介绍 14:20 - 14:30 合影、茶歇 14:30 - 15:30 入门 Codelab（两题选一） 15:30 - 17:10 中级 Codelab（两题选一） 17:10 - 17:30 互动问答，交流学习 活动时间与地点 时间： 2026年4月18日 星期六 13:30 - 17:30 地点： 陕西省西安市雁塔区科技路48号创业广场c座2层 创途在XIAN 　　　 使用高德地图打开 感谢 WEI SPACE人工智能孵化器提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 本次活动以 Codelab 实践为主，参与者需要完成入门和中级两个级别，并在每个级别的两个题目中各选择一个完成，请记得携带笔记本电脑和充电器。 主办方 活动由 GDG 西安主办。GDG 西安成立于 2012 年 8 月 4 日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android、Dart、Angular、Cloud Computing 等，开源技术一直是我们的最爱。 GDG 西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会。 我们的活动主要形式是技术分享，由各位热心的社区成员带来前沿的技术动向和深入的技术内容，也会不定期举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件、开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开。 https://jinshuju.net/f/EDndFr 合作伙伴 WEI SPACE人工智能孵化器]]></summary></entry><entry><title type="html">AI 助力系统迁移以及 AI 加持的 Flutter 颜色描述应用 Codelab</title><link href="http://gdgxian.org/ai-flutter-codelab" rel="alternate" type="text/html" title="AI 助力系统迁移以及 AI 加持的 Flutter 颜色描述应用 Codelab" /><published>2025-12-06T00:00:00+00:00</published><updated>2025-12-06T00:00:00+00:00</updated><id>http://gdgxian.org/ai-flutter-codelab</id><content type="html" xml:base="http://gdgxian.org/ai-flutter-codelab"><![CDATA[<p><img src="/assets/promos/2025_Gemini_API_Workshop.png" alt="Gemini API Workshop Banner" /></p>
 
-&lt;h3 id=&quot;rxjs-非权威指南&quot;&gt;rxjs 非权威指南&lt;/h3&gt;
+<p>本次活动我们将聚焦于 AI 在实际工程中的应用。首先，来自 Thoughtworks 的技术专家张思楚将分享
+如何利用 AI Agent 和知识库解决遗留系统迁移的难题。随后，我们将进行一场动手实践 Codelab，
+由刘信带领大家构建一个由 Gemini 提供支持的 Flutter 颜色描述应用。</p>
 
-&lt;p&gt;时至今日，不了解 rx 的开发者不是好的开发者，作为 rx 扩展之一的 rxjs 有充分的理由成为广大 js/ts （前端 + 非前端）开发者的工具箱一员。在本次活动，我将向各位解释这个貌似武断的论断的理由，从 what、why、how 三个方面进行阐述。同时，结合日常开发示例，展示 rxjs 的魅力，keep tuned。&lt;/p&gt;
+<h2 id="活动话题">活动话题</h2>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：&lt;/strong&gt; 胡键，入行超过 20 年，CSM / 架构师 / 创业者，先后就职于中兴和 SAP，现专注于工业物联网、大数据处理和区块链。具有丰富的产品研发和项目管理经验，擅长围绕工业设备构建物联网端到端解决方案，对海量设备接入、数据存储和数据分析有深刻见解。他同时还热衷于技术分享，并作为 TFUG西安 的组织者活跃于社区。在业余时间，他还会参与开源软件的开发和布道（Grails、Vert.x 和以太坊），并贡献了基于 vert.x 的 API 网关 dgate 。作为团队带头大哥，他还会鼓励团队成员分享输出，于是就有了他们的团队博客 https://blog.dteam.top/&lt;/p&gt;
+<h3 id="用-ai-agent-与知识库重塑遗留系统迁移范式">用 AI Agent 与知识库重塑遗留系统迁移范式</h3>
 
-&lt;h2 id=&quot;活动地点&quot;&gt;活动地点&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://maps.apple.com/?address=中国陕西省西安市雁塔区高新二路9号&amp;amp;ll=34.237424,108.903345&amp;amp;q=西安创业咖啡街区-千人楼&quot;&gt;西安市高新区 高新二路9号 西安创业咖啡街区 千人楼 三楼 HAX 路演厅&lt;/a&gt;
-&lt;img src=&quot;https://i.loli.net/2020/10/30/gZUvwDB8OJG4cYW.jpg&quot; alt=&quot;map.jpg&quot; /&gt;&lt;/p&gt;
+<p>本议题将深入剖析一个极具代表性的企业难题：如何高效、高质量地将一个运营超过 20 年的 CMS 系统迁移至新平台。
+当原始代码和数据库已成“黑盒”且无法读取时，传统的 ETL(抽取 - 转换 - 加载) 工具和人工平移方法将面临巨大挑战，
+不仅效率低下，且难以实现内容的结构化与美化升级。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.jianguoyun.com/p/Dc56KqMQ3_SZBhj21OoD&quot;&gt;进入路线图&lt;/a&gt;: https://www.jianguoyun.com/p/Dc56KqMQ3_SZBhj21OoD&lt;/p&gt;
+<p>针对这一痛点，本演讲将提出一个基于前沿大语言模型 (LLM) 驱动的创新解决方案。
+我们利用 Langflow 作为可视化的 AI 工作流编排中枢，串联起多个 Agent 与外部工具 MCP，
+构建了一个端到端的内容迁移自动化流水线。</p>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
-&lt;p&gt;2021年4月17日（星期六）13:30 - 15:30&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：张思楚</strong>，Thoughtworks 首席咨询师／离岸交付中心技术负责人。GDG西安组织者、全栈工程师、
+畅销 Web 产品 SpreadWeb 架构师、海外大项目的离岸交付中心技术负责人 (Technical Principal)，3项 Web 专利技术发明人。
+敏捷软件管理、精益交付、持续交付专家。专注于系统平台的服务化、微服务的设计与实施。因为团队的不断快速扩张，
+对于团队快速构建、体系化 Coach、团队赋能、团队人才梯队构建、软件交付效能，有效实施持续集成和持续交付，
+落地合适的软件效能度量，帮助大型团队通过有效的效能度量和管理、保证团队稳定高效的交付积累了丰富经验。</p>
+</blockquote>
 
-&lt;h2 id=&quot;活动报名&quot;&gt;活动报名&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.huodongxing.com/event/7591312878200?qd=4328363122557&quot;&gt;活动行&lt;/a&gt;: https://www.huodongxing.com/event/7591312878200?qd=4328363122557&lt;/p&gt;
+<p><img src="/assets/avatars/张思楚.png" width="160" alt="张思楚" /></p>
 
-&lt;p&gt;GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可&lt;/p&gt;
+<h3 id="codelab-构建由-gemini-提供支持的-flutter-应用">Codelab: 构建由 Gemini 提供支持的 Flutter 应用</h3>
 
-&lt;p&gt;无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习&lt;/p&gt;
+<p>在此 Codelab 中，您将构建 Colorist，这是一个交互式 Flutter 应用，可将 Gemini API 的强大功能直接引入您的 Flutter 应用。
+借助 Colorist，用户可以使用自然语言描述颜色（例如“日落的橙色”或“深海蓝”），然后该应用会使用 Google 的 Gemini API 
+处理这些说明，将说明解读为精确的 RGB 颜色值，并实时显示屏幕上的颜色。</p>
 
-&lt;p&gt;活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greatghoul&lt;/code&gt; 并备注 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDG&lt;/code&gt;&lt;/p&gt;
+<p><strong>Codelab 链接：</strong></p>
 
-&lt;p&gt;疫情虽然舒缓了很多，但是安全第一，大家参加活动时还是&lt;strong&gt;请佩戴好口罩&lt;/strong&gt;&lt;/p&gt;
+<p><a href="https://codelabs.developers.google.com/codelabs/flutter-gemini-colorist?hl=zh-cn#0">https://codelabs.developers.google.com/codelabs/flutter-gemini-colorist?hl=zh-cn#0</a></p>
 
-&lt;h2 id=&quot;合作机构&quot;&gt;合作机构&lt;/h2&gt;
-&lt;p&gt;&lt;img align=&quot;HAXXian&quot; width=&quot;150&quot; height=&quot;auto&quot; src=&quot;https://cdn.huodongxing.com/file/ue/20210225/11AC2D44D0BB06B72E382CFFEB67AC3636/30594108388762283.png&quot; /&gt;
-&lt;img align=&quot;TFUGXian&quot; width=&quot;150&quot; height=&quot;auto&quot; src=&quot;https://cdn.huodongxing.com/file/ue/20210225/11AC2D44D0BB06B72E382CFFEB67AC3636/30894108398972860.jpg&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">又是一年好时节，GDG 西安也迎来了 2021 年的第一次线下活动，大家好久没有相聚，这次我们也特地准备了 3 个技术话题，让大家可以好好的交流一下。学习技术之外，也彼此沟通有无，谈一谈自己旧的一年的收获，以及新的一年的发展。 我们依旧在老时间，周六下午1点半，等着大家，欢迎报名参加。 活动话题 通过 4 周开发挑战赛感受 Jetpack Compose 日前 Google 发布了 Jetpack Compose Beta 版，并启动了 4 周 4 主题的开发挑战赛来进行推广。 那么在我们使用 Jetpack Compose 进行应用开发时，如何与其他常用 Jetpack 组件相结合？它是否会对现有的开发架构带来新的影响？又如何对 Compose 进行测试？希望能够通过本次话题给大家带来一些直观的感受。 分享嘉宾： 陈洋， ThoughtWorks 高级咨询师， 长年专注于 Android 应用开发、效能提升和技能培训，同时也长期参与计算机类外文书籍的翻译工作。 React 性能调优 讲解真实的React性能案例，介绍调优工具 FPS extension 和 Chrome Performance 教程，最后分享一些性能优化的思考 分享嘉宾： 毛超，不愿意离开一线的程序员，黑帕云软件工程师。 rxjs 非权威指南 时至今日，不了解 rx 的开发者不是好的开发者，作为 rx 扩展之一的 rxjs 有充分的理由成为广大 js/ts （前端 + 非前端）开发者的工具箱一员。在本次活动，我将向各位解释这个貌似武断的论断的理由，从 what、why、how 三个方面进行阐述。同时，结合日常开发示例，展示 rxjs 的魅力，keep tuned。 分享嘉宾： 胡键，入行超过 20 年，CSM / 架构师 / 创业者，先后就职于中兴和 SAP，现专注于工业物联网、大数据处理和区块链。具有丰富的产品研发和项目管理经验，擅长围绕工业设备构建物联网端到端解决方案，对海量设备接入、数据存储和数据分析有深刻见解。他同时还热衷于技术分享，并作为 TFUG西安 的组织者活跃于社区。在业余时间，他还会参与开源软件的开发和布道（Grails、Vert.x 和以太坊），并贡献了基于 vert.x 的 API 网关 dgate 。作为团队带头大哥，他还会鼓励团队成员分享输出，于是就有了他们的团队博客 https://blog.dteam.top/ 活动地点 西安市高新区 高新二路9号 西安创业咖啡街区 千人楼 三楼 HAX 路演厅 进入路线图: https://www.jianguoyun.com/p/Dc56KqMQ3_SZBhj21OoD 活动时间 2021年4月17日（星期六）13:30 - 15:30 活动报名 活动行: https://www.huodongxing.com/event/7591312878200?qd=4328363122557 GDG 活动为免费活动，没有任何费用，报名后请记下时间地点，届时参与即可 无论是否 IT 从业者，只要对开发感兴趣，都欢迎来交流学习 活动进展会在 GDG 西安的微信群中进行通告，如果希望加入微信群，可以微信联系 greatghoul 并备注 GDG 疫情虽然舒缓了很多，但是安全第一，大家参加活动时还是请佩戴好口罩 合作机构</summary></entry><entry><title type="html">DevFest 2020</title><link href="http://gdgxian.org/2020/10/30/devfest-2020/" rel="alternate" type="text/html" title="DevFest 2020" /><published>2020-10-30T00:00:00+00:00</published><updated>2020-10-30T00:00:00+00:00</updated><id>http://gdgxian.org/2020/10/30/devfest-2020</id><content type="html" xml:base="http://gdgxian.org/2020/10/30/devfest-2020/">&lt;p&gt;2020 年是 GDG 活动比较低迷的一年，因为疫情的影响，我们减少了活动次数，把线下活动改为线上，虽然也做出了一些成绩，但是总觉得少了些味道，一些“技术聚会”的味道，眼看着一年就要结束，我们决定趁着 DevFest 的机会，搞一波线下活动，分享和交流技术的同事，大家联络联络感情。&lt;/p&gt;
+<p><strong>学习内容：</strong></p>
 
-&lt;p&gt;今年的 GDG Xi’an DevFest 定在了 11 月 14 日（周六）下午，我们邀请了三个嘉宾为大家带来 Flutter, Angular 以及机器学习的话题。 希望大家踊跃报名参加。&lt;/p&gt;
+<ul>
+  <li>为 Flutter 应用配置 Firebase AI Logic</li>
+  <li>撰写有效的系统提示，引导 LLM 的行为</li>
+  <li>实现连接自然语言和应用功能的函数声明</li>
+  <li>处理流式响应，打造响应迅速的用户体验</li>
+  <li>在界面事件和 LLM 之间同步状态</li>
+</ul>
 
-&lt;h2 id=&quot;活动话题&quot;&gt;活动话题&lt;/h2&gt;
+<p><strong>注意事项：</strong></p>
 
-&lt;h3 id=&quot;2020年了让我们再来看看flutter的发展&quot;&gt;2020年了，让我们再来看看Flutter的发展&lt;/h3&gt;
+<ul>
+  <li>请务必携带笔记本电脑及充电器（我们会提供插排）</li>
+  <li>请务必使用个人 Gmail 账号参加，公司或学校管理的账号将无法使用</li>
+  <li>活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息</li>
+  <li>建议提前准备好“国际网络环境”，以确保顺利访问所需服务。</li>
+  <li>为保证 Codelab 效果，请确保您的设备已安装 <a href="https://flutter.cn/docs/get-started/install">Flutter</a> 和顺手的代码编辑器
+(如<a href="https://code.visualstudio.com/">VS Code</a> 或 <a href="https://developer.android.com/studio">Android Studio</a>)。</li>
+</ul>
 
-&lt;p&gt;&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://i.loli.net/2020/10/30/RSLGBasuiy6pD52.png&quot; /&gt;&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：刘信</strong> GDG西安组织者，多年移动平台开发与技术管理经验，喜欢做技术，也喜欢做产品。</p>
+</blockquote>
 
-&lt;p&gt;Flutter是一款优秀的跨平台开发框架，从它被推出到现在的三年内，一直保持着比较高的关注度。它为什么能这么火，它火的这几年，Native又都做了些什么。它的未来又会是什么样的呢，让我们一起来看看吧！&lt;/p&gt;
+<p><img src="/assets/avatars/刘信.png" width="160" alt="刘信" /></p>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：&lt;/strong&gt; 梁法成，是 ThoughtWorks 的一名 Mobile 开发工程师。曾经历过金融，资讯，社交，购物等多种类型的大型移动端应用， 在项目中积累了丰富的平台化开发，跨团队协作的经验。现服务于澳洲某大型房地产公司，致力于践行微前端在移动端的落地。同时，他也是一名 Flutter 爱好者。&lt;/p&gt;
+<h2 id="活动安排">活动安排</h2>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<table>
+  <thead>
+    <tr>
+      <th>时间</th>
+      <th>内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13:30 - 14:00</td>
+      <td>签到</td>
+    </tr>
+    <tr>
+      <td>14:00 - 14:10</td>
+      <td>开场介绍</td>
+    </tr>
+    <tr>
+      <td>14:10 - 15:00</td>
+      <td>用 AI Agent 与知识库重塑遗留系统迁移范式 (张思楚)</td>
+    </tr>
+    <tr>
+      <td>15:00 - 15:20</td>
+      <td>合影 &amp; 茶歇</td>
+    </tr>
+    <tr>
+      <td>15:20 - 17:10</td>
+      <td>Codelab: 构建由 Gemini 提供支持的 Flutter 应用 (刘信)</td>
+    </tr>
+    <tr>
+      <td>17:10 - 17:30</td>
+      <td>自由交流</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h3 id=&quot;深度学习部署与人工智能芯片选型设计与应用&quot;&gt;深度学习部署与人工智能芯片选型、设计与应用&lt;/h3&gt;
+<h2 id="活动时间与地点">活动时间与地点</h2>
 
-&lt;p&gt;&lt;img align=&quot;left&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://i.loli.net/2020/10/30/gfwG1287rhARJz4.png&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li><strong>时间：</strong> 2025年12月27日 星期六 13:30 - 17:30</li>
+  <li><strong>地点：</strong> 陕西省西安市雁塔区科技路48号创业广场c座2层 创途在XIAN<br />
+ 　　　 <a href="https://surl.amap.com/cyhfPaxu22e">使用高德地图打开</a></li>
+</ul>
 
-&lt;p&gt;随着人工智能&amp;amp;深度学习的发展，尤其是算法层面已经非常成熟，但是在应用层还是具有难部署、难运维以及难调度的问题。其中AI框架众多，算法难以直接部署到生产环境，服务资源类型异构，不同算法对资源要求不同，以及部署成本用户体验平衡都制约着AI应用及部署的发展，因此本话题围绕着深度学习部署与人工智能芯片点展开讨论，为目前或将来需要AI应用落地的小伙伴们广开思路。&lt;/p&gt;
+<p><img src="/assets/venues/创途在XIAN_地图.png" alt="创途在XIAN 地图" />
+<img src="/assets/venues/创途在XIAN_指引.png" alt="创途在XIAN 指引" /></p>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：&lt;/strong&gt; 李欣，西安欧拉智控智能科技有限公司创始人，8年计算机视觉及深度学习架构工程师、百度全国人工智能讲师、Apache TVM社区成员、AWS合作伙伴成员，华为昇腾万里计划合作伙伴。&lt;/p&gt;
+<p><strong>感谢泥巴科创AI孵化器提供免费场地</strong></p>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;h3 id=&quot;how-to-build-an-angular-app-once-and-deploy-it-to-multiple-environments&quot;&gt;How To Build An Angular App Once And Deploy It To Multiple Environments&lt;/h3&gt;
+<p>活动免费，但因场地有限，需报名参加。</p>
 
-&lt;p&gt;&lt;img align=&quot;right&quot; width=&quot;150&quot; height=&quot;150&quot; src=&quot;https://i.loli.net/2020/10/30/Qy3CF59YUtVd1qx.png&quot; /&gt;&lt;/p&gt;
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
 
-&lt;p&gt;在使用Angular应用时，希望一次构建，并使用相同的构建产物部署到多个环境中。在Angular的默认推荐构建方式中，每个环境的构建产物是不同的，Angular构建介绍(&lt;a href=&quot;https://angular.io/guide/build&quot;&gt;https://angular.io/guide/build&lt;/a&gt;)。这导致了一些技术挑战，因为需要能够在运行时将特定于环境的信息注入到构建产物中，这次分享，总结整理5种方式，来使用一个构建产物部署在不同环境，同时比较他们的特点和优劣，希望在您遇到类似问题时，需要解决时，能带来一些灵感。&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_报名.png" alt="报名二维码" width="220" /></p>
 
-&lt;p&gt;&lt;strong&gt;分享嘉宾：&lt;/strong&gt; 张思楚，ThoughtWorks 全栈工程师、海外大项目的离岸交付中心技术负责人, 畅销Web产品SpreadWeb架构师，3项Web专利技术发明人。&lt;/p&gt;
+<h2 id="关于我们">关于我们</h2>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。
+我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
 
-&lt;p&gt;2020年11月14日 星期六 下午 1:30 到 5:00
-&lt;a target=&quot;_blank&quot; href=&quot;https://calendar.google.com/event?action=TEMPLATE&amp;amp;tmeid=MXNoZWhoYzluMDk0cWRubzRoZWFwaWNyZHEgdjh0b2Q5ZTF1OTI2ZTd0dGU3cDJpbDUwZGdAZw&amp;amp;tmsrc=v8tod9e1u926e7tte7p2il50dg%40group.calendar.google.com&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://i.loli.net/2020/04/15/DI38fW1N4nwrcYa.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。
+我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
 
-&lt;h2 id=&quot;活动地点&quot;&gt;活动地点&lt;/h2&gt;
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，
+也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://maps.apple.com/?address=中国陕西省西安市雁塔区高新二路9号&amp;amp;ll=34.237424,108.903345&amp;amp;q=西安创业咖啡街区-千人楼&quot;&gt;西安市高新区 高新二路9号 西安创业咖啡街区 千人楼 三楼 HAX 路演厅&lt;/a&gt;&lt;/p&gt;
+<h2 id="成为讲师">成为讲师</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/10/30/gZUvwDB8OJG4cYW.jpg&quot; alt=&quot;map.jpg&quot; /&gt;&lt;/p&gt;
+<p>秉承着分享创新的精神，一切开源的技术：开源软件，开放技术标准等都是受欢迎的内容。
+一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，
+也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
 
-&lt;ul&gt;
-  &lt;li&gt;感谢 HAX XI‘AN 提供免费场地&lt;/li&gt;
-&lt;/ul&gt;
+<p>如果你有意向分享知识与经验，欢迎报名成为我们的讲师。</p>
 
-&lt;h2 id=&quot;活动报名&quot;&gt;活动报名&lt;/h2&gt;
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bagevent.com/event/6928034&quot;&gt;百格活动&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="讲师申请二维码" width="220" /></p>
 
-&lt;p&gt;除了精彩的技术话题，我们还准备了精美的礼品。&lt;/p&gt;
+<h2 id="合作伙伴">合作伙伴</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/10/30/2wA8qhjtNy5fCuL.jpg&quot; alt=&quot;gift.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/brands/泥巴创客空间.png" alt="泥巴创客空间" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[本次活动我们将聚焦于 AI 在实际工程中的应用。首先，来自 Thoughtworks 的技术专家张思楚将分享 如何利用 AI Agent 和知识库解决遗留系统迁移的难题。随后，我们将进行一场动手实践 Codelab， 由刘信带领大家构建一个由 Gemini 提供支持的 Flutter 颜色描述应用。 活动话题 用 AI Agent 与知识库重塑遗留系统迁移范式 本议题将深入剖析一个极具代表性的企业难题：如何高效、高质量地将一个运营超过 20 年的 CMS 系统迁移至新平台。 当原始代码和数据库已成“黑盒”且无法读取时，传统的 ETL(抽取 - 转换 - 加载) 工具和人工平移方法将面临巨大挑战， 不仅效率低下，且难以实现内容的结构化与美化升级。 针对这一痛点，本演讲将提出一个基于前沿大语言模型 (LLM) 驱动的创新解决方案。 我们利用 Langflow 作为可视化的 AI 工作流编排中枢，串联起多个 Agent 与外部工具 MCP， 构建了一个端到端的内容迁移自动化流水线。 分享嘉宾：张思楚，Thoughtworks 首席咨询师／离岸交付中心技术负责人。GDG西安组织者、全栈工程师、 畅销 Web 产品 SpreadWeb 架构师、海外大项目的离岸交付中心技术负责人 (Technical Principal)，3项 Web 专利技术发明人。 敏捷软件管理、精益交付、持续交付专家。专注于系统平台的服务化、微服务的设计与实施。因为团队的不断快速扩张， 对于团队快速构建、体系化 Coach、团队赋能、团队人才梯队构建、软件交付效能，有效实施持续集成和持续交付， 落地合适的软件效能度量，帮助大型团队通过有效的效能度量和管理、保证团队稳定高效的交付积累了丰富经验。 Codelab: 构建由 Gemini 提供支持的 Flutter 应用 在此 Codelab 中，您将构建 Colorist，这是一个交互式 Flutter 应用，可将 Gemini API 的强大功能直接引入您的 Flutter 应用。 借助 Colorist，用户可以使用自然语言描述颜色（例如“日落的橙色”或“深海蓝”），然后该应用会使用 Google 的 Gemini API 处理这些说明，将说明解读为精确的 RGB 颜色值，并实时显示屏幕上的颜色。 Codelab 链接： https://codelabs.developers.google.com/codelabs/flutter-gemini-colorist?hl=zh-cn#0 学习内容： 为 Flutter 应用配置 Firebase AI Logic 撰写有效的系统提示，引导 LLM 的行为 实现连接自然语言和应用功能的函数声明 处理流式响应，打造响应迅速的用户体验 在界面事件和 LLM 之间同步状态 注意事项： 请务必携带笔记本电脑及充电器（我们会提供插排） 请务必使用个人 Gmail 账号参加，公司或学校管理的账号将无法使用 活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息 建议提前准备好“国际网络环境”，以确保顺利访问所需服务。 为保证 Codelab 效果，请确保您的设备已安装 Flutter 和顺手的代码编辑器 (如VS Code 或 Android Studio)。 分享嘉宾：刘信 GDG西安组织者，多年移动平台开发与技术管理经验，喜欢做技术，也喜欢做产品。 活动安排 时间 内容 13:30 - 14:00 签到 14:00 - 14:10 开场介绍 14:10 - 15:00 用 AI Agent 与知识库重塑遗留系统迁移范式 (张思楚) 15:00 - 15:20 合影 &amp; 茶歇 15:20 - 17:10 Codelab: 构建由 Gemini 提供支持的 Flutter 应用 (刘信) 17:10 - 17:30 自由交流 活动时间与地点 时间： 2025年12月27日 星期六 13:30 - 17:30 地点： 陕西省西安市雁塔区科技路48号创业广场c座2层 创途在XIAN 　　　 使用高德地图打开 感谢泥巴科创AI孵化器提供免费场地 报名方式 活动免费，但因场地有限，需报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 关于我们 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。 我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容， 也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 成为讲师 秉承着分享创新的精神，一切开源的技术：开源软件，开放技术标准等都是受欢迎的内容。 一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己， 也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 如果你有意向分享知识与经验，欢迎报名成为我们的讲师。 https://jinshuju.net/f/EDndFr 合作伙伴]]></summary></entry><entry><title type="html">DevFest 2025 西安站</title><link href="http://gdgxian.org/devfest-2025" rel="alternate" type="text/html" title="DevFest 2025 西安站" /><published>2025-10-20T00:00:00+00:00</published><updated>2025-10-20T00:00:00+00:00</updated><id>http://gdgxian.org/devfest-2025</id><content type="html" xml:base="http://gdgxian.org/devfest-2025"><![CDATA[<p><img src="/assets/promos/2025_DevFest_Banner.png" alt="DevFest 2025 西安站 Banner" /></p>
 
-&lt;p&gt;毕竟疫情还没有结束，请参加活动的小伙伴做好防疫保护，参加活动时，佩戴好口罩。&lt;/p&gt;
+<p>GDG DevFest 是由 Google 开发者社区（GDG）在全球范围内主办的年度开发者盛会，内容覆盖 Android、Web、Cloud、AI 等多个技术方向。本次 DevFest 2025 西安站将带来关于 Chrome DevTools 智能调试、App出海实战、AI 等方向的两场主题分享与一场动手实践 Codelab，欢迎开发者朋友报名参加。</p>
 
-&lt;p&gt;活动的动态会在 GDG 先微信群里进行通知，如果需要加群，请微信联系 greatghoul，加好友时请备注 GDG.&lt;/p&gt;
+<h2 id="活动话题">活动话题</h2>
 
-&lt;h2 id=&quot;合作社区&quot;&gt;合作社区&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/10/30/uUPObZjl67GEdsX.png&quot; alt=&quot;合作社区_logo.png&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;HAX Xi’an&lt;/li&gt;
-  &lt;li&gt;泥巴创客空间&lt;/li&gt;
-  &lt;li&gt;ThoughtWorks Community&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">2020 年是 GDG 活动比较低迷的一年，因为疫情的影响，我们减少了活动次数，把线下活动改为线上，虽然也做出了一些成绩，但是总觉得少了些味道，一些“技术聚会”的味道，眼看着一年就要结束，我们决定趁着 DevFest 的机会，搞一波线下活动，分享和交流技术的同事，大家联络联络感情。 今年的 GDG Xi’an DevFest 定在了 11 月 14 日（周六）下午，我们邀请了三个嘉宾为大家带来 Flutter, Angular 以及机器学习的话题。 希望大家踊跃报名参加。 活动话题 2020年了，让我们再来看看Flutter的发展 Flutter是一款优秀的跨平台开发框架，从它被推出到现在的三年内，一直保持着比较高的关注度。它为什么能这么火，它火的这几年，Native又都做了些什么。它的未来又会是什么样的呢，让我们一起来看看吧！ 分享嘉宾： 梁法成，是 ThoughtWorks 的一名 Mobile 开发工程师。曾经历过金融，资讯，社交，购物等多种类型的大型移动端应用， 在项目中积累了丰富的平台化开发，跨团队协作的经验。现服务于澳洲某大型房地产公司，致力于践行微前端在移动端的落地。同时，他也是一名 Flutter 爱好者。 深度学习部署与人工智能芯片选型、设计与应用 随着人工智能&amp;amp;深度学习的发展，尤其是算法层面已经非常成熟，但是在应用层还是具有难部署、难运维以及难调度的问题。其中AI框架众多，算法难以直接部署到生产环境，服务资源类型异构，不同算法对资源要求不同，以及部署成本用户体验平衡都制约着AI应用及部署的发展，因此本话题围绕着深度学习部署与人工智能芯片点展开讨论，为目前或将来需要AI应用落地的小伙伴们广开思路。 分享嘉宾： 李欣，西安欧拉智控智能科技有限公司创始人，8年计算机视觉及深度学习架构工程师、百度全国人工智能讲师、Apache TVM社区成员、AWS合作伙伴成员，华为昇腾万里计划合作伙伴。 How To Build An Angular App Once And Deploy It To Multiple Environments 在使用Angular应用时，希望一次构建，并使用相同的构建产物部署到多个环境中。在Angular的默认推荐构建方式中，每个环境的构建产物是不同的，Angular构建介绍(https://angular.io/guide/build)。这导致了一些技术挑战，因为需要能够在运行时将特定于环境的信息注入到构建产物中，这次分享，总结整理5种方式，来使用一个构建产物部署在不同环境，同时比较他们的特点和优劣，希望在您遇到类似问题时，需要解决时，能带来一些灵感。 分享嘉宾： 张思楚，ThoughtWorks 全栈工程师、海外大项目的离岸交付中心技术负责人, 畅销Web产品SpreadWeb架构师，3项Web专利技术发明人。 活动时间 2020年11月14日 星期六 下午 1:30 到 5:00 活动地点 西安市高新区 高新二路9号 西安创业咖啡街区 千人楼 三楼 HAX 路演厅 感谢 HAX XI‘AN 提供免费场地 活动报名 百格活动 除了精彩的技术话题，我们还准备了精美的礼品。 毕竟疫情还没有结束，请参加活动的小伙伴做好防疫保护，参加活动时，佩戴好口罩。 活动的动态会在 GDG 先微信群里进行通知，如果需要加群，请微信联系 greatghoul，加好友时请备注 GDG. 合作社区 HAX Xi’an 泥巴创客空间 ThoughtWorks Community</summary></entry><entry><title type="html">GDG Xi’an Android 11 extended</title><link href="http://gdgxian.org/2020/07/10/Android-11-extended/" rel="alternate" type="text/html" title="GDG Xi’an Android 11 extended" /><published>2020-07-10T00:00:00+00:00</published><updated>2020-07-10T00:00:00+00:00</updated><id>http://gdgxian.org/2020/07/10/Android-11-extended</id><content type="html" xml:base="http://gdgxian.org/2020/07/10/Android-11-extended/">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/07/10/dvMEYwaQ5W8bSpI.png&quot; alt=&quot;Youtube Thumbnail _1280x720_.png&quot; /&gt;&lt;/p&gt;
+<h3 id="chrome-devtools-智能版更聪明的调试伴侣">Chrome DevTools 智能版，更聪明的调试伴侣</h3>
 
-&lt;p&gt;Android 11 Beta 已经发布了，小伙伴们对于 Android 11 新特性已经有些了解了吧。&lt;/p&gt;
+<p>本次分享将介绍 Chrome DevTools 中的 AI 调试助手以及 MCP Server 的能力，帮助开发者提升调试效率。内容包括：</p>
 
-&lt;p&gt;如果你对 Android 11 新功能有兴趣，如果你对 Android 11 和不同的产品结合点抱有好奇，如果你想了解更多地有关 Jetpack or Kotlin 的更多内容，那就参与 GDG 社区举办的系列 Android 11 线上活动吧。&lt;/p&gt;
+<ol>
+  <li>介绍 Chrome DevTools 里的智能调试工具（AI Assistance 等），它们的功能、解锁方式和最佳实践。</li>
+  <li>介绍 DevTools MCP Server 的能力、使用方式和底层原理。</li>
+</ol>
 
-&lt;p&gt;https://developer.android.google.cn/android11/meetups?hl=zh-cn&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：钱俊颖（Jax）</strong>，前端架构师、Web 谷歌开发者专家、长沙谷歌开发者社区发起人，致力于推广 Web AI 的普及、应用和标准化。</p>
+</blockquote>
 
-&lt;p&gt;GDG 西安的 Android 11 线上直播活动中，我们准备了两个话题&lt;/p&gt;
+<p><img src="/assets/avatars/DevFest2025_钱俊颖.png" width="220" alt="钱俊颖" /></p>
 
-&lt;h2 id=&quot;whats-new-in-android-studio-4&quot;&gt;What’s New in Android Studio 4.+&lt;/h2&gt;
+<h3 id="app出海实战从0到全球">App出海实战：从0到全球</h3>
 
-&lt;p&gt;随着 Android 11 的发布，Android Studio 新版本的发布也随之到来。
-工欲善其事，必先利其器。AS 4.0 以及内测版本带来了很多颠覆开发模式的新功能，给开发者从UI到Profile均带来了更优雅的体验。在本次 Meetup 中，让我们一探究竟。&lt;/p&gt;
+<p>本次分享将从全球移动应用出海趋势出发，对比国内与海外在开发生态、发布流程与运营模式上的核心差异，并结合真实项目经验拆解完整出海路径。主要内容包括：</p>
 
-&lt;p&gt;分享嘉宾：&lt;/p&gt;
+<ol>
+  <li>Google Play 与国内应用商店的生态差异
+分发机制、审核策略、版本管理、隐私政策与合规要求</li>
+  <li>Firebase 在出海过程中的关键能力
+分析统计、消息推送、崩溃监控、A/B 测试、远程配置等</li>
+  <li>常用出海第三方 SDK 选型与集成
+数据统计、支付、广告变现、合规与本地化服务</li>
+  <li>从 0 到上线的出海实操流程
+包体配置、签名发布、多端适配、合规审核、版本迭代</li>
+  <li>海外市场的变现模式与策略拆解
+内购（IAP）、订阅、广告、混合模式、LTV 与投放联动</li>
+</ol>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/07/10/yUJZianTAGgFsKX.jpg&quot; width=&quot;256&quot; height=&quot;256&quot; /&gt;&lt;/p&gt;
+<p>通过案例讲解与技术拆解，帮助开发者全面理解”开发—发布—运营—变现”的出海全流程，实现产品从本地市场走向全球用户与全球收入。</p>
 
-&lt;p&gt;杨楠晨，ThoughtWorks Senior Consultant，Android 资深工程师，具有项目团队管理经验，了解海外市场的开发与发布流程，对 CI/CD、移动端自动化、TDD 等均有成熟的项目实践与理解。&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：张海龙</strong>，花房集团移动端资深工程师，Firebase GDE，CSDN博主，有丰富的海外项目经验</p>
+</blockquote>
 
-&lt;h2 id=&quot;拥抱-jetpack&quot;&gt;拥抱 Jetpack&lt;/h2&gt;
+<p><img src="/assets/avatars/DevFest2025_张海龙.png" width="220" alt="张海龙" /></p>
 
-&lt;p&gt;对于从事 Android 开发的小伙伴来说，相信大家不管是在公司项目或是平时课余时间的小项目上，从产品交互，用户体验，代码架构，数据存取及网络优化等方面都会遇到各种各样的问题，并且有属于自己的一套解决方案，但是又很难适合所有的项目场景。那么自Google I/0 2018年开发者大会推出 Android Jetpack 以来，已经过去两年的日子啦，Jetpack作为一套能够帮助简化开发流程，从而轻松打造优质应用的工具和组件，大家有没有在自己项目上实践呢，So让我们一起拥抱Jetpack，感受它的魅力吧。&lt;/p&gt;
+<h3 id="构建您的首个-ai-伴侣初学者研讨会">构建您的首个 AI 伴侣：初学者研讨会</h3>
 
-&lt;p&gt;分享嘉宾：&lt;/p&gt;
+<p>本环节将带领参与者从零开始构建一个功能齐全的AI伴侣应用。这不仅仅是一个简单的聊天机器人，而是一个具有个性、能够获取实时信息并拥有自定义外观的交互式数字伴侣。参与者将通过实践学习如何：</p>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/07/10/qtrhuDlbmXjfZOe.jpg&quot; width=&quot;256&quot; height=&quot;224&quot; /&gt;&lt;/p&gt;
+<ol>
+  <li>使用 Gemini CLI 生成完整的 ADK 代理配置</li>
+  <li>通过改进指令来增强智能体的个性</li>
+  <li>为代理添加”依据”，使其能够回答关于近期活动的问题</li>
+  <li>使用具有 Imagen 的 MCP 服务器为随播广告生成自定义头像</li>
+</ol>
 
-&lt;p&gt;张从飞，3年 Android 开发经验，目前在 Thoughtworks 主要从事 Android 开发，对移动开发有着浓厚的兴趣。&lt;/p&gt;
+<p>在本次工作坊中，您将从一个预构建的Web应用开始，逐步添加智能和自定义层，将简单的数字”傀儡”转变为独特而强大的AI伙伴。</p>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
+<p><img src="https://codelabs.developers.google.com/companion-adk-beginner/img/moew.gif" alt="AI伴侣示例" /></p>
 
-&lt;p&gt;2020年7月18日，周六，下午 1:30 到 3:30 &lt;br /&gt;&lt;/p&gt;
+<p><strong>Codelab 链接：</strong> <a href="https://codelabs.developers.google.com/companion-adk-beginner/instructions?hl=zh-cn#0">构建您的首个 AI 伴侣：初学者研讨会</a></p>
 
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://calendar.google.com/event?action=TEMPLATE&amp;amp;tmeid=NzR2NzM0aTk0MHZxbmppNTE0NWQ4NjNjdm0gdjh0b2Q5ZTF1OTI2ZTd0dGU3cDJpbDUwZGdAZw&amp;amp;tmsrc=v8tod9e1u926e7tte7p2il50dg%40group.calendar.google.com&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://i.loli.net/2020/04/15/DI38fW1N4nwrcYa.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<blockquote>
+  <p><strong>Codelab 导师：邱建 (greatghoul)</strong>，Web全栈工程师，自由职业者，GDG西安组织者。</p>
+</blockquote>
 
-&lt;h2 id=&quot;直播地址&quot;&gt;直播地址&lt;/h2&gt;
+<p><img src="/assets/avatars/DevFest2025_邱建.png" width="220" alt="邱建" /></p>
 
-&lt;p&gt;&lt;a href=&quot;https://live.bilibili.com/22357137&quot;&gt;BiliBili&lt;/a&gt;: https://live.bilibili.com/22357137&lt;/p&gt;
+<p><strong>注意事项：</strong></p>
 
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/B-EquNRJT9k&quot;&gt;Youtube&lt;/a&gt;: https://youtu.be/B-EquNRJT9k&lt;/p&gt;
+<ul>
+  <li>请务必携带电脑参加，否则无法参加 Codelab，最好准备好充电器，我们会提供插排</li>
+  <li>请务必使用个人 Gmail 账号参加，公司或学校管理的账号将无法使用</li>
+  <li>建议在 Chrome 浏览器中使用无痕模式，以避免账号冲突</li>
+  <li>活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息</li>
+  <li>建议提前准备”国际网络环境”，避免现场人数太多 Wi‑Fi 速度变慢</li>
+</ul>
 
-&lt;hr /&gt;
+<h2 id="活动时间">活动时间</h2>
 
-&lt;p&gt;如果你还没有加入 GDG西安的微信群，可以微信联系 greatghoul 申请加入，加好友时务必注明：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDG&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">Android 11 Beta 已经发布了，小伙伴们对于 Android 11 新特性已经有些了解了吧。 如果你对 Android 11 新功能有兴趣，如果你对 Android 11 和不同的产品结合点抱有好奇，如果你想了解更多地有关 Jetpack or Kotlin 的更多内容，那就参与 GDG 社区举办的系列 Android 11 线上活动吧。 https://developer.android.google.cn/android11/meetups?hl=zh-cn GDG 西安的 Android 11 线上直播活动中，我们准备了两个话题 What’s New in Android Studio 4.+ 随着 Android 11 的发布，Android Studio 新版本的发布也随之到来。 工欲善其事，必先利其器。AS 4.0 以及内测版本带来了很多颠覆开发模式的新功能，给开发者从UI到Profile均带来了更优雅的体验。在本次 Meetup 中，让我们一探究竟。 分享嘉宾： 杨楠晨，ThoughtWorks Senior Consultant，Android 资深工程师，具有项目团队管理经验，了解海外市场的开发与发布流程，对 CI/CD、移动端自动化、TDD 等均有成熟的项目实践与理解。 拥抱 Jetpack 对于从事 Android 开发的小伙伴来说，相信大家不管是在公司项目或是平时课余时间的小项目上，从产品交互，用户体验，代码架构，数据存取及网络优化等方面都会遇到各种各样的问题，并且有属于自己的一套解决方案，但是又很难适合所有的项目场景。那么自Google I/0 2018年开发者大会推出 Android Jetpack 以来，已经过去两年的日子啦，Jetpack作为一套能够帮助简化开发流程，从而轻松打造优质应用的工具和组件，大家有没有在自己项目上实践呢，So让我们一起拥抱Jetpack，感受它的魅力吧。 分享嘉宾： 张从飞，3年 Android 开发经验，目前在 Thoughtworks 主要从事 Android 开发，对移动开发有着浓厚的兴趣。 活动时间 2020年7月18日，周六，下午 1:30 到 3:30 直播地址 BiliBili: https://live.bilibili.com/22357137 Youtube: https://youtu.be/B-EquNRJT9k 如果你还没有加入 GDG西安的微信群，可以微信联系 greatghoul 申请加入，加好友时务必注明：GDG。</summary></entry><entry><title type="html">GDG 西安 Women Techmakers 2020 线上活动</title><link href="http://gdgxian.org/2020/04/15/live-event-wtm2020/" rel="alternate" type="text/html" title="GDG 西安 Women Techmakers 2020 线上活动" /><published>2020-04-15T00:00:00+00:00</published><updated>2020-04-15T00:00:00+00:00</updated><id>http://gdgxian.org/2020/04/15/live-event-wtm2020</id><content type="html" xml:base="http://gdgxian.org/2020/04/15/live-event-wtm2020/">&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/04/15/IcRFfTaxurgjv7y.png&quot; alt=&quot;wtm logo.png&quot; /&gt;&lt;/p&gt;
+<p>2025年11月15日 周六 13:30 - 17:00</p>
 
-&lt;p&gt;因为疫情的影响，上个月我们进行了一场线上活动，转眼间一个月过去了，虽然疫情相比之前，缓和了很多，但我们仍然不能轻易聚集线下，所以4月份的 Women Techmakers 活动，我们依然是线上的形式。&lt;/p&gt;
+<h2 id="活动议程">活动议程</h2>
 
-&lt;p&gt;不过也正因为是线上活动，我们才可以邀请到更远地方的嘉宾来给我们做分享，这期 WTM，就带大家了解一下西安之外的杰出女性，以及她们在工作和学习上面的经验。&lt;/p&gt;
+<table>
+  <thead>
+    <tr>
+      <th>时间</th>
+      <th>活动内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>13:30 - 14:00</td>
+      <td>活动签到</td>
+    </tr>
+    <tr>
+      <td>14:00 - 14:45</td>
+      <td>Chrome DevTools 智能版，更聪明的调试伴侣</td>
+    </tr>
+    <tr>
+      <td>14:45 - 14:55</td>
+      <td>合影、茶歇</td>
+    </tr>
+    <tr>
+      <td>14:55 - 15:40</td>
+      <td>App出海实战：从0到全球</td>
+    </tr>
+    <tr>
+      <td>15:40 - 15:50</td>
+      <td>茶歇</td>
+    </tr>
+    <tr>
+      <td>15:50 - 16:50</td>
+      <td>Codelab: 构建您的首个 AI 伴侣：初学者研讨会</td>
+    </tr>
+    <tr>
+      <td>16:50 - 17:00</td>
+      <td>自由交流</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h2 id=&quot;话题一把握属于我们的资源与机会&quot;&gt;话题一：把握属于我们的资源与机会&lt;/h2&gt;
+<h2 id="活动地点">活动地点</h2>
 
-&lt;p&gt;无论是还没有步入大学，无法确定自己是否要学习计算机，还是已经在大学开始学习准备为步入职场做好准备，又或是刚刚步入职场不知道如何获得最新招聘讯息苦于找不到内推机会。希望这次分享能给你带来一些新的资源，新的角度和新的机会。 这次话题围绕女性科技工作者能接触到的各类资源，社区，科技大会及人脉资源作出介绍。通过分享自己一直以来的经历，希望能帮助不同身份地区对学习计算机相关感兴趣的女性朋友们在自己的领域更进一步。&lt;/p&gt;
+<p>西安市高新区沣惠南路18号唐沣国际D座26楼泥巴创客空间 (<a href="https://www.amap.com/place/B0FFF5V3J0">使用高德地图打开</a>)</p>
 
-&lt;p&gt;分享嘉宾：李欣蔚Thea，美国罗德学院大三学生，主修计算机辅修音乐。2020年度全校唯一研究奖学金获得者。2019年受Women Techmakers及Women Who Code邀请参加谷歌年度开发者大会Google I/O. 后成为GDG Google I/O extended 分享嘉宾。 在校为Women in Computing 女性科技社团副主席。曾在美国IMC Companies做金融分析实习，收到FedEx联邦货运暑期数据分析实习生offer。参与过AnitaB.org，Tech Ladies，Women Who Code, WTM等女性科技组织活动。参与运营两个创业公司，曾就职一创业公司合伙人。&lt;/p&gt;
+<p><img src="/assets/venues/唐沣国际_地图.png" alt="唐沣国际地图" />
+<img src="/assets/venues/唐沣国际_指引.png" alt="唐沣国际指引" /></p>
 
-&lt;h2 id=&quot;话题二不上班23个月从坐班白领到迷你退休的数字游民之路&quot;&gt;话题二：不上班23个月｜从坐班白领，到迷你退休的数字游民之路&lt;/h2&gt;
+<p><strong>感谢泥巴创客空间提供免费场地</strong></p>
 
-&lt;p&gt;一个普通的北京白领裸辞之后，踏上了南美间隔年旅行之路，利用了她的项目管理与英文等技能，成为了一个环球旅居的数字游民，正在迷你退休的路上。&lt;/p&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;p&gt;本次分享将揭秘她如何利用项目与时间管理术远程办公，进行地理套利与时间套利，通过独立思考等自动化思维养成，培养写作珠宝鉴赏等技能，打造了属于自己的“高效率，慢生活”。&lt;/p&gt;
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
 
-&lt;p&gt;也将介绍一些实用的网站与工具，与大家一起探索如何打造适合自己的工作与生活方式。&lt;/p&gt;
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
 
-&lt;p&gt;分享嘉宾：Yeye，知识星球与同主题微信社群《不上班公社》社群发起人。
-数字游民/项目管理者/写作者/珠宝买手/英文使用者，一直在探索世界和自我的路上行走。5年项目管理经验，曾任职多家外企负责海外项目运营与管理工作。现正在内容创业。&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_报名.png" alt="报名二维码" /></p>
 
-&lt;h2 id=&quot;话题三女性让技术更浪漫&quot;&gt;话题三：女性，让技术更浪漫&lt;/h2&gt;
+<p><strong>活动包含 Codelab，如需参加该环节，请记得携带笔记本电脑和充电器。</strong></p>
 
-&lt;p&gt;分享嘉宾：袁衮衮，北京谷歌开发者社区组织者，Women Techmakers女性开发者地区大使，开源社正式成员。本科毕业于同济大学、中国传媒大学双学位，曾就职于简书，LeanCloud等。现从事机器学习云计算的运营工作，另运营人工智能媒体超神经HyperAI，希望帮助更多的开发者在工作与生活中，获得独立新思考。&lt;/p&gt;
+<h2 id="主办方">主办方</h2>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
-&lt;p&gt;2020年4月18日，周六，下午 1:30 到 5:00 &lt;br /&gt;
-&lt;a target=&quot;_blank&quot; href=&quot;https://calendar.google.com/event?action=TEMPLATE&amp;amp;tmeid=Nzk2b2JvbXU2Y3RicmhrNTByMDNkc2o5dmUgdjh0b2Q5ZTF1OTI2ZTd0dGU3cDJpbDUwZGdAZw&amp;amp;tmsrc=v8tod9e1u926e7tte7p2il50dg%40group.calendar.google.com&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://i.loli.net/2020/04/15/DI38fW1N4nwrcYa.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
 
-&lt;h2 id=&quot;直播地址&quot;&gt;直播地址&lt;/h2&gt;
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://live.bilibili.com/2487002&quot;&gt;BiliBili&lt;/a&gt;: https://live.bilibili.com/2487002 &lt;br /&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=EQP-xdc_H8U&quot;&gt;Youtube&lt;/a&gt;: https://www.youtube.com/watch?v=EQP-xdc_H8U&lt;/p&gt;
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
 
-&lt;hr /&gt;
+<p>秉承着分享创新的精神，一切开源的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
 
-&lt;p&gt;我们会在 GDG 西安的微信群中更新进一步的消息，如果你需要加群，可以微信联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greatghoul&lt;/code&gt;，加好友时务必注明：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDG&lt;/code&gt;。&lt;/p&gt;</content><author><name></name></author><summary type="html">因为疫情的影响，上个月我们进行了一场线上活动，转眼间一个月过去了，虽然疫情相比之前，缓和了很多，但我们仍然不能轻易聚集线下，所以4月份的 Women Techmakers 活动，我们依然是线上的形式。 不过也正因为是线上活动，我们才可以邀请到更远地方的嘉宾来给我们做分享，这期 WTM，就带大家了解一下西安之外的杰出女性，以及她们在工作和学习上面的经验。 话题一：把握属于我们的资源与机会 无论是还没有步入大学，无法确定自己是否要学习计算机，还是已经在大学开始学习准备为步入职场做好准备，又或是刚刚步入职场不知道如何获得最新招聘讯息苦于找不到内推机会。希望这次分享能给你带来一些新的资源，新的角度和新的机会。 这次话题围绕女性科技工作者能接触到的各类资源，社区，科技大会及人脉资源作出介绍。通过分享自己一直以来的经历，希望能帮助不同身份地区对学习计算机相关感兴趣的女性朋友们在自己的领域更进一步。 分享嘉宾：李欣蔚Thea，美国罗德学院大三学生，主修计算机辅修音乐。2020年度全校唯一研究奖学金获得者。2019年受Women Techmakers及Women Who Code邀请参加谷歌年度开发者大会Google I/O. 后成为GDG Google I/O extended 分享嘉宾。 在校为Women in Computing 女性科技社团副主席。曾在美国IMC Companies做金融分析实习，收到FedEx联邦货运暑期数据分析实习生offer。参与过AnitaB.org，Tech Ladies，Women Who Code, WTM等女性科技组织活动。参与运营两个创业公司，曾就职一创业公司合伙人。 话题二：不上班23个月｜从坐班白领，到迷你退休的数字游民之路 一个普通的北京白领裸辞之后，踏上了南美间隔年旅行之路，利用了她的项目管理与英文等技能，成为了一个环球旅居的数字游民，正在迷你退休的路上。 本次分享将揭秘她如何利用项目与时间管理术远程办公，进行地理套利与时间套利，通过独立思考等自动化思维养成，培养写作珠宝鉴赏等技能，打造了属于自己的“高效率，慢生活”。 也将介绍一些实用的网站与工具，与大家一起探索如何打造适合自己的工作与生活方式。 分享嘉宾：Yeye，知识星球与同主题微信社群《不上班公社》社群发起人。 数字游民/项目管理者/写作者/珠宝买手/英文使用者，一直在探索世界和自我的路上行走。5年项目管理经验，曾任职多家外企负责海外项目运营与管理工作。现正在内容创业。 话题三：女性，让技术更浪漫 分享嘉宾：袁衮衮，北京谷歌开发者社区组织者，Women Techmakers女性开发者地区大使，开源社正式成员。本科毕业于同济大学、中国传媒大学双学位，曾就职于简书，LeanCloud等。现从事机器学习云计算的运营工作，另运营人工智能媒体超神经HyperAI，希望帮助更多的开发者在工作与生活中，获得独立新思考。 活动时间 2020年4月18日，周六，下午 1:30 到 5:00 直播地址 BiliBili: https://live.bilibili.com/2487002 Youtube: https://www.youtube.com/watch?v=EQP-xdc_H8U 我们会在 GDG 西安的微信群中更新进一步的消息，如果你需要加群，可以微信联系 greatghoul，加好友时务必注明：GDG。</summary></entry><entry><title type="html">GDG 西安三月线上直播活动：远程工作和海外工作</title><link href="http://gdgxian.org/2020/03/06/live-event-202003-remote-and-abroad/" rel="alternate" type="text/html" title="GDG 西安三月线上直播活动：远程工作和海外工作" /><published>2020-03-06T00:00:00+00:00</published><updated>2020-03-06T00:00:00+00:00</updated><id>http://gdgxian.org/2020/03/06/live-event-202003-remote-and-abroad</id><content type="html" xml:base="http://gdgxian.org/2020/03/06/live-event-202003-remote-and-abroad/">&lt;p&gt;2020年刚开始，中国就开启了 Hard 模式，病毒暴发，全国人民自我隔离，许多企业开始尝试远程办公，但也有很多企业还在苦苦等待复工，大家都在艰难的前行。&lt;/p&gt;
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
 
-&lt;p&gt;作为 IT 人的我们，如果你们公司允许在家办公，效果如何，有没有遇到什么问题，如果没有允许远程办公，那你利用这段被迫 “宅” 在家的时间，有没有好好的提升自己？有没有利用难得的机会学习一直没有精力了解的新技能或者总结和巩固自己的现有技术？经历这一次的疫情，我们可能或多或少对自己将来要走的路有了一些思考。&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="讲师申请二维码" /></p>
 
-&lt;p&gt;虽然疫情还没有结束，但是 GDG 西安还是希望能够和大家聚一聚，用线上直播的方式，这次我们想谈一谈疫情之下，两种对我们的业务和收入影响不大的两种工作方式。&lt;/p&gt;
+<h2 id="合作机构">合作机构</h2>
 
-&lt;h2 id=&quot;直播话题&quot;&gt;直播话题&lt;/h2&gt;
+<p><img src="/assets/brands/泥巴创客空间.png" alt="泥巴创客空间" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[GDG DevFest 是由 Google 开发者社区（GDG）在全球范围内主办的年度开发者盛会，内容覆盖 Android、Web、Cloud、AI 等多个技术方向。本次 DevFest 2025 西安站将带来关于 Chrome DevTools 智能调试、App出海实战、AI 等方向的两场主题分享与一场动手实践 Codelab，欢迎开发者朋友报名参加。 活动话题 Chrome DevTools 智能版，更聪明的调试伴侣 本次分享将介绍 Chrome DevTools 中的 AI 调试助手以及 MCP Server 的能力，帮助开发者提升调试效率。内容包括： 介绍 Chrome DevTools 里的智能调试工具（AI Assistance 等），它们的功能、解锁方式和最佳实践。 介绍 DevTools MCP Server 的能力、使用方式和底层原理。 分享嘉宾：钱俊颖（Jax），前端架构师、Web 谷歌开发者专家、长沙谷歌开发者社区发起人，致力于推广 Web AI 的普及、应用和标准化。 App出海实战：从0到全球 本次分享将从全球移动应用出海趋势出发，对比国内与海外在开发生态、发布流程与运营模式上的核心差异，并结合真实项目经验拆解完整出海路径。主要内容包括： Google Play 与国内应用商店的生态差异 分发机制、审核策略、版本管理、隐私政策与合规要求 Firebase 在出海过程中的关键能力 分析统计、消息推送、崩溃监控、A/B 测试、远程配置等 常用出海第三方 SDK 选型与集成 数据统计、支付、广告变现、合规与本地化服务 从 0 到上线的出海实操流程 包体配置、签名发布、多端适配、合规审核、版本迭代 海外市场的变现模式与策略拆解 内购（IAP）、订阅、广告、混合模式、LTV 与投放联动 通过案例讲解与技术拆解，帮助开发者全面理解”开发—发布—运营—变现”的出海全流程，实现产品从本地市场走向全球用户与全球收入。 分享嘉宾：张海龙，花房集团移动端资深工程师，Firebase GDE，CSDN博主，有丰富的海外项目经验 构建您的首个 AI 伴侣：初学者研讨会 本环节将带领参与者从零开始构建一个功能齐全的AI伴侣应用。这不仅仅是一个简单的聊天机器人，而是一个具有个性、能够获取实时信息并拥有自定义外观的交互式数字伴侣。参与者将通过实践学习如何： 使用 Gemini CLI 生成完整的 ADK 代理配置 通过改进指令来增强智能体的个性 为代理添加”依据”，使其能够回答关于近期活动的问题 使用具有 Imagen 的 MCP 服务器为随播广告生成自定义头像 在本次工作坊中，您将从一个预构建的Web应用开始，逐步添加智能和自定义层，将简单的数字”傀儡”转变为独特而强大的AI伙伴。 Codelab 链接： 构建您的首个 AI 伴侣：初学者研讨会 Codelab 导师：邱建 (greatghoul)，Web全栈工程师，自由职业者，GDG西安组织者。 注意事项： 请务必携带电脑参加，否则无法参加 Codelab，最好准备好充电器，我们会提供插排 请务必使用个人 Gmail 账号参加，公司或学校管理的账号将无法使用 建议在 Chrome 浏览器中使用无痕模式，以避免账号冲突 活动将提供 Google Cloud Platform 平台赠金用于使用付费服务，我们将在活动开始前告知相关信息 建议提前准备”国际网络环境”，避免现场人数太多 Wi‑Fi 速度变慢 活动时间 2025年11月15日 周六 13:30 - 17:00 活动议程 时间 活动内容 13:30 - 14:00 活动签到 14:00 - 14:45 Chrome DevTools 智能版，更聪明的调试伴侣 14:45 - 14:55 合影、茶歇 14:55 - 15:40 App出海实战：从0到全球 15:40 - 15:50 茶歇 15:50 - 16:50 Codelab: 构建您的首个 AI 伴侣：初学者研讨会 16:50 - 17:00 自由交流 活动地点 西安市高新区沣惠南路18号唐沣国际D座26楼泥巴创客空间 (使用高德地图打开) 感谢泥巴创客空间提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 活动包含 Codelab，如需参加该环节，请记得携带笔记本电脑和充电器。 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开源的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry><entry><title type="html">Gemini API 编程工作坊：代码执行和 AI 音频回复</title><link href="http://gdgxian.org/gemini-api-workshop" rel="alternate" type="text/html" title="Gemini API 编程工作坊：代码执行和 AI 音频回复" /><published>2025-06-16T00:00:00+00:00</published><updated>2025-06-16T00:00:00+00:00</updated><id>http://gdgxian.org/gemini-api-workshop</id><content type="html" xml:base="http://gdgxian.org/gemini-api-workshop"><![CDATA[<p><img src="/assets/promos/2025_Gemini_API_Workshop.png" alt="" /></p>
 
-&lt;h4 id=&quot;异国他乡的码农生活&quot;&gt;异国他乡的码农生活&lt;/h4&gt;
+<p>Gemini 是由 Google 开发的一款多模态生成式 AI 聊天机器人，它基于同名的大型语言模型，旨在理解和处理包括文本、图像、音频和视频在内的多种信息形式。这款AI被设计用于提供强大的推理能力，能够处理复杂的数据并发现深层联系；同时，它也具备出色的编码能力，支持多种编程语言并擅长解决编程挑战。此外，Gemini 在长文本理解方面表现突出，可以处理和分析大量的文字信息。</p>
 
-&lt;p&gt;话题介绍:&lt;/p&gt;
+<p>Gemini 深度集成到 Google 的各项产品和服务中，例如 Gmail、Google 文档和 Chrome 浏览器，以此帮助用户在工作、学习和日常生活中提高效率、激发创造力。Google 还推出了不同版本的 Gemini 模型，例如优化速度和成本效益的 Gemini 2.5 Flash 以及增强推理和多模态理解的 Gemini 2.5 Pro，以满足多样化的用户需求。</p>
 
-&lt;p&gt;每个人可能都曾有过去异国他乡生活或者工作的想法, 有人只是想了想, 有人却真的付诸行动. 作者第一次就本人接近4年的国外生活和大家分享一些他个人的经历, 涵盖了生活中的各个方向, 比如衣食住行, 比如人际交往, 同时他也将分享一些个人工作上的经历, 让大家对异国他乡有一些不一样的了解&lt;/p&gt;
+<p>本次活动，我们准备了两个 Gemini 相关的 Colab，一起动手体验和学习一下 Gemini API 在代码执行和音频回复方面的能力。</p>
 
-&lt;p&gt;嘉宾介绍：&lt;/p&gt;
+<h2 id="活动话题">活动话题</h2>
 
-&lt;p&gt;David, 曾经是西安的码农和西安 GDG 的组织者, 后来机缘巧合去了欧洲一个袖珍国家做起了代码大叔, 同时也是一个坚定的美食爱好者. 周末最大的兴趣就是在家做饭, 梦想有一天开一家自己的深夜食堂…&lt;/p&gt;
+<h3 id="gemini-api-codelab">Gemini API Codelab</h3>
 
-&lt;h4 id=&quot;不可避免的远程办公&quot;&gt;不可避免的远程办公&lt;/h4&gt;
+<p>本期 Gemini API Codelab 包含两个项目</p>
 
-&lt;p&gt;话题介绍：&lt;/p&gt;
+<h4 id="01-gemini-api代码执行">01. Gemini API：代码执行</h4>
 
-&lt;p&gt;网速越来越快，世界越来越平，远程办公的趋势也越来越明显。在本次分享上，我将结合我们自身的经验分享导致远程办公出现的原因、公司为了支持远程办公要做好哪些准备，以及远程办公需要注意的问题。&lt;/p&gt;
+<p>Gemini API 的代码执行功能使模型能够根据您给出的纯文本指令生成并运行 Python 代码，甚至输出图表。它可以根据结果进行迭代学习，直至得出最终输出。</p>
 
-&lt;p&gt;嘉宾介绍：&lt;/p&gt;
+<p><strong>GitHub 链接：</strong><br />
+<a href="https://github.com/google-gemini/cookbook/blob/main/quickstarts/Code_Execution.ipynb">https://github.com/google-gemini/cookbook/blob/main/quickstarts/Code_Execution.ipynb</a></p>
 
-&lt;p&gt;胡键，入行超过 15 年，CSM / 架构师 / 创业者，先后就职于中兴和 SAP，现专注于工业物联网、大数据处理和区块链。具有丰富的产品研发和项目管理经验，擅长围绕工业设备构建物联网端到端解决方案，对海量设备接入、数据存储和数据分析有深刻见解。他同时还热衷于技术分享，并作为 TFUG西安 的组织者活跃于社区。在业余时间，他还会参与开源软件的开发和布道（Grails、Vert.x 和以太坊），并贡献了基于 vert.x 的 API 网关 dgate 。作为团队带头大哥，他还会鼓励团队成员分享输出，于是就有了他们的团队博客 &lt;a href=&quot;https://blog.shifudao.com/&quot;&gt;https://blog.shifudao.com/&lt;/a&gt;&lt;/p&gt;
+<h4 id="02-gemini-api-多模态实时-api---快速入门">02. Gemini API 多模态实时 API - 快速入门</h4>
 
-&lt;h2 id=&quot;直播时间&quot;&gt;直播时间&lt;/h2&gt;
+<p>借助 Gemini Multimodal Live API 实现了一个简单的会话聊天，你以文本形式发送消息，模型则以音频回复。</p>
 
-&lt;p&gt;2020年3月7日 周六 下午 3:00 - 5:00&lt;/p&gt;
+<p><strong>GitHub 链接：</strong><br />
+<a href="https://github.com/google-gemini/cookbook/blob/main/quickstarts/Get_started_LiveAPI.ipynb">https://github.com/google-gemini/cookbook/blob/main/quickstarts/Get_started_LiveAPI.ipynb</a></p>
 
-&lt;h2 id=&quot;直播地址&quot;&gt;直播地址&lt;/h2&gt;
+<h3 id="指导老师">指导老师</h3>
 
-&lt;p&gt;哔哩哔哩直播间&lt;/p&gt;
+<blockquote>
+  <p><strong>张思楚</strong>，Thoughtworks 首席咨询师／离岸交付中心技术负责人。全栈工程师、畅销Web产品SpreadWeb架构师、海外大项目的离岸交付中心技术负责人(Technical Principal)，3项Web专利技术发明人。敏捷软件管理、精益交付、持续交付专家。专注于系统平台的服务化、微服务的设计与实施。因为团队的不断快速扩张，对于团队快速构建、体系化Coach、团队赋能、团队人才梯队构建、软件交付效能，有效实施持续集成和持续交付，落地合适的软件效能度量，帮助大型团队通过有效的效能度量和管理、保证团队稳定高效的交付积累了丰富经验。</p>
 
-&lt;p&gt;&lt;a href=&quot;http://live.bilibili.com/2487002&quot;&gt;http://live.bilibili.com/2487002&lt;/a&gt;&lt;/p&gt;
+  <p><img src="/assets/avatars/张思楚.png" alt="" /></p>
+</blockquote>
 
-&lt;p&gt;Youtube 直播&lt;/p&gt;
+<h3 id="注意事项">注意事项</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://youtu.be/TVMM2alcuxc&quot;&gt;https://youtu.be/TVMM2alcuxc&lt;/a&gt;&lt;/p&gt;
+<ol>
+  <li>请务必携带电脑参加，否则无法参加 Codelab，最好准备上充电器，我们会提供插排。</li>
+  <li>请尽量提前注册 Google 账号以顺利使用 Google Colab，这是我们 Codelab 需要用到的工具。</li>
+  <li>建议提前准备”高级”手机热点网络，避免现场人数太多Wi-Fi速度缓慢。</li>
+</ol>
 
-&lt;hr /&gt;
+<p><strong>Google Colab 链接：</strong><br />
+<a href="https://colab.research.google.com/">https://colab.research.google.com/</a></p>
 
-&lt;p&gt;本次活动是线上直播，无需报名，只需要保存下直播链接，准时观看即可。如果想在直播时参与讨论，记得提前注册 Bilibili 账号。&lt;/p&gt;</content><author><name></name></author><summary type="html">2020年刚开始，中国就开启了 Hard 模式，病毒暴发，全国人民自我隔离，许多企业开始尝试远程办公，但也有很多企业还在苦苦等待复工，大家都在艰难的前行。 作为 IT 人的我们，如果你们公司允许在家办公，效果如何，有没有遇到什么问题，如果没有允许远程办公，那你利用这段被迫 “宅” 在家的时间，有没有好好的提升自己？有没有利用难得的机会学习一直没有精力了解的新技能或者总结和巩固自己的现有技术？经历这一次的疫情，我们可能或多或少对自己将来要走的路有了一些思考。 虽然疫情还没有结束，但是 GDG 西安还是希望能够和大家聚一聚，用线上直播的方式，这次我们想谈一谈疫情之下，两种对我们的业务和收入影响不大的两种工作方式。 直播话题 异国他乡的码农生活 话题介绍: 每个人可能都曾有过去异国他乡生活或者工作的想法, 有人只是想了想, 有人却真的付诸行动. 作者第一次就本人接近4年的国外生活和大家分享一些他个人的经历, 涵盖了生活中的各个方向, 比如衣食住行, 比如人际交往, 同时他也将分享一些个人工作上的经历, 让大家对异国他乡有一些不一样的了解 嘉宾介绍： David, 曾经是西安的码农和西安 GDG 的组织者, 后来机缘巧合去了欧洲一个袖珍国家做起了代码大叔, 同时也是一个坚定的美食爱好者. 周末最大的兴趣就是在家做饭, 梦想有一天开一家自己的深夜食堂… 不可避免的远程办公 话题介绍： 网速越来越快，世界越来越平，远程办公的趋势也越来越明显。在本次分享上，我将结合我们自身的经验分享导致远程办公出现的原因、公司为了支持远程办公要做好哪些准备，以及远程办公需要注意的问题。 嘉宾介绍： 胡键，入行超过 15 年，CSM / 架构师 / 创业者，先后就职于中兴和 SAP，现专注于工业物联网、大数据处理和区块链。具有丰富的产品研发和项目管理经验，擅长围绕工业设备构建物联网端到端解决方案，对海量设备接入、数据存储和数据分析有深刻见解。他同时还热衷于技术分享，并作为 TFUG西安 的组织者活跃于社区。在业余时间，他还会参与开源软件的开发和布道（Grails、Vert.x 和以太坊），并贡献了基于 vert.x 的 API 网关 dgate 。作为团队带头大哥，他还会鼓励团队成员分享输出，于是就有了他们的团队博客 https://blog.shifudao.com/ 直播时间 2020年3月7日 周六 下午 3:00 - 5:00 直播地址 哔哩哔哩直播间 http://live.bilibili.com/2487002 Youtube 直播 https://youtu.be/TVMM2alcuxc 本次活动是线上直播，无需报名，只需要保存下直播链接，准时观看即可。如果想在直播时参与讨论，记得提前注册 Bilibili 账号。</summary></entry><entry><title type="html">GDG西安 DevFest 2019</title><link href="http://gdgxian.org/2019/10/26/devfest-2019/" rel="alternate" type="text/html" title="GDG西安 DevFest 2019" /><published>2019-10-26T00:00:00+00:00</published><updated>2019-10-26T00:00:00+00:00</updated><id>http://gdgxian.org/2019/10/26/devfest-2019</id><content type="html" xml:base="http://gdgxian.org/2019/10/26/devfest-2019/">&lt;h2 id=&quot;关于-devfest&quot;&gt;关于 DevFest&lt;/h2&gt;
+<h2 id="活动时间">活动时间</h2>
 
-&lt;p&gt;DevFest 是 Developer Festival 简写，它是自 2008 年就开始的全球性开发者活动，目的是通过技术分享和交流，来推动最新的互联网开放型技术的使用、推动创新、创业，以此来贡献与当地的经济发展。 活动内容完全由世界各地的 GDG 社区自行策划组织，是纯粹的技术分享活动。&lt;/p&gt;
+<p>2025年6月14日 周六 13:30 - 17:00</p>
 
-&lt;p&gt;GDG Xi’an 从 2013 开始举办 DevFest 以来，已经累计举办了 7 次 DevFest 了，今年已经是第 8 次了，这是很有纪念意义的一次活动，我们当然也做了精心的准备，等待热爱技术的你前来参加。&lt;/p&gt;
+<h2 id="活动地点">活动地点</h2>
 
-&lt;h2 id=&quot;时间和地点&quot;&gt;时间和地点&lt;/h2&gt;
+<p>丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出）</p>
 
-&lt;p&gt;活动日期：2019年11月23日 10:00 - 16:30。&lt;/p&gt;
+<p><img src="/assets/venues/丈八四路_地图.png" alt="" /></p>
 
-&lt;p&gt;活动地点：陕西省西安市雁塔区西安软件新城软件研发基地2期C1楼19层 阿里巴巴总部（&lt;a href=&quot;https://surl.amap.com/11HwTJNy3Rr&quot;&gt;地图链接&lt;/a&gt;）&lt;/p&gt;
+<p><strong>感谢泥巴创客空间提供免费场地</strong></p>
 
-&lt;h2 id=&quot;活动议程&quot;&gt;活动议程&lt;/h2&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/10/26/dYuAS9lezs1chkQ.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
 
-&lt;h2 id=&quot;活动话题&quot;&gt;活动话题&lt;/h2&gt;
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
 
-&lt;h3 id=&quot;人人都能学会区块链开发&quot;&gt;人人都能学会区块链开发&lt;/h3&gt;
+<p><img src="/assets/qrcodes/通用_报名.png" alt="" /></p>
 
-&lt;p&gt;第一次看到“人人都能学会区块链开发”这个话题，大部分人第一感觉都会认为这只是个噱头，真的是这样的吗？其实不然，大部分人学不会开发，深层次的原因不是不够聪明，而是方法不对。与一般开发书课程上来就讲语法不一样，本次分享我会结合我十多年带领技术团队的经验，根据程序员在企业实际的学习过程，将高深的区块链技术能力进行拆解，通过一套科学的方法，让每个人都能学会区块链技术开发，抓住区块链技术初期的红利。&lt;/p&gt;
+<p><strong>活动包含 Codelab，请记得携带笔记本电脑和充电器。</strong></p>
 
-&lt;p&gt;&lt;strong&gt;张应平&lt;/strong&gt; 纸贵科技技术顾问，某CA前副总经理，从事信息化及密码产品技术研发16年，有丰富的技术咨询、产品研发和项目实施经验，曾主导一证通公共服务平台、电网企业综合实验平台、电子政务统一平台等大型项目，近5年主攻大数据、物联网、区块链相关领域。著有《走进区块链》《大话区块链》。&lt;/p&gt;
+<h2 id="主办方">主办方</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/10/26/urMZvAgjTme1iO2.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
 
-&lt;h3 id=&quot;操作系统与软件交互的下一次大变革&quot;&gt;操作系统与软件交互的下一次大变革&lt;/h3&gt;
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
 
-&lt;p&gt;自个人电脑出现后，人机交互界面经历了重大发展，从基于文本的UI到图形用户界面，从键盘鼠标到触摸屏输入，都极大的降低了操控计算机的难度。Macintosh、Windows、iOS等操作系统所定义的GUI系统，彻底改变了我们对计算设备的使用习惯。&lt;/p&gt;
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
 
-&lt;p&gt;随着人工智能、大数据、5G时代的到来，我们有了新的强大工具，使得创造新一代智能交互操作系统和全新人机交互界面成为了可能。当前主流操作系统及大型软件正在做的渐进式升级，已经无法满足需要。语音及基于传感器的输入方式，基于用户个性化特点的行为预测，云+端的数据处理架构，都将成为新一代智能操作系统和人机交互的核心。&lt;/p&gt;
+<p>秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
 
-&lt;p&gt;本次分享李晋将初步探讨操作系统与人机交互的划时代变革机遇，及一些产品化思路。&lt;/p&gt;
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
 
-&lt;p&gt;&lt;strong&gt;李晋&lt;/strong&gt; 闪电孵化器创始人，西安电子科技大学计算机学院教师。2013年成立闪电孵化器，从零孵化包括3家小米生态链公司等数十家企业。专注消费类硬件、区块链等领域深度孵化，并运营全国多个产业园区。&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/10/26/mDXOuVlhcIfxw3y.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+<h2 id="合作机构">合作机构</h2>
 
-&lt;h3 id=&quot;kubernetes之外还有哪些解决微服务系统问题的有力武器istioknative特性解析&quot;&gt;Kubernetes之外，还有哪些解决微服务系统问题的有力武器？Istio、Knative特性解析&lt;/h3&gt;
+<p><img src="/assets/brands/泥巴创客空间.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Gemini 是由 Google 开发的一款多模态生成式 AI 聊天机器人，它基于同名的大型语言模型，旨在理解和处理包括文本、图像、音频和视频在内的多种信息形式。这款AI被设计用于提供强大的推理能力，能够处理复杂的数据并发现深层联系；同时，它也具备出色的编码能力，支持多种编程语言并擅长解决编程挑战。此外，Gemini 在长文本理解方面表现突出，可以处理和分析大量的文字信息。 Gemini 深度集成到 Google 的各项产品和服务中，例如 Gmail、Google 文档和 Chrome 浏览器，以此帮助用户在工作、学习和日常生活中提高效率、激发创造力。Google 还推出了不同版本的 Gemini 模型，例如优化速度和成本效益的 Gemini 2.5 Flash 以及增强推理和多模态理解的 Gemini 2.5 Pro，以满足多样化的用户需求。 本次活动，我们准备了两个 Gemini 相关的 Colab，一起动手体验和学习一下 Gemini API 在代码执行和音频回复方面的能力。 活动话题 Gemini API Codelab 本期 Gemini API Codelab 包含两个项目 01. Gemini API：代码执行 Gemini API 的代码执行功能使模型能够根据您给出的纯文本指令生成并运行 Python 代码，甚至输出图表。它可以根据结果进行迭代学习，直至得出最终输出。 GitHub 链接： https://github.com/google-gemini/cookbook/blob/main/quickstarts/Code_Execution.ipynb 02. Gemini API 多模态实时 API - 快速入门 借助 Gemini Multimodal Live API 实现了一个简单的会话聊天，你以文本形式发送消息，模型则以音频回复。 GitHub 链接： https://github.com/google-gemini/cookbook/blob/main/quickstarts/Get_started_LiveAPI.ipynb 指导老师 张思楚，Thoughtworks 首席咨询师／离岸交付中心技术负责人。全栈工程师、畅销Web产品SpreadWeb架构师、海外大项目的离岸交付中心技术负责人(Technical Principal)，3项Web专利技术发明人。敏捷软件管理、精益交付、持续交付专家。专注于系统平台的服务化、微服务的设计与实施。因为团队的不断快速扩张，对于团队快速构建、体系化Coach、团队赋能、团队人才梯队构建、软件交付效能，有效实施持续集成和持续交付，落地合适的软件效能度量，帮助大型团队通过有效的效能度量和管理、保证团队稳定高效的交付积累了丰富经验。 注意事项 请务必携带电脑参加，否则无法参加 Codelab，最好准备上充电器，我们会提供插排。 请尽量提前注册 Google 账号以顺利使用 Google Colab，这是我们 Codelab 需要用到的工具。 建议提前准备”高级”手机热点网络，避免现场人数太多Wi-Fi速度缓慢。 Google Colab 链接： https://colab.research.google.com/ 活动时间 2025年6月14日 周六 13:30 - 17:00 活动地点 丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出） 感谢泥巴创客空间提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 活动包含 Codelab，请记得携带笔记本电脑和充电器。 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry><entry><title type="html">I/O Extended 2025 西安站</title><link href="http://gdgxian.org/io-extended-2025" rel="alternate" type="text/html" title="I/O Extended 2025 西安站" /><published>2025-06-14T00:00:00+00:00</published><updated>2025-06-14T00:00:00+00:00</updated><id>http://gdgxian.org/io-extended-2025</id><content type="html" xml:base="http://gdgxian.org/io-extended-2025"><![CDATA[<p><img src="/assets/promos/2025_IO_Extended_Banner.png" alt="I/O Extended 2025 西安站 Banner" /></p>
 
-&lt;p&gt;微服务已经成为当前构建应用系统的主流架构。
-在构建微服务的过程中，是否为服务治理感到苦恼？
-您是否想用Serverless解放生产力，但是却不知道该如何下手？
-看看Istio、Knative能够帮你解决哪些在系统架构改进中遇到的头疼问题。&lt;/p&gt;
+<p><strong>I/O Extended</strong> 是由 Google 开发者社区（GDG）主导的全球性技术活动，旨在分享 Google I/O 大会的最新技术动态，探索谷歌最新产品、开发工具和技术趋势。</p>
 
-&lt;p&gt;&lt;strong&gt;王鹏&lt;/strong&gt; 阿里巴巴丝路总部解决方案架构师。&lt;/p&gt;
+<p>本次西安场 I/O Extended 2025 活动将于 7 月 5 日举行，将带来 Google I/O 2025 大会精彩内容的分享与技术解读，以及 AI Code Agent 等前沿话题，并特别设置 AI Codelab 动手实践环节，欢迎开发者朋友们报名参加。</p>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/10/26/sywPLBYlQUV2m6F.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+<h2 id="活动话题">活动话题</h2>
 
-&lt;h3 id=&quot;面向程序员的深度学习&quot;&gt;面向程序员的深度学习&lt;/h3&gt;
+<h3 id="google-io-2025-recapgemini-25-progemini-live-与-ai-工具新生态">Google I/O 2025 Recap：Gemini 2.5 Pro、Gemini Live 与 AI 工具新生态</h3>
 
-&lt;p&gt;众所周知，深度学习入门不易，大段的数学公式会让不少开发者望而生畏。有没有什么办法能够减轻这种痛苦呢？在本次分享上，我将以我个人的学习过程来分享一些关于深度学习的理解，从开发者角度帮助大家掌握深度学习的基本要素，开始着手开发和使用。&lt;/p&gt;
+<p>2025 年 Google I/O 以「Turning forward-looking research into reality」为主题，聚焦「AI-First for Everyone, Everywhere」战略，正式发布 Gemini 2.5 Pro、Gemini Live、Veo 3、AI 模式搜索等超过 100 项新功能。Android 16 与 ML Kit GenAI API 将生成式 AI 普及至每一台设备，Google Cloud、Workspace 与 Beam 3D 等平台全面升级了面向开发者的工具与 API。本场 Recap 将用 40 分钟快速回顾所有核心亮点，展示 Google 最新 AI 能力如何赋能开发者生态，帮助你更快上手实践。</p>
 
-&lt;p&gt;&lt;strong&gt;胡键&lt;/strong&gt; 入行超过 15 年，CSM / 架构师 / 创业者，先后就职于中兴和 SAP，现专注于工业物联网、大数据处理和区块链。具有丰富的产品研发和项目管理经验，擅长围绕工业设备构建物联网端到端解决方案，对海量设备接入、数据存储和数据分析有深刻见解。他同时还热衷于技术分享，并作为 TFUG西安 的组织者活跃于社区。在业余时间，他还会参与开源软件的开发和布道（Grails、Vert.x 和以太坊），并贡献了基于 vert.x 的 API 网关 dgate 。作为团队带头大哥，他还会鼓励团队成员分享输出，于是就有了他们的团队博客 &lt;a href=&quot;https://blog.shifudao.com/&quot;&gt;https://blog.shifudao.com/&lt;/a&gt;&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：Frederick Griffith</strong>，数据科学专业本科生，专注于机器学习、算法设计与生成式 AI 的理论研究。热衷于社区交流与分享，致力于推动前沿技术的落地实践。</p>
+</blockquote>
 
-&lt;h2 id=&quot;闪电演讲&quot;&gt;闪电演讲&lt;/h2&gt;
+<h3 id="理性使用-ai-编程助手">理性使用 AI 编程助手</h3>
 
-&lt;h3 id=&quot;ab-testing-no-more-guessing---阿布都外力abduwaly&quot;&gt;A/B testing, no more guessing - 阿布都外力（Abduwaly）&lt;/h3&gt;
+<p>本次分享将探讨如何理性、安全地使用 AI coding agent，提升开发效率的同时，有效规避潜在风险。帮助大家在日常工作中更安心地应用 AI 编程助手。</p>
 
-&lt;p&gt;讲述我们优化网页应用是所遇到的问题与挑战，简要介绍什么是AB testing 以及为什么要做AB testing，推荐一些比较常见的工具/平台。&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：潘睿（Perry）</strong>，在咖啡馆工作的软件工程师。</p>
+</blockquote>
 
-&lt;h3 id=&quot;3d骨骼行为识别---梁铎瀚&quot;&gt;3d骨骼行为识别 - 梁铎瀚&lt;/h3&gt;
+<h3 id="ai-codelab-动手实践">AI Codelab 动手实践</h3>
 
-&lt;p&gt;行为识别的发展；基于3d骨骼的行为识别；deep learning相关算法 (rnn，cnn，gcn)；3d骨骼行为是别的应用与未来研究方向。&lt;/p&gt;
+<p>本环节将带来基于 Google 最新 AI 技术的 Codelab 实践，参与者可在指导下动手体验 AI 应用开发流程，深入理解模型调用、数据处理与部署等关键环节。</p>
 
-&lt;h3 id=&quot;程序员的第二曲线---安晓辉&quot;&gt;程序员的第二曲线 - 安晓辉&lt;/h3&gt;
+<h4 id="gemma---run-with-ollama-python-library">Gemma - Run with Ollama Python library</h4>
 
-&lt;p&gt;如果你担心遇到这样的尴尬：“三十五岁之后，随着年龄增加，学习能力减弱，身体不再能熬夜，家庭需要平衡，也不再能每天加班，收入不再增长，负担的压力增大。与此同时，新人辈出，向上发展受阻，不知道将来该如何发展了。”可以来听听程序员的第二曲线该如何发展。&lt;/p&gt;
+<p>本次活动将演示如何使用Ollama Python库，轻松地对 Gemma3 模型进行推理。Ollama 库为 Python 3.8 及以上版本的项目提供了最便捷的集成方式。通过本次内容的学习，将快速掌握在应用中部署和运行AI模型的核心技巧，轻松上手体验 Gemma3 的强大功能。</p>
 
-&lt;h3 id=&quot;假如我是一个浏览器---史文强&quot;&gt;假如我是一个浏览器 - 史文强&lt;/h3&gt;
+<p>https://github.com/google-gemini/gemma-cookbook/blob/main/Gemma/%5BGemma_3%5DUsing_with_Ollama_Python_Inference_with_Images.ipynb</p>
 
-&lt;p&gt;和浏览器来一次角色互换，体验一下从用户输入网址到画面最终呈现在屏幕上，他如何一步步完成繁重的工作。&lt;/p&gt;
+<h4 id="function-calling-with-huggingface">Function Calling with HuggingFace</h4>
 
-&lt;h3 id=&quot;年轻人请让你的生活变得有意义起来---骆杨飞&quot;&gt;年轻人，请让你的生活变得有意义起来 - 骆杨飞&lt;/h3&gt;
+<p>本次活动将带您探索强大的”函数调用”功能。将以 HuggingFace 上的 Gemma 3 4B-it 开源模型为例，通过实例演示如何让语言模型调用外部工具和 API。学习这项技术能极大地扩展AI的潜能，让模型完成更复杂的现实世界任务。</p>
 
-&lt;p&gt;分享我个人的行业成长经历，从入行到创业到失败再到二次创业，一遍一遍刷新着对事物的认知。希望通过我个人的经历与总结的感悟，传递给还在迷途中的年轻人。&lt;/p&gt;
+<p>https://github.com/google-gemini/gemma-cookbook/blob/main/Gemma/%5BGemma_3%5DMeme_Generator.ipynb</p>
 
-&lt;h3 id=&quot;什么是架构师---雷文宇&quot;&gt;什么是架构师 - 雷文宇&lt;/h3&gt;
+<blockquote>
+  <p><strong>Codelab 导师：胡璞玉</strong>，GDG西安社区志愿者。</p>
+</blockquote>
 
-&lt;p&gt;做架构到底是做什么？&lt;/p&gt;
+<p><strong>注意事项：</strong></p>
 
-&lt;h3 id=&quot;数据驱动实现全球化增长---李昆冬&quot;&gt;数据驱动实现全球化增长 - 李昆冬&lt;/h3&gt;
+<ul>
+  <li>请务必携带电脑参加，否则无法参加 Codelab，最好准备好充电器，我们会提供插排</li>
+  <li>请尽量提前注册 Google 账号以顺利使用 Google Colab，这是我们 Codelab 需要用到的工具：<a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+  <li>建议提前准备”高级”手机热点网络，避免现场人数太多Wi-Fi速度缓慢</li>
+</ul>
 
-&lt;p&gt;KD有超过五年的移动互联网经验，负责过多款图像视频处理类软件和涂色游戏的推广和变现工作， 在目前激烈的市场竞争环境下，专注以ROI为导向切实可行的实现公司的整体增长。&lt;/p&gt;
+<h2 id="活动时间">活动时间</h2>
 
-&lt;h2 id=&quot;合作机构&quot;&gt;合作机构&lt;/h2&gt;
+<p>2025年7月5日 周六 13:30 - 18:00</p>
 
-&lt;p&gt;&lt;a href=&quot;https://aliyun.com&quot;&gt;&lt;img src=&quot;https://i.loli.net/2019/10/26/Naop9FsJTynLBjP.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+<h2 id="活动议程">活动议程</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/11/11/7CzXLSemNpI8Fd1.png&quot; alt=&quot;image.png&quot; /&gt;&lt;/p&gt;
+<p>13:30 - 14:00  活动签到<br />
+14:00 - 14:55  Google I/O 2025 Recap<br />
+15:00 - 15:55  理性使用 AI 编程助手<br />
+15:55 - 16:10  合影、茶歇<br />
+16:10 - 17:40  AI Codelab 动手实践<br />
+17:40 - 18:00  自由交流</p>
 
-&lt;h2 id=&quot;活动报名&quot;&gt;活动报名&lt;/h2&gt;
+<h2 id="活动地点">活动地点</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://www.bagevent.com/event/6121412&quot; class=&quot;btn btn-success&quot;&gt;我要报名&lt;/a&gt;&lt;/p&gt;
+<p>丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出）</p>
 
-&lt;h2 id=&quot;关于我们&quot;&gt;关于我们&lt;/h2&gt;
+<p><img src="/assets/venues/丈八四路_地图.png" alt="" /></p>
 
-&lt;p&gt;GDG Xi’an 成立于2012年8月4日, 是一个专注于 Google 技术及开源技术的技术社区。 我们讨论的技术有 Android, Dart, AngularJS, Cloud Computing 等, 开源技术一直是我们的最爱。GDG Xi’an 是根植于西安的软件开发者社区， 是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一份子。 我们每月会举行一次线下的开发者聚会，活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容。 也会不定期的举行 Code Lab 形式的活动，让大家在动手实践中学习和体会。&lt;/p&gt;
+<p><strong>感谢泥巴创客空间提供免费场地</strong></p>
 
-&lt;p&gt;秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。 一切技术从业者和爱好者都是我们欢迎的成员。我们的网站是 &lt;a href=&quot;https://gdgxian.org&quot;&gt;https://gdgxian.org&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">关于 DevFest DevFest 是 Developer Festival 简写，它是自 2008 年就开始的全球性开发者活动，目的是通过技术分享和交流，来推动最新的互联网开放型技术的使用、推动创新、创业，以此来贡献与当地的经济发展。 活动内容完全由世界各地的 GDG 社区自行策划组织，是纯粹的技术分享活动。 GDG Xi’an 从 2013 开始举办 DevFest 以来，已经累计举办了 7 次 DevFest 了，今年已经是第 8 次了，这是很有纪念意义的一次活动，我们当然也做了精心的准备，等待热爱技术的你前来参加。 时间和地点 活动日期：2019年11月23日 10:00 - 16:30。 活动地点：陕西省西安市雁塔区西安软件新城软件研发基地2期C1楼19层 阿里巴巴总部（地图链接） 活动议程 活动话题 人人都能学会区块链开发 第一次看到“人人都能学会区块链开发”这个话题，大部分人第一感觉都会认为这只是个噱头，真的是这样的吗？其实不然，大部分人学不会开发，深层次的原因不是不够聪明，而是方法不对。与一般开发书课程上来就讲语法不一样，本次分享我会结合我十多年带领技术团队的经验，根据程序员在企业实际的学习过程，将高深的区块链技术能力进行拆解，通过一套科学的方法，让每个人都能学会区块链技术开发，抓住区块链技术初期的红利。 张应平 纸贵科技技术顾问，某CA前副总经理，从事信息化及密码产品技术研发16年，有丰富的技术咨询、产品研发和项目实施经验，曾主导一证通公共服务平台、电网企业综合实验平台、电子政务统一平台等大型项目，近5年主攻大数据、物联网、区块链相关领域。著有《走进区块链》《大话区块链》。 操作系统与软件交互的下一次大变革 自个人电脑出现后，人机交互界面经历了重大发展，从基于文本的UI到图形用户界面，从键盘鼠标到触摸屏输入，都极大的降低了操控计算机的难度。Macintosh、Windows、iOS等操作系统所定义的GUI系统，彻底改变了我们对计算设备的使用习惯。 随着人工智能、大数据、5G时代的到来，我们有了新的强大工具，使得创造新一代智能交互操作系统和全新人机交互界面成为了可能。当前主流操作系统及大型软件正在做的渐进式升级，已经无法满足需要。语音及基于传感器的输入方式，基于用户个性化特点的行为预测，云+端的数据处理架构，都将成为新一代智能操作系统和人机交互的核心。 本次分享李晋将初步探讨操作系统与人机交互的划时代变革机遇，及一些产品化思路。 李晋 闪电孵化器创始人，西安电子科技大学计算机学院教师。2013年成立闪电孵化器，从零孵化包括3家小米生态链公司等数十家企业。专注消费类硬件、区块链等领域深度孵化，并运营全国多个产业园区。 Kubernetes之外，还有哪些解决微服务系统问题的有力武器？Istio、Knative特性解析 微服务已经成为当前构建应用系统的主流架构。 在构建微服务的过程中，是否为服务治理感到苦恼？ 您是否想用Serverless解放生产力，但是却不知道该如何下手？ 看看Istio、Knative能够帮你解决哪些在系统架构改进中遇到的头疼问题。 王鹏 阿里巴巴丝路总部解决方案架构师。 面向程序员的深度学习 众所周知，深度学习入门不易，大段的数学公式会让不少开发者望而生畏。有没有什么办法能够减轻这种痛苦呢？在本次分享上，我将以我个人的学习过程来分享一些关于深度学习的理解，从开发者角度帮助大家掌握深度学习的基本要素，开始着手开发和使用。 胡键 入行超过 15 年，CSM / 架构师 / 创业者，先后就职于中兴和 SAP，现专注于工业物联网、大数据处理和区块链。具有丰富的产品研发和项目管理经验，擅长围绕工业设备构建物联网端到端解决方案，对海量设备接入、数据存储和数据分析有深刻见解。他同时还热衷于技术分享，并作为 TFUG西安 的组织者活跃于社区。在业余时间，他还会参与开源软件的开发和布道（Grails、Vert.x 和以太坊），并贡献了基于 vert.x 的 API 网关 dgate 。作为团队带头大哥，他还会鼓励团队成员分享输出，于是就有了他们的团队博客 https://blog.shifudao.com/ 闪电演讲 A/B testing, no more guessing - 阿布都外力（Abduwaly） 讲述我们优化网页应用是所遇到的问题与挑战，简要介绍什么是AB testing 以及为什么要做AB testing，推荐一些比较常见的工具/平台。 3d骨骼行为识别 - 梁铎瀚 行为识别的发展；基于3d骨骼的行为识别；deep learning相关算法 (rnn，cnn，gcn)；3d骨骼行为是别的应用与未来研究方向。 程序员的第二曲线 - 安晓辉 如果你担心遇到这样的尴尬：“三十五岁之后，随着年龄增加，学习能力减弱，身体不再能熬夜，家庭需要平衡，也不再能每天加班，收入不再增长，负担的压力增大。与此同时，新人辈出，向上发展受阻，不知道将来该如何发展了。”可以来听听程序员的第二曲线该如何发展。 假如我是一个浏览器 - 史文强 和浏览器来一次角色互换，体验一下从用户输入网址到画面最终呈现在屏幕上，他如何一步步完成繁重的工作。 年轻人，请让你的生活变得有意义起来 - 骆杨飞 分享我个人的行业成长经历，从入行到创业到失败再到二次创业，一遍一遍刷新着对事物的认知。希望通过我个人的经历与总结的感悟，传递给还在迷途中的年轻人。 什么是架构师 - 雷文宇 做架构到底是做什么？ 数据驱动实现全球化增长 - 李昆冬 KD有超过五年的移动互联网经验，负责过多款图像视频处理类软件和涂色游戏的推广和变现工作， 在目前激烈的市场竞争环境下，专注以ROI为导向切实可行的实现公司的整体增长。 合作机构 活动报名 我要报名 关于我们 GDG Xi’an 成立于2012年8月4日, 是一个专注于 Google 技术及开源技术的技术社区。 我们讨论的技术有 Android, Dart, AngularJS, Cloud Computing 等, 开源技术一直是我们的最爱。GDG Xi’an 是根植于西安的软件开发者社区， 是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一份子。 我们每月会举行一次线下的开发者聚会，活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容。 也会不定期的举行 Code Lab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。 一切技术从业者和爱好者都是我们欢迎的成员。我们的网站是 https://gdgxian.org</summary></entry><entry><title type="html">GDG西安9月活动：GDG峰会和GDD回顾</title><link href="http://gdgxian.org/2019/09/17/gdd-and-gdg-summit-recap/" rel="alternate" type="text/html" title="GDG西安9月活动：GDG峰会和GDD回顾" /><published>2019-09-17T00:00:00+00:00</published><updated>2019-09-17T00:00:00+00:00</updated><id>http://gdgxian.org/2019/09/17/gdd-and-gdg-summit-recap</id><content type="html" xml:base="http://gdgxian.org/2019/09/17/gdd-and-gdg-summit-recap/">&lt;p&gt;上个月，GDG 西安举办了一个小范围的茶话会，邀请部分活跃成员和讲师一起探讨社区未来的发展，收获了很多好的建议和意见。&lt;/p&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/09/17/n5AuHH.md.jpg&quot; alt=&quot;n5AuHH.jpg&quot; /&gt;&lt;/p&gt;
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
 
-&lt;p&gt;本月初，GDG西安的四位组织者又前往北京参加了今年的 GDG 峰会，和来自其它地区的组织者交流社区组织和运营经验，取经归来，迫不及待的想要和大家分享。&lt;/p&gt;
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
 
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/09/17/n5AI8x.md.jpg&quot; alt=&quot;n5AI8x.jpg&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/qrcodes/通用_报名.png" alt="" /></p>
 
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/09/17/n5Epxf.md.jpg&quot; alt=&quot;n5Epxf.jpg&quot; /&gt;&lt;/p&gt;
+<p><strong>活动包含动手实践环节，如果要参加该部分，请记得携带笔记本电脑和充电器。</strong></p>
 
-&lt;h2 id=&quot;话题一--2019-gdg-summit-taken-back-and-recap&quot;&gt;话题一 / 2019 GDG Summit taken back and recap&lt;/h2&gt;
+<p>本次活动的礼品为贴纸（大家都可以领取）及电脑包 （完成现场 CodeLab 可以领取，数量有限，先到先得）</p>
 
-&lt;p&gt;今年的 GDG 峰会，西安社区的四位组织者受邀参加并进行了话题分享。本次活动，会由参与话题分享的社区组织者介绍本次 GDG 峰会的内容：包括：&lt;/p&gt;
+<p><img src="/assets/promos/2025_IO_Extended_礼品.png" alt="" /></p>
 
-&lt;ol&gt;
-  &lt;li&gt;GDG 峰会内容介绍及谷歌办公室参观介绍&lt;/li&gt;
-  &lt;li&gt;如何组织 GDG 活动及 Google 为 GDG 可提供的资源&lt;/li&gt;
-&lt;/ol&gt;
+<h2 id="主办方">主办方</h2>
 
-&lt;p&gt;嘉宾介绍：GDG西安组织者&lt;/p&gt;
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
 
-&lt;h2 id=&quot;话题二---2019谷歌开发者大会看看未来的样子&quot;&gt;话题二 /  2019谷歌开发者大会，看看未来的样子&lt;/h2&gt;
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
 
-&lt;p&gt;一年一度科技圈的春晚——谷歌开发者大会 (Google Developer Days，简称 GDD) 刚刚落下帷幕，今年是Google在中国举办开发者大会的第四年，作为Google多款产品的粉丝，这是我的第一次 GDD 之行。两天的时间，听激动人心的技术分享，聊不完的互联网话题，领到手软的限量周边，摇最嗨的 Google Party。感受到了 Google 对于技术热爱者的友好。正如Google在今年 I/O 大会上所说的那样，它正在转变为「向更多人提供帮助」的公司。我会在本次活动中分享：&lt;/p&gt;
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
 
-&lt;ol&gt;
-  &lt;li&gt;今年的科技圈春晚，为我们带来了哪些惊喜？&lt;/li&gt;
-  &lt;li&gt;我们如何报名参加 GDD？&lt;/li&gt;
-  &lt;li&gt;参加 GDD 后，我们为什么不一样了？&lt;/li&gt;
-&lt;/ol&gt;
+<p>秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
 
-&lt;p&gt;嘉宾介绍：刘备，西安葡萄城(GrapeCity inc.)技术顾问。业余时间喜欢鼓捣和探索最新的前端技术，目前专注于“活字格”低代码开发平台，帮助用户如专业开发者般实现自己渴求的应用。&lt;/p&gt;
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
 
-&lt;h2 id=&quot;活动时间和地点&quot;&gt;活动时间和地点&lt;/h2&gt;
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="" /></p>
 
-&lt;p&gt;2019年9月22日 周日 下午 1:30 - 5:00&lt;/p&gt;
+<h2 id="合作机构">合作机构</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2019/09/17/n5E7Yn.md.png&quot; alt=&quot;n5E7Yn.png&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/brands/泥巴创客空间.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[I/O Extended 是由 Google 开发者社区（GDG）主导的全球性技术活动，旨在分享 Google I/O 大会的最新技术动态，探索谷歌最新产品、开发工具和技术趋势。 本次西安场 I/O Extended 2025 活动将于 7 月 5 日举行，将带来 Google I/O 2025 大会精彩内容的分享与技术解读，以及 AI Code Agent 等前沿话题，并特别设置 AI Codelab 动手实践环节，欢迎开发者朋友们报名参加。 活动话题 Google I/O 2025 Recap：Gemini 2.5 Pro、Gemini Live 与 AI 工具新生态 2025 年 Google I/O 以「Turning forward-looking research into reality」为主题，聚焦「AI-First for Everyone, Everywhere」战略，正式发布 Gemini 2.5 Pro、Gemini Live、Veo 3、AI 模式搜索等超过 100 项新功能。Android 16 与 ML Kit GenAI API 将生成式 AI 普及至每一台设备，Google Cloud、Workspace 与 Beam 3D 等平台全面升级了面向开发者的工具与 API。本场 Recap 将用 40 分钟快速回顾所有核心亮点，展示 Google 最新 AI 能力如何赋能开发者生态，帮助你更快上手实践。 分享嘉宾：Frederick Griffith，数据科学专业本科生，专注于机器学习、算法设计与生成式 AI 的理论研究。热衷于社区交流与分享，致力于推动前沿技术的落地实践。 理性使用 AI 编程助手 本次分享将探讨如何理性、安全地使用 AI coding agent，提升开发效率的同时，有效规避潜在风险。帮助大家在日常工作中更安心地应用 AI 编程助手。 分享嘉宾：潘睿（Perry），在咖啡馆工作的软件工程师。 AI Codelab 动手实践 本环节将带来基于 Google 最新 AI 技术的 Codelab 实践，参与者可在指导下动手体验 AI 应用开发流程，深入理解模型调用、数据处理与部署等关键环节。 Gemma - Run with Ollama Python library 本次活动将演示如何使用Ollama Python库，轻松地对 Gemma3 模型进行推理。Ollama 库为 Python 3.8 及以上版本的项目提供了最便捷的集成方式。通过本次内容的学习，将快速掌握在应用中部署和运行AI模型的核心技巧，轻松上手体验 Gemma3 的强大功能。 https://github.com/google-gemini/gemma-cookbook/blob/main/Gemma/%5BGemma_3%5DUsing_with_Ollama_Python_Inference_with_Images.ipynb Function Calling with HuggingFace 本次活动将带您探索强大的”函数调用”功能。将以 HuggingFace 上的 Gemma 3 4B-it 开源模型为例，通过实例演示如何让语言模型调用外部工具和 API。学习这项技术能极大地扩展AI的潜能，让模型完成更复杂的现实世界任务。 https://github.com/google-gemini/gemma-cookbook/blob/main/Gemma/%5BGemma_3%5DMeme_Generator.ipynb Codelab 导师：胡璞玉，GDG西安社区志愿者。 注意事项： 请务必携带电脑参加，否则无法参加 Codelab，最好准备好充电器，我们会提供插排 请尽量提前注册 Google 账号以顺利使用 Google Colab，这是我们 Codelab 需要用到的工具：https://colab.research.google.com/ 建议提前准备”高级”手机热点网络，避免现场人数太多Wi-Fi速度缓慢 活动时间 2025年7月5日 周六 13:30 - 18:00 活动议程 13:30 - 14:00 活动签到 14:00 - 14:55 Google I/O 2025 Recap 15:00 - 15:55 理性使用 AI 编程助手 15:55 - 16:10 合影、茶歇 16:10 - 17:40 AI Codelab 动手实践 17:40 - 18:00 自由交流 活动地点 丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出） 感谢泥巴创客空间提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 活动包含动手实践环节，如果要参加该部分，请记得携带笔记本电脑和充电器。 本次活动的礼品为贴纸（大家都可以领取）及电脑包 （完成现场 CodeLab 可以领取，数量有限，先到先得） 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry><entry><title type="html">Build with AI 2025 西安站</title><link href="http://gdgxian.org/build-with-ai-2025" rel="alternate" type="text/html" title="Build with AI 2025 西安站" /><published>2025-03-23T00:00:00+00:00</published><updated>2025-03-23T00:00:00+00:00</updated><id>http://gdgxian.org/build-with-ai-2025</id><content type="html" xml:base="http://gdgxian.org/build-with-ai-2025"><![CDATA[<p><img src="/assets/promos/2025_BuildWithAI.jpg" alt="" /></p>
 
-&lt;p&gt;西安市南二环西段69号西安创新设计中心3层309室&lt;/p&gt;
+<p><strong>Build with AI</strong> 是由 Google 开发者社区（GDG）主导的全球性技术活动，旨在通过实践赋能开发者掌握生成式 AI 技术，探索谷歌最新模型工具（如 Gemini、Gemma 模型、Vertex AI、AI Studio 等）在跨行业的创新应用。</p>
 
-&lt;p&gt;&lt;a href=&quot;http://f.amap.com/22CR6_06A56rX&quot;&gt;http://f.amap.com/22CR6_06A56rX&lt;/a&gt;&lt;/p&gt;
+<p>本次西安场 BwA 活动将于4月12日举行，将包含一个 AI 相关话题和一场 Codelab，期待大家报名参加。</p>
 
-&lt;h2 id=&quot;活动报名&quot;&gt;活动报名&lt;/h2&gt;
+<h2 id="活动话题">活动话题</h2>
 
-&lt;p&gt;本活动为免费活动，填写报名表后，请牢记活动时间和地点，准时参加。如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。&lt;/p&gt;
+<h3 id="ai编码助手到底能让软件交付快多少">AI编码助手到底能让软件交付快多少？</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://www.bagevent.com/event/6006883&quot;&gt;https://www.bagevent.com/event/6006883&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">上个月，GDG 西安举办了一个小范围的茶话会，邀请部分活跃成员和讲师一起探讨社区未来的发展，收获了很多好的建议和意见。 本月初，GDG西安的四位组织者又前往北京参加了今年的 GDG 峰会，和来自其它地区的组织者交流社区组织和运营经验，取经归来，迫不及待的想要和大家分享。 话题一 / 2019 GDG Summit taken back and recap 今年的 GDG 峰会，西安社区的四位组织者受邀参加并进行了话题分享。本次活动，会由参与话题分享的社区组织者介绍本次 GDG 峰会的内容：包括： GDG 峰会内容介绍及谷歌办公室参观介绍 如何组织 GDG 活动及 Google 为 GDG 可提供的资源 嘉宾介绍：GDG西安组织者 话题二 / 2019谷歌开发者大会，看看未来的样子 一年一度科技圈的春晚——谷歌开发者大会 (Google Developer Days，简称 GDD) 刚刚落下帷幕，今年是Google在中国举办开发者大会的第四年，作为Google多款产品的粉丝，这是我的第一次 GDD 之行。两天的时间，听激动人心的技术分享，聊不完的互联网话题，领到手软的限量周边，摇最嗨的 Google Party。感受到了 Google 对于技术热爱者的友好。正如Google在今年 I/O 大会上所说的那样，它正在转变为「向更多人提供帮助」的公司。我会在本次活动中分享： 今年的科技圈春晚，为我们带来了哪些惊喜？ 我们如何报名参加 GDD？ 参加 GDD 后，我们为什么不一样了？ 嘉宾介绍：刘备，西安葡萄城(GrapeCity inc.)技术顾问。业余时间喜欢鼓捣和探索最新的前端技术，目前专注于“活字格”低代码开发平台，帮助用户如专业开发者般实现自己渴求的应用。 活动时间和地点 2019年9月22日 周日 下午 1:30 - 5:00 西安市南二环西段69号西安创新设计中心3层309室 http://f.amap.com/22CR6_06A56rX 活动报名 本活动为免费活动，填写报名表后，请牢记活动时间和地点，准时参加。如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。 https://www.bagevent.com/event/6006883</summary></entry><entry><title type="html">GDG西安7月活动：WEB 开发之 GraphQL &amp;amp; CSS Typography</title><link href="http://gdgxian.org/2019/07/10/event-201907/" rel="alternate" type="text/html" title="GDG西安7月活动：WEB 开发之 GraphQL &amp;amp; CSS Typography" /><published>2019-07-10T00:00:00+00:00</published><updated>2019-07-10T00:00:00+00:00</updated><id>http://gdgxian.org/2019/07/10/event-201907</id><content type="html" xml:base="http://gdgxian.org/2019/07/10/event-201907/">&lt;p&gt;本期活动我们的关注点是 WEB 开发，包含后端 GraphQL API 设计开发和前端 Typography 的精彩内容，炎炎七月，让我们在 WEB 开发上更进一步。&lt;/p&gt;
+<p>声称AI编码助手可以将交付速度提高 50% 是夸大其词。我们的测试表明，增幅更有可能是 10-15%。但这仍然是一个显著的增幅，而且考虑到市场上的 AI 编码助手的当前价格，性价比极高。</p>
 
-&lt;h2 id=&quot;活动内容&quot;&gt;活动内容&lt;/h2&gt;
+<p>在讨论 AI 编码助手对软件交付团队的影响时，主要衡量指标是速度。虽然速度可能被称为生产力，但在大多数情况下，人们真正想表达的是“我们快了多少？”这就是为什么关于生产力提高的问题的预期答案通常是一个百分比值。然而，尽管行业炒作始于 50% 的生产力提高，但人们的想法似乎已经转向了另一个极端，人们谈论的是生产力完全没有提高，相反，错误率增加了 41%。 </p>
 
-&lt;h3 id=&quot;话题一graphql-ruby-实现入门和实践&quot;&gt;话题一：GraphQL Ruby 实现入门和实践&lt;/h3&gt;
+<p>虽然将生产力与速度等同起来肯定是有争议的，但我们不想在这里探讨这个问题。本次 Session 我们将专门研究 AI 编码助手如何提高速度。确实，速度本身可能很难确定；然而，在软件交付的背景下，我们拥有的速度的最佳代理变量是 Story Cycle Time。为了了解使用AI编码助手可以实现的周期时间改进的大致范围，我们在过去一年中一直在使用一种启发式方法：一种关于使用AI编码助手时团队收益的假设，并将其与我们从团队那里收到的数据和案例进行比较。本次 Session 我们将深入讨论这个话题，让您了解在什么场景下 AI 编码助手底能让软件交付快多少。</p>
 
-&lt;p&gt;GraphQL 查询语法，API 接口和类型系统简介，Ruby 实现 GraphQL 介绍，如何增删改查、认证、授权。同时介绍一些项目实践，如何解决 N+1、错误处理、监控、记录日志等。&lt;/p&gt;
+<blockquote>
+  <p><strong>分享嘉宾：张思楚</strong>，Thoughtworks 首席咨询师／离岸交付中心技术负责人。全栈工程师、畅销 Web 产品 SpreadWeb 架构师、海外大项目的离岸交付中心技术负责人(Technical Principal)， 3项 Web 专利技术发明人。敏捷软件管理、精益交付、持续交付专家。专注于系统平台的服务化、微服务的设计与实施。因为团队的不断快速扩张，对于团队快速构建、体系化 Coach、团队赋能、团队人才梯队构建、软件交付效能，有效实施持续集成和持续交付，落地合适的软件效能度量，帮助大型团队通过有效的效能度量和管理、保证团队稳定高效的交付积累了丰富经验。</p>
 
-&lt;p&gt;高辉，有数派后端负责人，多年 Rails 工程师，近期专注于 GraphQL API 开发。&lt;/p&gt;
+  <p><img src="/assets/avatars/张思楚.png" alt="" /></p>
+</blockquote>
 
-&lt;h3 id=&quot;话题二typography-matters&quot;&gt;话题二：Typography Matters&lt;/h3&gt;
+<h3 id="buildwithai-codelab">BuildWithAI Codelab</h3>
 
-&lt;p&gt;“Web design is 95% typography.” 每天我们接受大量的信息，绝大多数都是以文字的形式来呈现。作为最为贴近用户的前端，如何呈现出易读且优美的文字，对用户体验来说至关重要。本期话题将会从字体的基础知识开始，和大家一起讨论，为什么不同的 typefaces 会对网页的风格产生不同的影响。作为前端，除了 font-family、line-height、letter-spacing 以及 font-kerning 外，我们还能玩儿出什么别的花样。前端是否有足够的工具能让我们把字体排印的水准拔到更高的层次。&lt;/p&gt;
+<p>Google AI Studio playground &amp; API</p>
+<ul>
+  <li>Gemini 2.0 Native Image Generation</li>
+  <li>Gemma 3</li>
+  <li>Gemini 2.0 Flash Thinking</li>
+</ul>
 
-&lt;p&gt;桑超，ThoughtWorks 前端开发工程师。因为热爱音乐而走向了技术，因为字体设计而选择了前端。相信技术本身是无聊的，有意思的是我们能用技术做的事情。&lt;/p&gt;
+<p>注意事项：</p>
 
-&lt;h2 id=&quot;活动时间&quot;&gt;活动时间&lt;/h2&gt;
+<ol>
+  <li>请务必携带电脑参加，最好准备上充电器，我们会提供插排</li>
+  <li>请务必提前注册 Gmail 邮箱账号做使用准备，将用于使用相关服务以及领取 Cloud Credit</li>
+  <li>建议提前准备手机热点网络，避免现场人数太多Wi-Fi速度缓慢</li>
+</ol>
 
-&lt;p&gt;2019年7月21日 星期日 13:30 - 16:30&lt;/p&gt;
+<blockquote>
+  <p><strong>指导老师：林海滨</strong>，Google开发者生态中国区负责人，Google生成式AI大使。</p>
 
-&lt;h2 id=&quot;活动地点&quot;&gt;活动地点&lt;/h2&gt;
+  <p><img src="/assets/avatars/林海滨.png" alt="" /></p>
+</blockquote>
 
-&lt;p&gt;西安市南二环西段69号 西安创新设计中心309室&lt;/p&gt;
+<p><strong>（Codelab 具体细节待更新，完成挑战有精美纪念品可以领取哦！）</strong></p>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/10/5d2544ae4407a54479.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h2 id="活动时间">活动时间</h2>
 
-&lt;p&gt;&lt;a href=&quot;http://f.amap.com/22CR6_06A56rX&quot;&gt;地图链接&lt;/a&gt;&lt;/p&gt;
+<p>2025年4月12日 周六 13:30 - 17:00</p>
 
-&lt;h2 id=&quot;活动报名&quot;&gt;活动报名&lt;/h2&gt;
+<h2 id="活动议程">活动议程</h2>
 
-&lt;p&gt;本活动为免费活动，填写报名表后，请牢记活动时间和地点，准时参加。如果你还没有加入 GDG 西安的微信群，可以微信联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greatghoul&lt;/code&gt; 请求加入，注明 GDG。&lt;/p&gt;
+<p>13:30 - 14:00  活动签到
+14:00 - 15:00  AI编码助手到底能让软件交付快多少？
+15:00 - 15:10  合影、茶歇
+15:10 - 16:40  Codelab（需自备电脑）
+16:40 - 17:00  互动问答，交流学习</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.bagevent.com/event/5421802&quot;&gt;https://www.bagevent.com/event/5421802&lt;/a&gt;&lt;/p&gt;
+<h2 id="活动地点">活动地点</h2>
 
-&lt;h2 id=&quot;相关链接&quot;&gt;相关链接&lt;/h2&gt;
+<p>丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出）</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://graphql.org/&quot;&gt;https://graphql.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rubyonrails.org/&quot;&gt;https://rubyonrails.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p><img src="/assets/venues/丈八四路_地图.png" alt="" /></p>
 
-&lt;h2 id=&quot;合作机构&quot;&gt;合作机构&lt;/h2&gt;
+<p><strong>感谢泥巴创客空间提供免费场地</strong></p>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/10/5d2544cbbef1273194.jpg&quot; width=&quot;200&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+<h2 id="报名方式">报名方式</h2>
 
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/07/10/5d2544d5a380298571.jpg&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">本期活动我们的关注点是 WEB 开发，包含后端 GraphQL API 设计开发和前端 Typography 的精彩内容，炎炎七月，让我们在 WEB 开发上更进一步。 活动内容 话题一：GraphQL Ruby 实现入门和实践 GraphQL 查询语法，API 接口和类型系统简介，Ruby 实现 GraphQL 介绍，如何增删改查、认证、授权。同时介绍一些项目实践，如何解决 N+1、错误处理、监控、记录日志等。 高辉，有数派后端负责人，多年 Rails 工程师，近期专注于 GraphQL API 开发。 话题二：Typography Matters “Web design is 95% typography.” 每天我们接受大量的信息，绝大多数都是以文字的形式来呈现。作为最为贴近用户的前端，如何呈现出易读且优美的文字，对用户体验来说至关重要。本期话题将会从字体的基础知识开始，和大家一起讨论，为什么不同的 typefaces 会对网页的风格产生不同的影响。作为前端，除了 font-family、line-height、letter-spacing 以及 font-kerning 外，我们还能玩儿出什么别的花样。前端是否有足够的工具能让我们把字体排印的水准拔到更高的层次。 桑超，ThoughtWorks 前端开发工程师。因为热爱音乐而走向了技术，因为字体设计而选择了前端。相信技术本身是无聊的，有意思的是我们能用技术做的事情。 活动时间 2019年7月21日 星期日 13:30 - 16:30 活动地点 西安市南二环西段69号 西安创新设计中心309室 地图链接 活动报名 本活动为免费活动，填写报名表后，请牢记活动时间和地点，准时参加。如果你还没有加入 GDG 西安的微信群，可以微信联系 greatghoul 请求加入，注明 GDG。 https://www.bagevent.com/event/5421802 相关链接 https://graphql.org/ https://rubyonrails.org/ 合作机构</summary></entry></feed>
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
+
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
+
+<p><img src="/assets/qrcodes/通用_报名.png" alt="" /></p>
+
+<p><strong>活动包含 Codelab，如果要参加 Codelab 的部分，请记得携带笔记本电脑和充电器。</strong></p>
+
+<h2 id="主办方">主办方</h2>
+
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
+
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
+
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
+
+<p>秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
+
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
+
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="" /></p>
+
+<h2 id="合作机构">合作机构</h2>
+
+<p><img src="/assets/brands/泥巴创客空间.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Build with AI 是由 Google 开发者社区（GDG）主导的全球性技术活动，旨在通过实践赋能开发者掌握生成式 AI 技术，探索谷歌最新模型工具（如 Gemini、Gemma 模型、Vertex AI、AI Studio 等）在跨行业的创新应用。 本次西安场 BwA 活动将于4月12日举行，将包含一个 AI 相关话题和一场 Codelab，期待大家报名参加。 活动话题 AI编码助手到底能让软件交付快多少？ 声称AI编码助手可以将交付速度提高 50% 是夸大其词。我们的测试表明，增幅更有可能是 10-15%。但这仍然是一个显著的增幅，而且考虑到市场上的 AI 编码助手的当前价格，性价比极高。 在讨论 AI 编码助手对软件交付团队的影响时，主要衡量指标是速度。虽然速度可能被称为生产力，但在大多数情况下，人们真正想表达的是“我们快了多少？”这就是为什么关于生产力提高的问题的预期答案通常是一个百分比值。然而，尽管行业炒作始于 50% 的生产力提高，但人们的想法似乎已经转向了另一个极端，人们谈论的是生产力完全没有提高，相反，错误率增加了 41%。  虽然将生产力与速度等同起来肯定是有争议的，但我们不想在这里探讨这个问题。本次 Session 我们将专门研究 AI 编码助手如何提高速度。确实，速度本身可能很难确定；然而，在软件交付的背景下，我们拥有的速度的最佳代理变量是 Story Cycle Time。为了了解使用AI编码助手可以实现的周期时间改进的大致范围，我们在过去一年中一直在使用一种启发式方法：一种关于使用AI编码助手时团队收益的假设，并将其与我们从团队那里收到的数据和案例进行比较。本次 Session 我们将深入讨论这个话题，让您了解在什么场景下 AI 编码助手底能让软件交付快多少。 分享嘉宾：张思楚，Thoughtworks 首席咨询师／离岸交付中心技术负责人。全栈工程师、畅销 Web 产品 SpreadWeb 架构师、海外大项目的离岸交付中心技术负责人(Technical Principal)， 3项 Web 专利技术发明人。敏捷软件管理、精益交付、持续交付专家。专注于系统平台的服务化、微服务的设计与实施。因为团队的不断快速扩张，对于团队快速构建、体系化 Coach、团队赋能、团队人才梯队构建、软件交付效能，有效实施持续集成和持续交付，落地合适的软件效能度量，帮助大型团队通过有效的效能度量和管理、保证团队稳定高效的交付积累了丰富经验。 BuildWithAI Codelab Google AI Studio playground &amp; API Gemini 2.0 Native Image Generation Gemma 3 Gemini 2.0 Flash Thinking 注意事项： 请务必携带电脑参加，最好准备上充电器，我们会提供插排 请务必提前注册 Gmail 邮箱账号做使用准备，将用于使用相关服务以及领取 Cloud Credit 建议提前准备手机热点网络，避免现场人数太多Wi-Fi速度缓慢 指导老师：林海滨，Google开发者生态中国区负责人，Google生成式AI大使。 （Codelab 具体细节待更新，完成挑战有精美纪念品可以领取哦！） 活动时间 2025年4月12日 周六 13:30 - 17:00 活动议程 13:30 - 14:00  活动签到 14:00 - 15:00  AI编码助手到底能让软件交付快多少？ 15:00 - 15:10  合影、茶歇 15:10 - 16:40  Codelab（需自备电脑） 16:40 - 17:00  互动问答，交流学习 活动地点 丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出） 感谢泥巴创客空间提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 活动包含 Codelab，如果要参加 Codelab 的部分，请记得携带笔记本电脑和充电器。 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry><entry><title type="html">GDG Xi’an DevFest 2024</title><link href="http://gdgxian.org/gdg-xian-devfest-2024" rel="alternate" type="text/html" title="GDG Xi’an DevFest 2024" /><published>2024-11-04T00:00:00+00:00</published><updated>2024-11-04T00:00:00+00:00</updated><id>http://gdgxian.org/gdg-xian-devfest-2024</id><content type="html" xml:base="http://gdgxian.org/gdg-xian-devfest-2024"><![CDATA[<p><img src="/assets/promos/2024_DevFest_Banner.webp" alt="GDG Xi'an DevFest 2024 Banner" /></p>
+
+<p>GDG DevFest 是由 Google Developer Groups（GDG）社区组织的一年一度的大型开发者节日。这是一个面向开发者、技术爱好者和创新者的活动，旨在提供学习、分享和交流的平台。在 GDG DevFest 上，参与者可以了解到最新的技术趋势，听取行业专家的深度演讲，参加实践工作坊，并与同行进行线上和面对面的交流。DevFest 覆盖了多种技术主题，包括 Android、Web、Cloud、AI 和 Machine Learning 等，是提升个人技术技能和扩展职业人脉的绝佳场合。</p>
+
+<p>GDG Xi’an 社区本年度 DevFest 我们邀请了三位 Google Developer Experts (GDE) 为大家带来了大模型，Android 和 Firebase 相关的话题，欢迎大家踊跃报名前来学习和交流。</p>
+
+<h2 id="活动话题">活动话题</h2>
+
+<h3 id="大语言模型结合企业知识库的私有化部署技术架构与实践">大语言模型结合企业知识库的私有化部署：技术架构与实践</h3>
+
+<p>随着人工智能技术的快速发展，大语言模型（LLM）在企业中的应用日益广泛。然而，公有化部署的模型在数据安全性、合规性以及特定领域知识回答方面存在局限。私有化部署能够提供更高的数据安全性和合规性，同时允许企业根据自身需求定制化模型，提高模型的有效性和准确性。</p>
+
+<blockquote>
+  <p><strong>分享嘉宾：黄鸿波</strong>，深圳市鼎盛方圆科技发展有限公司创始人，中国43个谷歌机器学习方向开发者专家之一，前西山居AI技术专家，2018年出版《TensorFlow进阶指南：基础、算法与应用》一书。</p>
+
+  <p><img src="/assets/avatars/黄鸿波.webp" alt="" /></p>
+</blockquote>
+
+<h3 id="firebase在安卓中的应用">Firebase在安卓中的应用</h3>
+
+<p>探讨 Firebase 在安卓开发中的实际应用，分析其核心功能的集成与实现，帮助开发者更好地理解并使用 Firebase 提供的服务。</p>
+
+<blockquote>
+  <p><strong>分享嘉宾：张海龙</strong>，花房集团移动端资深工程师，Firebase GDE，CSDN博主，有丰富的海外项目经验。</p>
+
+  <p><img src="/assets/avatars/张海龙.webp" alt="" /></p>
+</blockquote>
+
+<h3 id="android-性能优化---面试经典问题及官方新工具介绍">Android 性能优化 - 面试经典问题及官方新工具介绍</h3>
+
+<p>用户体验是移动应用始终关注的话题，Google Android 团队持续不断地推出性能优化技术方案，是否熟练掌握这些方案很大程度影响了 Android 程序员面试的结果。本次分享一起来聊聊面试中常见的性能优化问题和官方的新工具，相信会让听众对性能优化有进一步的认识。</p>
+
+<blockquote>
+  <p><strong>分享嘉宾：张世欣</strong>，Android GDE &amp; 《Android 性能优化入门与实战》书籍作者。</p>
+
+  <p><img src="/assets/avatars/张世欣.webp" alt="" /></p>
+</blockquote>
+
+<h2 id="活动时间">活动时间</h2>
+
+<p>2024年11月24日 周日 13:30 - 18:00</p>
+
+<h2 id="活动议程">活动议程</h2>
+
+<p>13:30 - 14:00  活动签到<br />
+14:00 - 15:00  大语言模型结合企业知识库的私有化部署：技术架构与实践<br />
+15:00 - 15:10  合影<br />
+15:10 - 16:10  Firebase在安卓中的应用<br />
+16:10 - 16:20  茶歇<br />
+16:20 - 17:20  Android 性能优化 - 面试经典问题及官方新工具介绍<br />
+17:20 - 18:00  互动问答，交流学习</p>
+
+<h2 id="活动地点">活动地点</h2>
+
+<p>丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出）</p>
+
+<p><img src="/assets/venues/丈八四路_地图.png" alt="" /></p>
+
+<p><strong>感谢泥巴创客空间提供免费场地</strong></p>
+
+<h2 id="报名方式">报名方式</h2>
+
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
+
+<p><a href="https://jinshuju.net/f/QTjxjS">https://jinshuju.net/f/QTjxjS</a></p>
+
+<p><img src="/assets/qrcodes/通用_报名.png" alt="" /></p>
+
+<p><strong>感谢金数据提供免费高级表单</strong></p>
+
+<h2 id="主办方">主办方</h2>
+
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
+
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
+
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
+
+<p>秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开</p>
+
+<p><a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
+
+<p><img src="/assets/qrcodes/通用_讲师申请.png" alt="" /></p>
+
+<h2 id="合作机构">合作机构</h2>
+
+<p><img src="/assets/brands/泥巴创客空间.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[GDG DevFest 是由 Google Developer Groups（GDG）社区组织的一年一度的大型开发者节日。这是一个面向开发者、技术爱好者和创新者的活动，旨在提供学习、分享和交流的平台。在 GDG DevFest 上，参与者可以了解到最新的技术趋势，听取行业专家的深度演讲，参加实践工作坊，并与同行进行线上和面对面的交流。DevFest 覆盖了多种技术主题，包括 Android、Web、Cloud、AI 和 Machine Learning 等，是提升个人技术技能和扩展职业人脉的绝佳场合。 GDG Xi’an 社区本年度 DevFest 我们邀请了三位 Google Developer Experts (GDE) 为大家带来了大模型，Android 和 Firebase 相关的话题，欢迎大家踊跃报名前来学习和交流。 活动话题 大语言模型结合企业知识库的私有化部署：技术架构与实践 随着人工智能技术的快速发展，大语言模型（LLM）在企业中的应用日益广泛。然而，公有化部署的模型在数据安全性、合规性以及特定领域知识回答方面存在局限。私有化部署能够提供更高的数据安全性和合规性，同时允许企业根据自身需求定制化模型，提高模型的有效性和准确性。 分享嘉宾：黄鸿波，深圳市鼎盛方圆科技发展有限公司创始人，中国43个谷歌机器学习方向开发者专家之一，前西山居AI技术专家，2018年出版《TensorFlow进阶指南：基础、算法与应用》一书。 Firebase在安卓中的应用 探讨 Firebase 在安卓开发中的实际应用，分析其核心功能的集成与实现，帮助开发者更好地理解并使用 Firebase 提供的服务。 分享嘉宾：张海龙，花房集团移动端资深工程师，Firebase GDE，CSDN博主，有丰富的海外项目经验。 Android 性能优化 - 面试经典问题及官方新工具介绍 用户体验是移动应用始终关注的话题，Google Android 团队持续不断地推出性能优化技术方案，是否熟练掌握这些方案很大程度影响了 Android 程序员面试的结果。本次分享一起来聊聊面试中常见的性能优化问题和官方的新工具，相信会让听众对性能优化有进一步的认识。 分享嘉宾：张世欣，Android GDE &amp; 《Android 性能优化入门与实战》书籍作者。 活动时间 2024年11月24日 周日 13:30 - 18:00 活动议程 13:30 - 14:00 活动签到 14:00 - 15:00 大语言模型结合企业知识库的私有化部署：技术架构与实践 15:00 - 15:10 合影 15:10 - 16:10 Firebase在安卓中的应用 16:10 - 16:20 茶歇 16:20 - 17:20 Android 性能优化 - 面试经典问题及官方新工具介绍 17:20 - 18:00 互动问答，交流学习 活动地点 丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出） 感谢泥巴创客空间提供免费场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://jinshuju.net/f/QTjxjS 感谢金数据提供免费高级表单 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区。我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开 https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry><entry><title type="html">GDG西安7月活动 Kotlin MultiPlatform + Next.js</title><link href="http://gdgxian.org/gdg7-kotlin-multiplatform-nextjs" rel="alternate" type="text/html" title="GDG西安7月活动 Kotlin MultiPlatform + Next.js" /><published>2024-07-11T00:00:00+00:00</published><updated>2024-07-11T00:00:00+00:00</updated><id>http://gdgxian.org/gdg7-kotlin-multiplatform-nextjs</id><content type="html" xml:base="http://gdgxian.org/gdg7-kotlin-multiplatform-nextjs"><![CDATA[<p>西安的开发者和开发爱好者们，夏日炎炎，我们热情不减。</p>
+
+<p>GDG西安社区即将举办一场精彩的技术交流活动，我们将准备了当下热门的 Kotlin Multiplatform 以及 Next.js 的话题，探讨如何在多平台开发中游刃有余，以及如何利用 Next.js 和 AI 加速 Web 应用开发。</p>
+
+<p>无论你是初学者还是经验丰富的高手，这都是很好的学习和交流机会。在这里，欢迎大家来分享经验，拓宽视野。</p>
+
+<p><strong>活动话题</strong></p>
+
+<p><strong>Kotlin MultiPlatform（KMP）- 多平台开发的另外一种选择</strong></p>
+
+<p>今年5月份Google I/O宣布在Android上面支持Kotlin Multiplatform，紧接着5月底结束的KotlinConf2024大会又再次将Kotlin Multiplatform列为焦点，引发了开发者社区的广泛关注，本次分享一起来了解下跨平台的另外一种选择</p>
+
+<p><strong>分享嘉宾：</strong>宇行信，多年移动平台开发与技术管理经验，喜欢做技术，也喜欢做产品。</p>
+
+<p><img src="/assets/posts/gdg7-kotlin-multiplatform-nextjs/84e3c1fb-9f88-4263-bb20-f01c47fe0cd2.png" alt="" /></p>
+
+<p><strong>我们是怎样使用 nextjs 构建 AI 应用的 - 金数据的实践与经验</strong></p>
+
+<p>在人工智能日新月异发展的今天，越来越多的企业开始寻求将AI技术融入他们的产品和服务中。本次分享聚焦Next.js，我们将以金数据为例，深入解析一家SaaS公司是如何使用 nextjs在实际业务场景中构建和应用AI的。</p>
+
+<p>无论您是技术人员、产品经理，还是热衷于AI应用的朋友，都将从本次分享中获得宝贵的见解与启示。让我们共同探索如何在实际业务中巧妙地运用AI技术，创造更大的价值！</p>
+
+<p><strong>分享嘉宾：</strong>潘睿（Perry），金数据工程师，Crafting the adorable software</p>
+
+<p><img src="/assets/posts/gdg7-kotlin-multiplatform-nextjs/d3227b73-60f2-44a3-b4ca-5c5142cb3a03.png" alt="" /></p>
+
+<p><strong>活动时间</strong></p>
+
+<p>2024年7月13日 周六 13:30 - 16:00</p>
+
+<p><strong>活动地点</strong></p>
+
+<p>西安市高新区高新五路四号汇诚国际16层</p>
+
+<p><img src="/assets/posts/gdg7-kotlin-multiplatform-nextjs/cb509b01-0993-48d1-ae0c-f8726efc780e.png" alt="" /></p>
+
+<p>感谢<strong>金数据</strong>提供活动场地</p>
+
+<p><strong>报名方式</strong></p>
+
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
+
+<p><a href="https://jinshuju.net/f/QTjxjS">https://jinshuju.net/f/QTjxjS</a></p>
+
+<p><img src="/assets/posts/gdg7-kotlin-multiplatform-nextjs/8bf1d688-3dbd-4bd7-bc6c-c5ff463d5a19.png" alt="" /></p>
+
+<p><strong>主办方</strong></p>
+
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
+
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
+
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
+
+<p>秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开：<a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
+
+<p><img src="/assets/posts/gdg7-kotlin-multiplatform-nextjs/7cb9037a-08a5-4d2f-a3ca-dd0bc954e3cc.png" alt="" /></p>
+
+<p><strong>合作机构</strong></p>
+
+<p><img src="/assets/posts/gdg7-kotlin-multiplatform-nextjs/30d042b1-70bc-4a8c-ac7e-3013fd82d35c.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[西安的开发者和开发爱好者们，夏日炎炎，我们热情不减。 GDG西安社区即将举办一场精彩的技术交流活动，我们将准备了当下热门的 Kotlin Multiplatform 以及 Next.js 的话题，探讨如何在多平台开发中游刃有余，以及如何利用 Next.js 和 AI 加速 Web 应用开发。 无论你是初学者还是经验丰富的高手，这都是很好的学习和交流机会。在这里，欢迎大家来分享经验，拓宽视野。 活动话题 Kotlin MultiPlatform（KMP）- 多平台开发的另外一种选择 今年5月份Google I/O宣布在Android上面支持Kotlin Multiplatform，紧接着5月底结束的KotlinConf2024大会又再次将Kotlin Multiplatform列为焦点，引发了开发者社区的广泛关注，本次分享一起来了解下跨平台的另外一种选择 分享嘉宾：宇行信，多年移动平台开发与技术管理经验，喜欢做技术，也喜欢做产品。 我们是怎样使用 nextjs 构建 AI 应用的 - 金数据的实践与经验 在人工智能日新月异发展的今天，越来越多的企业开始寻求将AI技术融入他们的产品和服务中。本次分享聚焦Next.js，我们将以金数据为例，深入解析一家SaaS公司是如何使用 nextjs在实际业务场景中构建和应用AI的。 无论您是技术人员、产品经理，还是热衷于AI应用的朋友，都将从本次分享中获得宝贵的见解与启示。让我们共同探索如何在实际业务中巧妙地运用AI技术，创造更大的价值！ 分享嘉宾：潘睿（Perry），金数据工程师，Crafting the adorable software 活动时间 2024年7月13日 周六 13:30 - 16:00 活动地点 西安市高新区高新五路四号汇诚国际16层 感谢金数据提供活动场地 报名方式 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://jinshuju.net/f/QTjxjS 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一分子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开：https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry><entry><title type="html">GDG BuildWithAI 2024 西安站</title><link href="http://gdgxian.org/gdg-buildwithai-2024" rel="alternate" type="text/html" title="GDG BuildWithAI 2024 西安站" /><published>2024-04-14T00:00:00+00:00</published><updated>2024-04-14T00:00:00+00:00</updated><id>http://gdgxian.org/gdg-buildwithai-2024</id><content type="html" xml:base="http://gdgxian.org/gdg-buildwithai-2024"><![CDATA[<p>Build with AI 活动是由谷歌开发者小组（GDG）主办的社区主导的技术工作坊，帮助开发人员学习和应用有关 GenAI 趋势和谷歌产品的技能。GDG 西安也将迎来第一次 BuildWithAI 的活动，主题是 Google 最近发布的大模型：Gemma</p>
+
+<p>Gemma 是一组轻量级生成式人工智能 (AI) 开放模型。Gemma 模型可以在应用以及硬件、移动设备或托管服务上运行。您还可以使用调优技术自定义这些模型，使其善于执行您和您用户的重要任务。Gemma 模型基于 Gemini 模型，旨在供 AI 开发社区进行扩展和改进。</p>
+
+<p>Gemma 模型有多种大小，因此您可以根据可用的计算资源、所需的功能和运行位置来构建生成式 AI 解决方案。Gemma 2B 有 Gemma 7B 分别有 22亿参数和 70 亿参数。其中 Gemma 2B 版本甚至可以在移动设备和笔记本电脑上运行。</p>
+
+<h2 id="活动内容">活动内容</h2>
+
+<p>本次活动为工作坊形式，共包含三个 CodeLab 主题</p>
+
+<p><strong>基于 KerasNLP 使用 Gemma</strong><a href="https://www.kaggle.com/code/nilaychauhan/get-started-with-gemma-using-kerasnlp">https://www.kaggle.com/code/nilaychauhan/get-started-with-gemma-using-kerasnlp</a></p>
+
+<p><strong>在 Keras 中使用 LoRA 对 Gemma 模型进行微调</strong><a href="https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora">https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora</a></p>
+
+<p><strong>Keras Gemma 分布式微调和推理</strong><a href="https://www.kaggle.com/code/nilaychauhan/keras-gemma-distributed-finetuning-and-inference">https://www.kaggle.com/code/nilaychauhan/keras-gemma-distributed-finetuning-and-inference</a></p>
+
+<h2 id="注意事项">注意事项</h2>
+
+<ul>
+  <li>Codelab 需要用到 <a href="http://kaggle.com">kaggle.com</a> 平台，推荐提前注册</li>
+  <li>参与者需要<strong>自备笔记本电脑</strong></li>
+  <li>我们会提供电插排和零食饮料保证大家的续航能力</li>
+  <li>现场会有教练指导和答疑</li>
+</ul>
+
+<p>参会者每完成一个 Codelab，则可以获得一个对应颜色的<strong>夜光运动手环</strong>。集齐三个手环并填写调查问卷，则可以获得<strong>运动时尚挎包</strong>。</p>
+
+<p><img src="/assets/posts/gdg-buildwithai-2024/fd1108b0-5683-4571-8532-0a9934963cab.png" alt="" /></p>
+
+<h2 id="活动时间">活动时间</h2>
+
+<p>2024-04-21 星期日 13:30 - 16:00</p>
+
+<h2 id="活动地点">活动地点</h2>
+
+<p>丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出）</p>
+
+<p><img src="/assets/posts/gdg-buildwithai-2024/b66de190-c835-4207-9b47-74eeb55d6772.png" alt="" /></p>
+
+<p>(感谢泥巴创客空间提供免费场地)</p>
+
+<h2 id="欢迎报名">欢迎报名</h2>
+
+<p>GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。</p>
+
+<p><a href="https://www.wjx.top/vm/P70V7hc.aspx">https://www.wjx.top/vm/P70V7hc.aspx</a></p>
+
+<p><img src="/assets/posts/gdg-buildwithai-2024/774a79ab-4eb2-4691-9c7d-da22dc895c3c.png" alt="" /></p>
+
+<h2 id="主办方">主办方</h2>
+
+<p>活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。</p>
+
+<p>GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一份子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。</p>
+
+<p>我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。</p>
+
+<p>秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开：<a href="https://jinshuju.net/f/EDndFr">https://jinshuju.net/f/EDndFr</a></p>
+
+<p><img src="/assets/posts/gdg-buildwithai-2024/03fef7bf-f7db-4981-a01f-2bd5fa7d59c6.png" alt="" /></p>
+
+<h2 id="合作机构">合作机构</h2>
+
+<p><img src="/assets/posts/gdg-buildwithai-2024/004eca73-ac7c-4503-bfbe-fbf4ca6f6410.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Build with AI 活动是由谷歌开发者小组（GDG）主办的社区主导的技术工作坊，帮助开发人员学习和应用有关 GenAI 趋势和谷歌产品的技能。GDG 西安也将迎来第一次 BuildWithAI 的活动，主题是 Google 最近发布的大模型：Gemma Gemma 是一组轻量级生成式人工智能 (AI) 开放模型。Gemma 模型可以在应用以及硬件、移动设备或托管服务上运行。您还可以使用调优技术自定义这些模型，使其善于执行您和您用户的重要任务。Gemma 模型基于 Gemini 模型，旨在供 AI 开发社区进行扩展和改进。 Gemma 模型有多种大小，因此您可以根据可用的计算资源、所需的功能和运行位置来构建生成式 AI 解决方案。Gemma 2B 有 Gemma 7B 分别有 22亿参数和 70 亿参数。其中 Gemma 2B 版本甚至可以在移动设备和笔记本电脑上运行。 活动内容 本次活动为工作坊形式，共包含三个 CodeLab 主题 基于 KerasNLP 使用 Gemmahttps://www.kaggle.com/code/nilaychauhan/get-started-with-gemma-using-kerasnlp 在 Keras 中使用 LoRA 对 Gemma 模型进行微调https://www.kaggle.com/code/nilaychauhan/fine-tune-gemma-models-in-keras-using-lora Keras Gemma 分布式微调和推理https://www.kaggle.com/code/nilaychauhan/keras-gemma-distributed-finetuning-and-inference 注意事项 Codelab 需要用到 kaggle.com 平台，推荐提前注册 参与者需要自备笔记本电脑 我们会提供电插排和零食饮料保证大家的续航能力 现场会有教练指导和答疑 参会者每完成一个 Codelab，则可以获得一个对应颜色的夜光运动手环。集齐三个手环并填写调查问卷，则可以获得运动时尚挎包。 活动时间 2024-04-21 星期日 13:30 - 16:00 活动地点 丈八四路20号，西安神州数码科技园4栋一楼大厅电梯间南侧会议室。（地铁六号线，丈八四路站A口出） (感谢泥巴创客空间提供免费场地) 欢迎报名 GDG 西安的活动均为免费活动，任何对开发感兴趣的朋友，都欢迎报名参加。 https://www.wjx.top/vm/P70V7hc.aspx 主办方 活动由GDG西安主办，GDG西安成立于2012年8月4日，是一个专注于 Google 开发技术、开源技术的技术社区. 我们讨论的技术有 Android, Dart, Angular, Cloud Computing 等，开源技术一直是我们的最爱。 GDG西安是根植于西安的软件开发者社区，是 Google Developer Group Xi’an 的缩写，是谷歌开发者社区全球大家庭的一份子。我们每月会举行一次线下的开发者聚会，至2021年下半年，已举办100余次。 我们的活动主要形式是技术分享，由各位热心的社区成员，带给大家前沿的技术动向和深入的技术内容，也会不定期地举行 CodeLab 形式的活动，让大家在动手实践中学习和体会。 秉承着分享创新的精神，一切开放的技术：开源软件，开放技术标准等都是受欢迎的内容。一切技术从业者和爱好者都是我们欢迎的成员。如果你有意向分享知识与经验来展示自己，也可以报名成为我们的讲师，具体报名详情以及报名方法可以扫描下方二维码或者复制链接到浏览器打开：https://jinshuju.net/f/EDndFr 合作机构]]></summary></entry></feed>
