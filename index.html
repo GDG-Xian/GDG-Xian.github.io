@@ -3,6 +3,10 @@ layout: default
 title: GDG西安 - gdgxian.org
 ---
 
+{% if paginator.page == 1 %}
+  {% include notice.html %}
+{% endif %}
+
 <div class="post-list">
   {% for post in paginator.posts %}
     {% include post.html %}
