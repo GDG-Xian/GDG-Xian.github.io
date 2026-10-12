@@ -119,6 +119,19 @@ figcaption {
   padding: 0.5rem 1rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* ------------------------------------------------------------------ 页头 */
 
 .site-header {
@@ -329,6 +342,325 @@ figcaption {
 .notice .notice-action {
   margin-top: 0.6rem;
   font-weight: 500;
+}
+
+/* -------------------------------------------------- 首页轮播（活动 + 招募） */
+
+.carousel {
+  margin: 0 0 2.5rem;
+}
+
+.carousel-viewport {
+  overflow: hidden;
+  border-radius: var(--radius);
+  touch-action: pan-y;
+}
+
+.carousel.is-dragging,
+.carousel.is-dragging .carousel-viewport {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.promo-card--notice .notice {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.promo-card--notice .notice .notice-action {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+.promo-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+}
+
+.promo-media {
+  display: block;
+  background-color: var(--soft);
+  border-bottom: 1px solid var(--accent-border);
+}
+
+.promo-media img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+
+.promo-media--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #eef4ff 0%, #f7f9fc 55%, #fdf7ec 100%);
+}
+
+.promo-mark {
+  display: inline-flex;
+  align-items: baseline;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.promo-mark .c-blue { color: #4285f4; }
+.promo-mark .c-red { color: #ea4335; }
+.promo-mark .c-yellow { color: #fbbc05; }
+
+.promo-mark-city {
+  margin-left: 0.4rem;
+  color: var(--muted);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.promo-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem 1.25rem;
+}
+
+.promo-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.promo-tag {
+  padding: 0.05rem 0.5rem;
+  background-color: #fff;
+  border: 1px solid var(--accent-border);
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.promo-title {
+  margin: 0.5rem 0 0;
+  font-size: 1.15rem;
+}
+
+.promo-title a {
+  color: var(--fg);
+}
+
+.promo-title a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.promo-facts,
+.promo-talks {
+  margin: 0.7rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.promo-facts li {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0.2rem 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.promo-fact-icon {
+  flex: none;
+}
+
+.promo-talks {
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--accent-border);
+}
+
+.promo-talks li {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.promo-talk-title {
+  color: var(--fg);
+  font-weight: 500;
+}
+
+.promo-talk-speaker {
+  margin-left: 0.35rem;
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.promo-action {
+  margin: auto 0 0;
+  padding-top: 0.75rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.promo-link {
+  color: var(--accent);
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.85rem;
+}
+
+.carousel-dots {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel-dots li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.carousel-dot {
+  position: relative;
+  display: block;
+  width: 0.65rem;
+  height: 0.65rem;
+  padding: 0;
+  background-color: #d4d9e0;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+/* 24×24 的点击热区，不随激活态宽度变化 */
+.carousel-dot::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+}
+
+.carousel-dot:hover {
+  background-color: var(--faint);
+}
+
+.carousel-dot.is-active {
+  width: 1.1rem;
+  background-color: var(--accent);
+}
+
+.carousel-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--faint);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel-arrow:hover {
+  color: var(--accent);
+}
+
+.carousel-arrow[hidden],
+.carousel-dots[hidden] {
+  display: none;
+}
+
+.carousel-arrow:focus-visible,
+.carousel-dot:focus-visible,
+.promo-title a:focus-visible,
+.promo-link:focus-visible,
+.promo-media:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (max-width: 30rem) {
+  .carousel-controls {
+    gap: 0.35rem;
+  }
+
+  .promo-body {
+    padding: 0.85rem 1rem;
+  }
+
+  .promo-title {
+    font-size: 1.05rem;
+  }
+
+  .promo-facts li,
+  .promo-talks li {
+    font-size: 0.85rem;
+  }
+
+  .promo-mark {
+    font-size: 1.7rem;
+  }
+
+  .promo-mark-city {
+    font-size: 1.1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-track,
+  .carousel-dot {
+    transition: none;
+  }
 }
 
 /* -------------------------------------------------------------- 文章列表 */
